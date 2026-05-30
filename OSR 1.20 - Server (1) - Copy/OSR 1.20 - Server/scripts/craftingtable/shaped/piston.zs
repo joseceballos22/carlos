@@ -1,0 +1,2 @@
+craftingTable.remove(<item:minecraft:piston>);
+craftingTable.addShaped("piston", <item:minecraft:piston>, [[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], [<tag:items:forge:cobblestone/normal>, <item:enderio:energetic_alloy_ingot>, <tag:items:forge:cobblestone/normal>], [<tag:items:forge:cobblestone/normal>, <item:extendedcrafting:redstone_ingot>, <tag:items:forge:cobblestone/normal>]]);

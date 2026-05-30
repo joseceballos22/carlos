@@ -1,0 +1,3 @@
+#packmode normal
+craftingTable.remove(<item:ad_astra:nasa_workbench>);
+craftingTable.addShaped("nasa_workbench", <item:ad_astra:nasa_workbench>, [[<item:mekanism:alloy_atomic>, <item:minecraft:lever>, <item:mekanism:alloy_atomic>], [<tag:items:forge:plates/steel>, <item:enderio:crafter>, <tag:items:forge:plates/steel>], [<item:extendedcrafting:redstone_ingot_block>, <tag:items:forge:storage_blocks/steel>, <item:extendedcrafting:redstone_ingot_block>]]);

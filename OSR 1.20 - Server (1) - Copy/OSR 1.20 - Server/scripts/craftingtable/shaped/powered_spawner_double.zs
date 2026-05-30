@@ -1,0 +1,1 @@
+craftingTable.addShaped("powered_spawner", <item:enderio:powered_spawner>, [[<item:enderio:soularium_ingot>, <item:enderio:broken_spawner>, <item:enderio:soularium_ingot>], [<item:enderio:soularium_ingot>, <item:enderio:ensouled_chassis>, <item:enderio:soularium_ingot>], [<item:enderio:vibrant_crystal>, <item:enderio:z_logic_controller>, <item:enderio:vibrant_crystal>]]);

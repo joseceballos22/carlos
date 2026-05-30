@@ -1,0 +1,1 @@
+blastFurnace.remove(<item:ad_astra:steel_ingot>);

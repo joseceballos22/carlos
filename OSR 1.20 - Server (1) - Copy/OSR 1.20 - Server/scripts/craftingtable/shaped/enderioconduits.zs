@@ -1,0 +1,7 @@
+#packmode normal
+craftingTable.remove(<item:enderio:yeta_wrench>);
+craftingTable.addShaped("item_conduit", <item:enderio:item_conduit>, [[<item:minecraft:iron_nugget>, <tag:items:forge:nuggets/copper>, <item:minecraft:iron_nugget>], [<tag:items:forge:nuggets/copper>, <item:minecraft:air>, <tag:items:forge:nuggets/copper>], [<item:minecraft:iron_nugget>, <tag:items:forge:nuggets/copper>, <item:minecraft:iron_nugget>]]);
+craftingTable.addShaped("energy_conduit", <item:enderio:energy_conduit>, [[<item:minecraft:iron_nugget>, <item:extendedcrafting:redstone_nugget>, <item:minecraft:iron_nugget>], [<item:extendedcrafting:redstone_nugget>, <item:minecraft:air>, <item:extendedcrafting:redstone_nugget>], [<item:minecraft:iron_nugget>, <item:extendedcrafting:redstone_nugget>, <item:minecraft:iron_nugget>]]);
+craftingTable.addShaped("fluid_conduit", <item:enderio:fluid_conduit>, [[<item:minecraft:iron_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:iron_nugget>], [<item:minecraft:gold_nugget>, <item:minecraft:air>, <item:minecraft:gold_nugget>], [<item:minecraft:iron_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:iron_nugget>]]);
+craftingTable.addShaped("yeta_wrench", <item:enderio:yeta_wrench>, [[<item:minecraft:copper_ingot>, <item:minecraft:air>, <item:minecraft:copper_ingot>], [<item:minecraft:air>, <item:enderio:stone_gear>, <item:minecraft:air>], [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>]]);
+

@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "b6dec65df71b4082bad5a7105f29ede1"
+	name: "DontChaseBalls#b6dec65d"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

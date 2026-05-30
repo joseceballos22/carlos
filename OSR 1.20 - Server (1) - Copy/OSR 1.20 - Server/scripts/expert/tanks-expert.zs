@@ -1,0 +1,5 @@
+#packmode expert
+craftingTable.removeByName("mob_grinding_utils:recipe_jumbotank");
+craftingTable.removeByName("mekanism:fluid_tank/basic");
+craftingTable.addShaped("jumbotank", <item:mob_grinding_utils:jumbo_tank>, [[<tag:items:forge:plates/iron>, <item:mob_grinding_utils:tank>, <tag:items:forge:plates/iron>], [<item:mob_grinding_utils:tank>, <item:mekanism:basic_fluid_tank>, <item:mob_grinding_utils:tank>], [<tag:items:forge:plates/iron>, <item:mob_grinding_utils:tank>, <tag:items:forge:plates/iron>]]);
+craftingTable.addShaped("fluid_tank_basic", <item:mekanism:basic_fluid_tank>, [[<tag:items:mekanism:alloys/basic>, <tag:items:forge:ingots/dark_steel>, <tag:items:mekanism:alloys/basic>], [<tag:items:forge:ingots/dark_steel>, <item:enderio:fluid_tank>, <tag:items:forge:ingots/dark_steel>], [<tag:items:mekanism:alloys/basic>, <tag:items:forge:ingots/dark_steel>, <tag:items:mekanism:alloys/basic>]]);

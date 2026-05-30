@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("ad_astra:coal_generator");
+craftingTable.addShaped("astra_coal_generator", <item:ad_astra:coal_generator>, [[<tag:items:forge:storage_blocks/iron>, <item:minecraft:piston>, <tag:items:forge:storage_blocks/iron>], [<tag:items:forge:storage_blocks/coal>, <item:minecraft:furnace>, <tag:items:forge:storage_blocks/coal>], [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:ingots/redstone_alloy>, <tag:items:forge:storage_blocks/iron>]]);

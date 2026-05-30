@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("supplementaries:cog_block");
+craftingTable.addShaped("cog_block", <item:supplementaries:cog_block> * 6, [[<tag:items:forge:ingots/conductive_alloy>, <tag:items:forge:ingots/conductive_alloy>, <tag:items:forge:ingots/conductive_alloy>], [<tag:items:forge:ingots/conductive_alloy>, <item:mysticalagriculture:machine_frame>, <tag:items:forge:ingots/conductive_alloy>], [<tag:items:forge:ingots/conductive_alloy>, <tag:items:forge:ingots/conductive_alloy>, <tag:items:forge:ingots/conductive_alloy>]]);

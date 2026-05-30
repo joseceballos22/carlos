@@ -1,0 +1,3 @@
+ItemEvents.tooltip(event => {
+  event.add(['cyclic:storage_bag', 'simplybackpacks:commonbackpack', 'simplybackpacks:uncommonbackpack', 'simplybackpacks:rarebackpack', 'simplybackpacks:epicbackpack', 'simplybackpacks:ultimatebackpack'], '§cRemove Items Before Upgrading!')
+})

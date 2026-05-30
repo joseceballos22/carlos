@@ -1,0 +1,3 @@
+#packmode normal
+craftingTable.remove(<item:industrialforegoing:dissolution_chamber>);
+craftingTable.addShaped("dissolution_chamber", <item:industrialforegoing:dissolution_chamber>, [[<tag:items:forge:plastic>, <item:cyclic:crate>, <tag:items:forge:plastic>], [<item:minecraft:bucket>, <tag:items:industrialforegoing:machine_frame/pity>, <item:minecraft:bucket>], [<item:enderio:vibrant_alloy_ingot>, <tag:items:forge:gears/diamond>, <item:enderio:vibrant_alloy_ingot>]]);

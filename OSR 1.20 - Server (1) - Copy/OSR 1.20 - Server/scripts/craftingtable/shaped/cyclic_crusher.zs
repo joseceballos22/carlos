@@ -1,0 +1,3 @@
+#packmode normal
+craftingTable.remove(<item:cyclic:crusher>);
+craftingTable.addShaped("cyclic-crusher", <item:cyclic:crusher>, [[<tag:items:exdeorum:compressed/cobblestone>, <tag:items:forge:nuggets/copper>, <tag:items:exdeorum:compressed/cobblestone>], [<item:minecraft:stonecutter>, <tag:items:forge:storage_blocks/flint>, <item:minecraft:stonecutter>], [<tag:items:exdeorum:compressed/cobblestone>, <tag:items:forge:nuggets/copper>, <tag:items:exdeorum:compressed/cobblestone>]]);

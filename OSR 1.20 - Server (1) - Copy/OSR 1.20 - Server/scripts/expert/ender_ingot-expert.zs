@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("extendedcrafting:ender_ingot");
+craftingTable.addShaped("ender_ingot", <item:extendedcrafting:ender_ingot>, [[<item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>], [<item:thermal:enderium_plate>, <item:pneumaticcraft:ingot_iron_compressed>, <item:thermal:enderium_plate>], [<item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>]]);

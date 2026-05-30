@@ -1,0 +1,1 @@
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("prosperity_shard", <item:minecraft:prismarine_shard>, <tag:mekanism/infuse_type:mekanism:diamond> * 10, <item:mysticalagriculture:prosperity_shard>);

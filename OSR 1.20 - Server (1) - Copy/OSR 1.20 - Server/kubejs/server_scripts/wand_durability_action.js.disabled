@@ -1,0 +1,8 @@
+BlockEvents.rightClicked((event) => {
+	const { item, hand } = event
+	if (hand == 'main_hand'){
+		if (item.id == "wandofenlivingment:wand_of_enlivingment") {
+			event.player.damageHeldItem('main_hand', 1)
+		}
+	}
+	})

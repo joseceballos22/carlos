@@ -1,0 +1,2 @@
+mods.mysticalagriculture.InfusionCrafting.remove(<item:mysticalagriculture:neutronium_seeds>);
+mods.mysticalagriculture.InfusionCrafting.addRecipe("neutroniumseeds", <item:mysticalagriculture:neutronium_seeds>, [<item:mysticalagriculture:prosperity_seed_base>, <item:avaritia:neutron_ingot>, <item:mysticalagradditions:insanium_essence>, <item:avaritia:neutron_ingot>, <item:mysticalagradditions:insanium_essence>, <item:avaritia:neutron_ingot>, <item:mysticalagradditions:insanium_essence>, <item:avaritia:neutron_ingot>, <item:mysticalagradditions:insanium_essence>]);

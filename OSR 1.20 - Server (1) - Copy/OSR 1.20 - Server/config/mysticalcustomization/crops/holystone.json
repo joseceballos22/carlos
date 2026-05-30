@@ -1,0 +1,14 @@
+{
+  "name": "Holystone",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "aether:holystone"
+  },
+  "color": "dbe3ea",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "aether:holystone"
+}

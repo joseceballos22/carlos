@@ -1,0 +1,2 @@
+craftingTable.remove(<item:handcrafted:hammer>);
+craftingTable.addShaped("handcrafted_hammer", <item:handcrafted:hammer>, [[<item:minecraft:air>, <item:minecraft:iron_nugget>, <item:minecraft:air>], [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:iron_nugget>], [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:air>]]);

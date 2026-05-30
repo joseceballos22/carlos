@@ -1,0 +1,1007 @@
+{
+    "com.enderio.machines.client.gui.screen.SlicerScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SlicerMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.ImpulseHopperScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.ImpulseHopperMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.SoulBinderScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SoulBinderMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.StirlingGeneratorScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.StirlingGeneratorMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.SagMillScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SagMillMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.WiredChargerScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.WiredChargerMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.PaintingMachineScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.PaintingMachineMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.AlloySmelterScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.AlloySmelterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.PrimitiveAlloySmelterScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.PrimitiveAlloySmelterMenu": {
+        "ignore": true
+    },
+    "com.hrznstudio.titanium.client.screen.container.BasicAddonScreen": {
+        "ignore": true
+    },
+    "com.hrznstudio.titanium.container.BasicAddonContainer": {
+        "ignore": true
+    },
+    "com.lothrazar.cyclic.item.storagebag.ScreenStorageBag": {
+        "ignore": true
+    },
+    "com.lothrazar.cyclic.item.storagebag.ContainerStorageBag": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.AlchBagScreen": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.AlchBagContainer": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.PoweredSpawnerScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.PoweredSpawnerMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.VacuumChestScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.VacuumChestMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.XPVacuumScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.XPVacuumMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.CapacitorBankScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.CapacitorBankMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.TravelAnchorScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.TravelAnchorMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.CrafterScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.CrafterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.SoulEngineScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SoulEngineMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.DrainScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.DrainMenu": {
+        "ignore": true
+    },
+    "com.enderio.conduits.client.gui.ConduitScreen": {
+        "ignore": true
+    },
+    "com.enderio.conduits.common.menu.ConduitMenu": {
+        "ignore": true
+    },
+    "de.maxhenkel.pipez.gui.ExtractScreen": {
+        "ignore": true
+    },
+    "de.maxhenkel.pipez.gui.ExtractContainer": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.FluidTankScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.FluidTankMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.AversionObeliskScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.AversionObeliskMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.client.gui.screen.EnchanterScreen": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.EnchanterMenu": {
+        "ignore": true
+    },
+    "org.zeith.solarflux.client.screen.SolarPanelScreen": {
+        "ignore": true
+    },
+    "org.zeith.solarflux.container.SolarPanelContainer": {
+        "ignore": true
+    },
+    "committee.nova.mods.avaritia.client.screen.NeutronCollectorScreen": {
+        "ignore": true
+    },
+    "committee.nova.mods.avaritia.common.menu.NeutronCollectorMenu": {
+        "ignore": true
+    },
+    "wily.betterfurnaces.client.screen.FurnaceScreen": {
+        "ignore": true
+    },
+    "wily.betterfurnaces.inventory.SmeltingMenu": {
+        "ignore": true
+    },
+    "wily.betterfurnaces.client.screen.ForgeScreen": {
+        "ignore": true
+    },
+    "wily.betterfurnaces.inventory.ForgeMenu": {
+        "ignore": true
+    },
+    "wily.betterfurnaces.client.screen.FuelVerifierScreen": {
+        "ignore": true
+    },
+    "wily.betterfurnaces.inventory.FuelVerifierMenu": {
+        "ignore": true
+    },
+    "wily.betterfurnaces.client.screen.CobblestoneGeneratorScreen": {
+        "ignore": true
+    },
+    "wily.betterfurnaces.inventory.CobblestoneGeneratorMenu": {
+        "ignore": true
+    },
+    "com.brandon3055.draconicevolution.client.gui.GrinderGui$Screen": {
+        "ignore": true
+    },
+    "com.brandon3055.draconicevolution.inventory.GrinderMenu": {
+        "ignore": true
+    },
+    "com.brandon3055.draconicevolution.client.gui.DraconiumChestGui$Screen": {
+        "ignore": true
+    },
+    "com.brandon3055.draconicevolution.inventory.DraconiumChestMenu": {
+        "ignore": true
+    },
+    "com.brandon3055.draconicevolution.client.gui.FusionCraftingCoreGui$Screen": {
+        "ignore": true
+    },
+    "com.brandon3055.draconicevolution.inventory.FusionCraftingCoreMenu": {
+        "ignore": true
+    },
+    "com.brandon3055.draconicevolution.client.gui.DisenchanterGui$Screen": {
+        "ignore": true
+    },
+    "com.brandon3055.draconicevolution.inventory.DisenchanterMenu": {
+        "ignore": true
+    },
+    "com.ultramega.cabletiers.screen.TieredDiskManipulatorScreen": {
+        "ignore": true
+    },
+    "com.ultramega.cabletiers.container.TieredDiskManipulatorContainerMenu": {
+        "ignore": true
+    },
+    "com.ultramega.cabletiers.screen.TieredRequesterScreen": {
+        "ignore": true
+    },
+    "com.ultramega.cabletiers.container.TieredRequesterContainerMenu": {
+        "ignore": true
+    },
+    "net.darkhax.botanypots.block.inv.BotanyPotScreen": {
+        "ignore": true
+    },
+    "net.darkhax.botanypots.block.inv.BotanyPotMenu": {
+        "ignore": true
+    },
+    "com.direwolf20.buildinggadgets2.client.screen.TemplateManagerGUI": {
+        "ignore": true
+    },
+    "com.direwolf20.buildinggadgets2.common.containers.TemplateManagerContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.charginggadgets.blocks.chargingstation.ChargingStationScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.charginggadgets.blocks.chargingstation.ChargingStationContainer": {
+        "ignore": true
+    },
+    "com.blakebr0.mysticalagriculture.client.screen.EnchanterScreen": {
+        "ignore": true
+    },
+    "com.blakebr0.mysticalagriculture.container.EnchanterContainer": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalsieves.CreativeMechanicalSieveScreen": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalsieves.CreativeMechanicalSieveMenu": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalsieves.NetheriteMechanicalSieveScreen": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalsieves.NetheriteMechanicalSieveMenu": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalsieves.DiamondMechanicalSieveScreen": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalsieves.DiamondMechanicalSieveMenu": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalsieves.GoldenMechanicalSieveScreen": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalsieves.GoldenMechanicalSieveMenu": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalhammers.CreativeMechanicalHammerScreen": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalhammers.CreativeMechanicalHammerMenu": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalhammers.NetheriteMechanicalHammerScreen": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalhammers.NetheriteMechanicalHammerMenu": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalhammers.DiamondMechanicalHammerScreen": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalhammers.DiamondMechanicalHammerMenu": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalhammers.GoldenMechanicalHammerScreen": {
+        "ignore": true
+    },
+    "net.cathienova.havenede.menu.mechanicalhammers.GoldenMechanicalHammerMenu": {
+        "ignore": true
+    },
+    "com.lothrazar.cyclic.item.crafting.CraftingBagScreen": {
+        "ignore": true
+    },
+    "com.lothrazar.cyclic.item.crafting.CraftingBagContainer": {
+        "ignore": true
+    },
+    "com.lothrazar.cyclic.item.crafting.simple.CraftingStickScreen": {
+        "ignore": true
+    },
+    "com.lothrazar.cyclic.item.crafting.simple.CraftingStickContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.LaserNodeScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.LaserNodeContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardHolderScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.CardHolderContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardItemScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.CardItemContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardFluidScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.CardFluidContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardEnergyScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.CardEnergyContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.CardRedstoneScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.CardRedstoneContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.FilterBasicScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.FilterBasicContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.FilterCountScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.FilterCountContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.FilterTagScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.FilterTagContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.client.screens.FilterNBTScreen": {
+        "ignore": true
+    },
+    "com.direwolf20.laserio.common.containers.FilterNBTContainer": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.vehicles.RocketScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.vehicles.RocketMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.EtrionicBlastFurnaceScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.EtrionicBlastFurnaceMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.SolarPanelScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.SolarPanelMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.NasaWorkbenchScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.NasaWorkbenchMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.OxygenLoaderScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.OxygenLoaderMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.FuelRefineryScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.FuelRefineryMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.CoalGeneratorScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.CoalGeneratorMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.CompressorScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.CompressorMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.WaterPumpScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.WaterPumpMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.GravityNormalizerScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.GravityNormalizerMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.CryoFreezerScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.CryoFreezerMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.chipped.client.screens.WorkbenchScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.chipped.common.menus.WorkbenchMenu": {
+        "ignore": true
+    },
+    "net.bdew.compacter.blocks.compacter.GuiCompacter": {
+        "ignore": true
+    },
+    "net.bdew.compacter.blocks.compacter.ContainerCompacter": {
+        "ignore": true
+    },
+    "thedarkcolour.exdeorum.client.screen.MechanicalSieveScreen": {
+        "ignore": true
+    },
+    "thedarkcolour.exdeorum.menu.MechanicalSieveMenu": {
+        "ignore": true
+    },
+    "thedarkcolour.exdeorum.client.screen.MechanicalHammerScreen": {
+        "ignore": true
+    },
+    "thedarkcolour.exdeorum.blockentity.MechanicalHammerMenu": {
+        "ignore": true
+    },
+    "com.enderio.base.client.gui.screen.ItemFilterScreen": {
+        "ignore": true
+    },
+    "com.enderio.base.common.menu.ItemFilterMenu": {
+        "ignore": true
+    },
+    "com.enderio.base.client.gui.screen.FluidFilterScreen": {
+        "ignore": true
+    },
+    "com.enderio.base.common.menu.FluidFilterMenu": {
+        "ignore": true
+    },
+    "com.enderio.base.client.gui.screen.EntityFilterScreen": {
+        "ignore": true
+    },
+    "com.enderio.base.common.menu.EntityFilterMenu": {
+        "ignore": true
+    },
+    "com.enderio.conduits.client.gui.RedstoneDoubleChannelFilterScreen": {
+        "ignore": true
+    },
+    "com.enderio.conduits.common.menu.RedstoneDoubleChannelFilterMenu": {
+        "ignore": true
+    },
+    "com.enderio.conduits.client.gui.RedstoneCountFilterScreen": {
+        "ignore": true
+    },
+    "com.enderio.conduits.common.menu.RedstoneCountFilterMenu": {
+        "ignore": true
+    },
+    "com.enderio.conduits.client.gui.RedstoneTimerFilterScreen": {
+        "ignore": true
+    },
+    "com.enderio.conduits.common.menu.RedstoneTimerFilterMenu": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.GUITransmutation": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.TransmutationContainer": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.AlchChestScreen": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.AlchChestContainer": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCondenserScreen$MK1": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.CondenserContainer": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCondenserScreen$MK2": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.CondenserMK2Container": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK1": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.CollectorMK1Container": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK2": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.CollectorMK2Container": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK3": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.CollectorMK3Container": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.GUIRelay$GUIRelayMK1": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.RelayMK1Container": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.GUIRelay$GUIRelayMK2": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.RelayMK2Container": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.gui.GUIRelay$GUIRelayMK3": {
+        "ignore": true
+    },
+    "moze_intel.projecte.gameObjs.container.RelayMK3Container": {
+        "ignore": true
+    },
+    "com.aetherteam.aether.client.gui.screen.inventory.AltarScreen": {
+        "ignore": true
+    },
+    "com.aetherteam.aether.inventory.menu.AltarMenu": {
+        "ignore": true
+    },
+    "com.aetherteam.aether.client.gui.screen.inventory.FreezerScreen": {
+        "ignore": true
+    },
+    "com.aetherteam.aether.inventory.menu.FreezerMenu": {
+        "ignore": true
+    },
+    "com.aetherteam.aether.client.gui.screen.inventory.IncubatorScreen": {
+        "ignore": true
+    },
+    "com.aetherteam.aether.inventory.menu.IncubatorMenu": {
+        "ignore": true
+    },
+    "mcjty.rftoolsutility.modules.crafter.client.GuiCrafter": {
+        "ignore": true
+    },
+    "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.DrawerScreen$Slot1": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerDrawers1": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.DrawerScreen$Slot4": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerDrawers4": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.DrawerScreen$Slot2": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerDrawers2": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.DrawerScreen$Compacting3": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerDrawersComp3": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.FramingTableScreen": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerFramingTable": {
+        "ignore": true
+    },
+    "ad_astra_giselle_addon.client.screen.AutomationNasaWorkbenchScreen": {
+        "ignore": true
+    },
+    "ad_astra_giselle_addon.common.menu.AutomationNasaWorkbenchMenu": {
+        "ignore": true
+    },
+    "ad_astra_giselle_addon.client.screen.FuelLoaderScreen": {
+        "ignore": true
+    },
+    "ad_astra_giselle_addon.common.menu.FuelLoaderMenu": {
+        "ignore": true
+    },
+    "ad_astra_giselle_addon.client.screen.GravityNormalizerScreen": {
+        "ignore": true
+    },
+    "ad_astra_giselle_addon.common.menu.GravityNormalizerMenu": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.hostilenetworks.gui.SimChamberScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.hostilenetworks.gui.SimChamberContainer": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.hostilenetworks.gui.LootFabScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.hostilenetworks.gui.LootFabContainer": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.hostilenetworks.gui.DeepLearnerScreen": {
+        "ignore": true
+    },
+    "dev.shadowsoffire.hostilenetworks.gui.DeepLearnerContainer": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiFan": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.server.ContainerFan": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiSaw": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.server.ContainerSaw": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiXPSolidifier": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.server.ContainerXPSolidifier": {
+        "ignore": true
+    },
+    "com.tom.storagemod.gui.StorageTerminalScreen": {
+        "ignore": true
+    },
+    "com.tom.storagemod.gui.StorageTerminalMenu": {
+        "ignore": true
+    },
+    "com.tom.storagemod.gui.CraftingTerminalScreen": {
+        "ignore": true
+    },
+    "com.tom.storagemod.gui.CraftingTerminalMenu": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.EnergyCellScreen": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnergyCellContainer": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.EnderCellScreen": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnderCellContainer": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.FurnatorScreen": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.FurnatorContainer": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.MagmatorScreen": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.MagmatorContainer": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.ThermoScreen": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.ThermoContainer": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.EnergyHopperScreen": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnergyHopperContainer": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.DischargerScreen": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.DischargerContainer": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.ReactorScreen": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.ReactorContainer": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.common.client.screen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.fluidizer.client.screen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reprocessor.client.screen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.turbine.client.screen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.common.container": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.fluidizer.container": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.container": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reprocessor.container": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExPatternProvider": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExPatternProvider": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExInterface": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExInterface": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiWirelessConnector": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerWirelessConnector": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiIngredientBuffer": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerIngredientBuffer": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExDrive": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExDrive": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExMolecularAssembler": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExMolecularAssembler": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExInscriber": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExInscriber": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExIOPort": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExIOPort": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiCircuitCutter": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerCircuitCutter": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiPreciseExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerPreciseExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiThresholdExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerThresholdExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiTagExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerTagExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExIOBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExIOBus": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiFluidTank": {
+        "ignore": true
+    },
+    "mekanism.common.registration.impl.ContainerTypeDeferredRegister$ContainerBuilder$1": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.TurbineControllerScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.TurbineRedstonePortScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.ReprocessorControllerScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.ReprocessorAccessPortScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.container.ReprocessorControllerContainer": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.container.ReprocessorAccessPortContainer": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.FluidizerControllerScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.FluidizerSolidInjectorScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.container.FluidizerControllerContainer": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.container.FluidizerSolidInjectorContainer": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.ReactorControlRodScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.ReactorControllerScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.ReactorFluidAccessPortScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.RedstonePortScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.client.screen.ReactorSolidAccessPortScreen": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.container.ReactorSolidAccessPortContainer": {
+        "ignore": true
+    },
+    "net.minecraft.client.gui.screens.inventory.AnvilScreen": {
+        "ignore": true
+    },
+    "net.minecraft.world.inventory.AnvilMenu": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiElectrolyticSeparator": {
+        "ignore": true
+    },
+    "mekanism.common.inventory.container.tile.MekanismTileContainer": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiFactory": {
+        "ignore": true
+    },
+    "mekanism.common.inventory.container.tile.FactoryContainer": {
+        "ignore": true
+    },
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": {
+        "ignore": true
+    },
+    "lain.mods.cos.impl.inventory.ContainerCosArmor": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.client.gui.AlloySmelterScreen": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.common.gui.AlloySmelterMenu": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.client.gui.CokeOvenScreen": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.common.gui.CokeOvenMenu": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.client.gui.BlastFurnaceScreen": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.common.gui.BlastFurnaceMenu": {
+        "ignore": true
+    },
+    "net.mehvahdjukaar.sawmill.SawmillScreen": {
+        "ignore": true
+    },
+    "net.mehvahdjukaar.sawmill.SawmillMenu": {
+        "ignore": true
+    },
+    "de.mari_023.ae2wtlib.wct.WCTMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.common.TerminalSettingsScreen": {
+        "ignore": true
+    },
+    "owmii.powah.client.screen.container.PlayerTransmitterScreen": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.PlayerTransmitterContainer": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.client.gui.SqueezerScreen": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.common.gui.SqueezerMenu": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.client.gui.FermenterScreen": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.common.gui.FermenterMenu": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.client.gui.RefineryScreen": {
+        "ignore": true
+    },
+    "blusunrize.immersiveengineering.common.gui.RefineryMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.client.gui.PressureChamberScreen": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.common.inventory.PressureChamberValveMenu": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiAbsorptionHopper": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.server.ContainerAbsorptionHopper": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.client.GuiMGUSpawner": {
+        "ignore": true
+    },
+    "mob_grinding_utils.inventory.server.ContainerMGUSpawner": {
+        "ignore": true
+    },
+    "com.supermartijn642.core.gui.WidgetContainerScreen": {
+        "ignore": true
+    },
+    "com.supermartijn642.itemcollectors.screen.AdvancedCollectorContainer": {
+        "ignore": true
+    },
+    "com.tristankechlo.toolleveling.client.ToolLevelingTableScreen": {
+        "ignore": true
+    },
+    "com.tristankechlo.toolleveling.menu.ToolLevelingTableMenu": {
+        "ignore": true
+    },
+    "com.blakebr0.extendedcrafting.client.screen.UltimateAutoTableScreen": {
+        "ignore": true
+    },
+    "com.blakebr0.extendedcrafting.container.UltimateAutoTableContainer": {
+        "ignore": true
+    },
+    "com.blakebr0.extendedcrafting.client.screen.AutoEnderCrafterScreen": {
+        "ignore": true
+    },
+    "com.blakebr0.extendedcrafting.container.AutoEnderCrafterContainer": {
+        "ignore": true
+    },
+    "com.blakebr0.extendedcrafting.client.screen.AutoFluxCrafterScreen": {
+        "ignore": true
+    },
+    "com.blakebr0.extendedcrafting.container.AutoFluxCrafterContainer": {
+        "ignore": true
+    }
+}

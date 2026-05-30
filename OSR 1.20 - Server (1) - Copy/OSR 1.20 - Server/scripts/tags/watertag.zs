@@ -1,0 +1,9 @@
+import crafttweaker.api.tag.manager.ITagManager;
+<tagmanager:fluids>.removeId(<tag:fluids:minecraft:water>, <resource:cyclic:biomass>);
+<tagmanager:fluids>.removeId(<tag:fluids:minecraft:water>, <resource:cyclic:biomass_flowing>);
+<tagmanager:fluids>.removeId(<tag:fluids:minecraft:water>, <resource:cyclic:honey>);
+<tagmanager:fluids>.removeId(<tag:fluids:minecraft:water>, <resource:cyclic:honey_flowing>);
+<tagmanager:fluids>.removeId(<tag:fluids:minecraft:water>, <resource:cyclic:xpjuice>);
+<tagmanager:fluids>.removeId(<tag:fluids:minecraft:water>, <resource:cyclic:xpjuice_flowing>);
+<tagmanager:fluids>.removeId(<tag:fluids:minecraft:water>, <resource:exdeorum:witch_water>);
+<tagmanager:fluids>.removeId(<tag:fluids:minecraft:water>, <resource:exdeorum:flowing_witch_water>);

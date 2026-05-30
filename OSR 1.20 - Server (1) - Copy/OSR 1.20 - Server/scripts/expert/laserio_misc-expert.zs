@@ -1,0 +1,7 @@
+#packmode expert
+craftingTable.removeByName("laserio:laser_node");
+craftingTable.removeByName("laserio:laser_connector_advanced");
+craftingTable.removeByName("laserio:laser_connector");
+craftingTable.addShaped("laser_node", <item:laserio:laser_node>, [[<item:enderio:end_steel_ingot>, <item:botania:bifrost_pane>, <item:enderio:end_steel_ingot>], [<item:botania:bifrost_pane>, <item:laserio:laser_connector>, <item:botania:bifrost_pane>], [<item:enderio:end_steel_ingot>, <item:botania:bifrost_pane>, <item:enderio:end_steel_ingot>]]);
+craftingTable.addShaped("laser_connector_advanced", <item:laserio:laser_connector_advanced>, [[<tag:items:xnet:advanced_connectors>, <tag:items:forge:gems/diamond>, <tag:items:xnet:advanced_connectors>], [<tag:items:forge:ingots/redstone_alloy>, <item:laserio:laser_connector>, <tag:items:forge:ingots/redstone_alloy>], [<tag:items:forge:ingots/rose_gold>, <tag:items:forge:ingots/rose_gold>, <tag:items:forge:ingots/rose_gold>]]);
+craftingTable.addShaped("laser_connector", <item:laserio:laser_connector>, [[<tag:items:xnet:cables>, <tag:items:forge:glass>, <tag:items:xnet:cables>], [<tag:items:forge:ingots/redstone_alloy>, <item:laserio:logic_chip>, <tag:items:forge:ingots/redstone_alloy>], [<tag:items:forge:ingots/compressed_iron>, <tag:items:forge:ingots/compressed_iron>, <tag:items:forge:ingots/compressed_iron>]]);

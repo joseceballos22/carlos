@@ -1,0 +1,2 @@
+craftingTable.remove(<item:storagedrawers:controller>);
+craftingTable.addShaped("storagedrawers_controller", <item:storagedrawers:controller>, [[<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>], [<item:enderio:redstone_alloy_ingot>, <tag:items:storagedrawers:drawers>, <item:enderio:redstone_alloy_ingot>], [<item:kubejs:triple_compressed_cobblestone>, <tag:items:forge:gems/diamond>, <item:kubejs:triple_compressed_cobblestone>]]);

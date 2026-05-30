@@ -1,0 +1,4 @@
+craftingTable.remove(<item:mekanism:personal_chest>);
+craftingTable.remove(<item:mekanism:personal_barrel>);
+craftingTable.addShaped("personal_chest", <item:mekanism:personal_chest>, [[<tag:items:forge:ingots/netherite>, <item:botania:elf_glass>, <tag:items:forge:ingots/netherite>], [<item:immersiveengineering:crate>, <tag:items:forge:circuits/basic>, <item:immersiveengineering:crate>], [<tag:items:forge:ingots/netherite>, <tag:items:forge:ingots/netherite>, <tag:items:forge:ingots/netherite>]]);
+craftingTable.addShaped("personal_barrel", <item:mekanism:personal_barrel>, [[<tag:items:forge:ingots/netherite>, <item:botania:elf_glass>, <tag:items:forge:ingots/netherite>], [<item:immersiveengineering:wooden_barrel>, <tag:items:forge:circuits/basic>, <item:immersiveengineering:wooden_barrel>], [<tag:items:forge:ingots/netherite>, <tag:items:forge:ingots/netherite>, <tag:items:forge:ingots/netherite>]]);

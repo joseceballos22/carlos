@@ -1,0 +1,16 @@
+
+#Config for Wand Of Enlivingment
+[General]
+	#allow blocks with block entities to be enlivened
+	#WARNING: Use at your own risk
+	allowBlockEntities = false
+	#blocks not allowed to enliven (mod:block_name)
+	blockDenylist = ["minecraft:bedrock", "minecraft:end_portal_frame", "kubejs:chaos_block", "kubejs:deluxe_ultimate_block"]
+	#blocks with block entities that should be allowed to enliven (mod:block_name)
+	#Note: This overrides allowBlockEntities on the specified blocks
+	blockAllowlist = []
+	#number of uses per wand
+	wandDurability = 4
+	#allows the mending enchantment to be applied to the wand
+	allowMending = false
+

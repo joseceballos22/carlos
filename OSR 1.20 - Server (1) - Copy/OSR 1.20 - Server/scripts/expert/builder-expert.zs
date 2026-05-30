@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("rftoolsbuilder:builder");
+craftingTable.addShaped("builder", <item:rftoolsbuilder:builder>, [[<item:immersiveengineering:heavy_engineering>, <item:rftoolsbase:infused_enderpearl>, <item:immersiveengineering:heavy_engineering>], [<item:extendedcrafting:enhanced_redstone_ingot>, <item:rftoolsbase:machine_frame>, <item:extendedcrafting:enhanced_redstone_ingot>], [<item:immersiveengineering:heavy_engineering>, <item:extendedcrafting:enhanced_redstone_ingot>, <item:immersiveengineering:heavy_engineering>]]);

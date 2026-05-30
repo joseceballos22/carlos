@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("enderio:primitive_alloy_smelter");
+craftingTable.addShaped("primitive_alloy_smelter", <item:enderio:primitive_alloy_smelter>, [[<item:ironfurnaces:copper_furnace>, <item:ironfurnaces:copper_furnace>, <item:ironfurnaces:copper_furnace>], [<item:exdeorum:compressed_deepslate>, <item:enderio:iron_gear>, <item:exdeorum:compressed_deepslate>], [<item:exdeorum:compressed_deepslate>, <item:exdeorum:compressed_deepslate>, <item:exdeorum:compressed_deepslate>]]);

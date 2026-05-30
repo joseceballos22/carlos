@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("clickmachine:auto_clicker");
+craftingTable.addShaped("auto_clicker", <item:clickmachine:auto_clicker>, [[<item:exdeorum:compressed_diorite>, <item:exdeorum:compressed_diorite>, <item:exdeorum:compressed_diorite>], [<item:exdeorum:compressed_diorite>, <item:minecraft:chorus_flower>, <item:exdeorum:compressed_diorite>], [<item:kubejs:triple_compressed_cobblestone>, <item:extendedcrafting:redstone_ingot_block>, <item:kubejs:triple_compressed_cobblestone>]]);

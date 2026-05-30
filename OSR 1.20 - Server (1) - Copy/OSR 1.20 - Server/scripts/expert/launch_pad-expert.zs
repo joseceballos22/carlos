@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("ad_astra:launch_pad");
+craftingTable.addShaped("launch_pad", <item:ad_astra:launch_pad>, [[<tag:items:ad_astra:steel_plates>, <tag:items:ad_astra:steel_rods>, <tag:items:ad_astra:steel_plates>], [<tag:items:ad_astra:steel_rods>, <item:megacells:sky_steel_ingot>, <tag:items:ad_astra:steel_rods>], [<tag:items:ad_astra:steel_plates>, <tag:items:ad_astra:steel_rods>, <tag:items:ad_astra:steel_plates>]]);

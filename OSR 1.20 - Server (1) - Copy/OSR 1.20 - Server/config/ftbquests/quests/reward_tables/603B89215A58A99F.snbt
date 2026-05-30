@@ -1,0 +1,104 @@
+{
+	hide_tooltip: true
+	icon: "kubejs:reward_bag"
+	id: "603B89215A58A99F"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "minecraft:reinforced_deepslate" }
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 6.0d
+					Type: "mysticalagriculture:fish"
+				}
+			}
+		}
+		{ item: "enderio:enderman_head" }
+		{ item: "pneumaticcraft:nuke_virus" }
+		{ item: "minecraft:budding_amethyst" }
+		{ item: "cyclic:heart" }
+		{ item: "cyclic:heart_empty" }
+		{ item: "betterfurnacesreforged:copper_upgrade" }
+		{ item: "cyclic:crate_mini" }
+		{ item: "industrialforegoing:mob_imprisonment_tool" }
+		{ item: "handcrafted:creeper_trophy" }
+		{
+			item: {
+				Count: 1
+				id: "ironchests:iron_dolly"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "botania:black_lotus" }
+		{ item: "minecraft:lodestone" }
+		{ item: "minecraft:respawn_anchor" }
+		{ item: "minecraft:conduit" }
+		{ item: "minecraft:bell" }
+		{ item: "minecraft:end_crystal" }
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "pamhc2foodextended:friedriceitem" }
+		{ item: "pamhc2foodextended:chocolatesprinklecakeitem" }
+		{ item: "enderio:frank_n_zombie" }
+		{ item: "enderio:sentient_ender" }
+		{ item: "mekanismadditions:obsidian_tnt" }
+		{
+			item: {
+				Count: 1
+				id: "hangglider:hang_glider"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "redstone_arsenal:flux_gem_block" }
+		{ item: "redstone_arsenal:flux_metal_block" }
+		{
+			item: {
+				Count: 1
+				id: "redstone_arsenal:flux_boots"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "redstone_arsenal:flux_leggings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "redstone_arsenal:flux_chestplate"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "redstone_arsenal:flux_helmet"
+				tag: { }
+			}
+		}
+		{ item: "extendedcrafting:nether_star_block" }
+		{
+			item: {
+				Count: 1
+				id: "exdeorum:compressed_netherite_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "kubejs:demon_steel_tier_1" }
+		{ item: "draconicevolution:draconium_core" }
+		{ item: "kubejs:demon_steel_tier_2" }
+	]
+	title: "Greater Reward"
+	use_title: true
+}

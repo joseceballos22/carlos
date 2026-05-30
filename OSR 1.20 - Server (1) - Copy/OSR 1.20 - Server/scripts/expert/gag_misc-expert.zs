@@ -1,0 +1,5 @@
+#packmode expert
+craftingTable.remove(<item:gag:hearthstone>);
+craftingTable.remove(<item:gag:time_sand_pouch>);
+craftingTable.addShaped("hearthstone", <item:gag:hearthstone>, [[<item:undergarden:catalyst>, <item:enderio:dark_steel_block>, <item:undergarden:catalyst>], [<item:enderio:dark_steel_block>, <item:mekanism:teleportation_core>, <item:enderio:dark_steel_block>], [<item:undergarden:catalyst>, <item:enderio:dark_steel_block>, <item:undergarden:catalyst>]]);
+craftingTable.addShaped("time_sand_pouch", <item:gag:time_sand_pouch>, [[<item:kubejs:quasar>, <item:immersiveengineering:ersatz_leather>, <item:kubejs:quasar>], [<item:immersiveengineering:ersatz_leather>, <item:projecte:watch_of_flowing_time>, <item:immersiveengineering:ersatz_leather>], [<item:kubejs:quasar>, <item:immersiveengineering:ersatz_leather>, <item:kubejs:quasar>]]);

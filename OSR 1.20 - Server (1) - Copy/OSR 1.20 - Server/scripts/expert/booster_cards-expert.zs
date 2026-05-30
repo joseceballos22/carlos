@@ -1,0 +1,9 @@
+#packmode expert
+craftingTable.removeByName("rsinfinitybooster:infinity_card");
+craftingTable.removeByName("aeinfinitybooster:infinity_card");
+craftingTable.removeByName("rsinfinitybooster:dimension_card");
+craftingTable.removeByName("aeinfinitybooster:dimension_card");
+craftingTable.addShaped("rs_infinity_card", <item:rsinfinitybooster:infinity_card>, [[<item:mekanism:teleportation_core>, <item:refinedstorage:range_upgrade>, <item:mekanism:teleportation_core>], [<item:refinedstorage:range_upgrade>, <item:extendedcrafting:ender_star>, <item:refinedstorage:range_upgrade>], [<tag:items:forge:ingots/netherite>, <tag:items:forge:gears/netherite>, <tag:items:forge:ingots/netherite>]]);
+craftingTable.addShaped("ae2_infinity_card", <item:aeinfinitybooster:infinity_card>, [[<item:mekanism:teleportation_core>, <item:ae2:wireless_booster>, <item:mekanism:teleportation_core>], [<item:ae2:wireless_booster>, <item:extendedcrafting:ender_star>, <item:ae2:wireless_booster>], [<tag:items:forge:ingots/netherite>, <tag:items:forge:gears/netherite>, <tag:items:forge:ingots/netherite>]]);
+craftingTable.addShaped("rs_dimension_card", <item:rsinfinitybooster:dimension_card>, [[<item:rsinfinitybooster:infinity_card>, <item:kubejs:ultimate_star>, <item:rsinfinitybooster:infinity_card>], [<item:kubejs:ultimate_star>, <item:mekanism:teleportation_core>, <item:kubejs:ultimate_star>], [<item:rsinfinitybooster:infinity_card>, <item:kubejs:ultimate_star>, <item:rsinfinitybooster:infinity_card>]]);
+craftingTable.addShaped("ae2_dimension_card", <item:aeinfinitybooster:dimension_card>, [[<item:aeinfinitybooster:infinity_card>, <item:kubejs:ultimate_star>, <item:aeinfinitybooster:infinity_card>], [<item:kubejs:ultimate_star>, <item:mekanism:teleportation_core>, <item:kubejs:ultimate_star>], [<item:aeinfinitybooster:infinity_card>, <item:kubejs:ultimate_star>, <item:aeinfinitybooster:infinity_card>]]);

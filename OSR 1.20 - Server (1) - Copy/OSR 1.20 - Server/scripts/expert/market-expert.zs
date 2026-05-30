@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("farmingforblockheads:market");
+craftingTable.addShaped("market", <item:farmingforblockheads:market>, [[<tag:items:minecraft:planks>, <item:minecraft:nether_wart_block>, <tag:items:minecraft:planks>], [<tag:items:minecraft:logs>, <item:enderio:vibrant_crystal>, <tag:items:minecraft:logs>], [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);

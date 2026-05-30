@@ -1,0 +1,2 @@
+// Compost colors for checklist. You may add your own colors, change existing ones, or remove colors that aren't needed.
+task_book, #d6663d

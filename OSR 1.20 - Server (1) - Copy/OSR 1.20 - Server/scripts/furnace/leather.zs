@@ -1,0 +1,1 @@
+furnace.addRecipe("leather", <item:minecraft:leather>, <item:immersiveengineering:ersatz_leather>, 0.1, 200);

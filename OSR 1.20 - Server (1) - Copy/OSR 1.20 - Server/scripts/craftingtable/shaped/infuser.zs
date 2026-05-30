@@ -1,0 +1,3 @@
+#packmode normal
+craftingTable.remove(<item:mekanism:metallurgic_infuser>);
+craftingTable.addShaped("metallurgic_infuser", <item:mekanism:metallurgic_infuser>, [[<tag:items:forge:ingots/iron>, <item:thermal:machine_smelter>, <tag:items:forge:ingots/iron>], [<item:extendedcrafting:redstone_ingot>, <tag:items:forge:ingots/osmium>, <item:extendedcrafting:redstone_ingot>], [<tag:items:forge:ingots/iron>, <item:thermal:machine_smelter>, <tag:items:forge:ingots/iron>]]);

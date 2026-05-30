@@ -1,0 +1,11 @@
+<recipetype:mekanism:enriching>.addRecipe("chunk_iron", <item:exdeorum:iron_ore_chunk>, <item:minecraft:raw_iron>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_copper", <item:exdeorum:copper_ore_chunk>, <item:minecraft:raw_copper>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_gold", <item:exdeorum:gold_ore_chunk>, <item:minecraft:raw_gold>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_aluminum", <item:exdeorum:aluminum_ore_chunk>, <item:immersiveengineering:raw_aluminum>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_silver", <item:exdeorum:silver_ore_chunk>, <item:immersiveengineering:raw_silver>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_lead", <item:exdeorum:lead_ore_chunk>, <item:mekanism:raw_lead>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_nickel", <item:exdeorum:nickel_ore_chunk>, <item:immersiveengineering:raw_nickel>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_uranium", <item:exdeorum:uranium_ore_chunk>, <item:mekanism:raw_uranium>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_osmium", <item:exdeorum:osmium_ore_chunk>, <item:mekanism:raw_osmium>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_tin", <item:exdeorum:tin_ore_chunk>, <item:mekanism:raw_tin>);
+<recipetype:mekanism:enriching>.addRecipe("chunk_cobalt", <item:exdeorum:cobalt_ore_chunk>, <item:tconstruct:raw_cobalt>);

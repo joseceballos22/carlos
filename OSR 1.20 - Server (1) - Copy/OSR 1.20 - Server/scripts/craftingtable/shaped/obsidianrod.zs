@@ -1,0 +1,2 @@
+craftingTable.remove(<item:redstone_arsenal:obsidian_rod>);
+craftingTable.addShaped("obsidian_rod", <item:redstone_arsenal:obsidian_rod>, [[<item:minecraft:air>, <item:minecraft:air>, <item:enderio:reinforced_obsidian_block>], [<item:minecraft:air>, <item:minecraft:blaze_powder>, <item:minecraft:air>], [<item:enderio:reinforced_obsidian_block>, <item:minecraft:air>, <item:minecraft:air>]]);

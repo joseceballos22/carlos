@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("solarflux:efficiency_upgrade");
+craftingTable.addShaped("efficiency_upgrade", <item:solarflux:efficiency_upgrade>, [[<item:extendedcrafting:enhanced_redstone_nugget>, <item:solarflux:mirror>, <item:extendedcrafting:enhanced_redstone_nugget>], [<item:solarflux:mirror>, <item:solarflux:blank_upgrade>, <item:solarflux:mirror>], [<item:extendedcrafting:enhanced_redstone_nugget>, <item:solarflux:photovoltaic_cell_1>, <item:extendedcrafting:enhanced_redstone_nugget>]]);

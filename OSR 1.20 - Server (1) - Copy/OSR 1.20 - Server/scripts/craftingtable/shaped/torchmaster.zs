@@ -1,0 +1,9 @@
+craftingTable.remove(<item:torchmaster:megatorch>);
+craftingTable.remove(<item:torchmaster:dreadlamp>);
+craftingTable.remove(<item:torchmaster:feral_flare_lantern>);
+craftingTable.remove(<item:torchmaster:frozen_pearl>);
+
+craftingTable.addShaped("megatorch", <item:torchmaster:megatorch>, [[<item:minecraft:torch>, <item:minecraft:torch>, <item:minecraft:torch>], [<tag:items:forge:gems/diamond>, <item:immersiveengineering:electric_lantern>, <tag:items:forge:gems/diamond>], [<tag:items:forge:storage_blocks/gold>, <tag:items:minecraft:logs>, <tag:items:forge:storage_blocks/gold>]]);
+craftingTable.addShaped("dreadlamp", <item:torchmaster:dreadlamp>, [[<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>], [<tag:items:forge:glass_panes>, <item:minecraft:glowstone>, <tag:items:forge:glass_panes>], [<item:minecraft:crying_obsidian>, <item:enderio:organic_black_dye>, <item:minecraft:crying_obsidian>]]);
+craftingTable.addShaped("feral_flare_lantern", <item:torchmaster:feral_flare_lantern>, [[<item:minecraft:air>, <tag:items:forge:plates/gold>, <item:minecraft:air>], [<item:botania:elf_glass>, <tag:items:forge:dusts/glowstone>, <item:botania:elf_glass>], [<item:minecraft:air>, <tag:items:forge:plates/gold>, <item:minecraft:air>]]);
+craftingTable.addShaped("frozen_pearl", <item:torchmaster:frozen_pearl>, [[<item:minecraft:air>, <item:minecraft:ice> | <item:minecraft:packed_ice>, <item:minecraft:air>], [<item:minecraft:ice> | <item:minecraft:packed_ice>, <item:minecraft:ender_pearl>, <item:minecraft:ice> | <item:minecraft:packed_ice>], [<item:minecraft:air>, <item:minecraft:ice> | <item:minecraft:packed_ice>, <item:minecraft:air>]]);

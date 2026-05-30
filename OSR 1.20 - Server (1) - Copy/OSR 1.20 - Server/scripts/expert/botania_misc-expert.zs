@@ -1,0 +1,5 @@
+#packmode expert
+craftingTable.removeByName("botania:quartz_red");
+craftingTable.addShaped("quartz_red", <item:botania:quartz_red> * 8, [[<item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>], [<item:minecraft:quartz>, <tag:items:forge:ingots/redstone_alloy>, <item:minecraft:quartz>], [<item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>]]);
+craftingTable.removeByName("botania:conjuration_catalyst");
+craftingTable.addShaped("conjuration_catalyst", <item:botania:conjuration_catalyst>, [[<item:botania:livingrock>, <item:botania:pixie_dust>, <item:botania:livingrock>], [<item:kubejs:ludicrite_star>, <item:botania:alchemy_catalyst>, <item:kubejs:ludicrite_star>], [<item:botania:livingrock>, <tag:items:botania:elementium_ingots>, <item:botania:livingrock>]]);

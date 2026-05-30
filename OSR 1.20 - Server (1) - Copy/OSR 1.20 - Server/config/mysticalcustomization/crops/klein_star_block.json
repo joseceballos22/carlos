@@ -1,0 +1,15 @@
+{
+  "name": "Klein Star Block",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "kubejs:klein_star_block"
+  },
+  "glint": true,
+  "color": "ff9900",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "avaritia:infinity"
+}

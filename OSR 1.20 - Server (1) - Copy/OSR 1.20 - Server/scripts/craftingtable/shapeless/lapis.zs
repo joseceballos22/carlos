@@ -1,0 +1,1 @@
+craftingTable.addShapeless("lapis", <item:minecraft:lapis_lazuli> *4, [<item:supplementaries:lapis_bricks>]);

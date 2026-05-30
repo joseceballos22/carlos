@@ -1,0 +1,5 @@
+#packmode expert
+craftingTable.removeByName("hostilenetworks:prediction_matrix");
+craftingTable.removeByName("hostilenetworks:framework");
+craftingTable.addShaped("prediction_matrix", <item:hostilenetworks:prediction_matrix> * 16, [[<item:avaritia:neutron_nugget>, <tag:items:forge:glass_panes>, <item:avaritia:neutron_nugget>], [<tag:items:forge:glass_panes>, <item:translocators:diamond_nugget>, <tag:items:forge:glass_panes>], [<item:avaritia:neutron_nugget>, <tag:items:forge:glass_panes>, <item:avaritia:neutron_nugget>]]);
+craftingTable.addShaped("framework", <item:hostilenetworks:blank_data_model>, [[<item:exdeorum:porcelain_clay_ball>, <item:enderio:ender_crystal_powder>, <item:exdeorum:porcelain_clay_ball>], [<item:enderio:clayed_glowstone>, <item:minecraft:smooth_stone>, <item:enderio:clayed_glowstone>], [<item:exdeorum:porcelain_clay_ball>, <tag:items:forge:ingots/gold>, <item:exdeorum:porcelain_clay_ball>]]);

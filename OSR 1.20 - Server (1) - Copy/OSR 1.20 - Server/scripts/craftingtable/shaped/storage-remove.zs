@@ -1,0 +1,16 @@
+craftingTable.remove(<item:extrastorage:storagepart_256k>);
+craftingTable.remove(<item:extrastorage:storagepart_1024k>);
+craftingTable.remove(<item:extrastorage:storagepart_4096k>);
+craftingTable.remove(<item:extrastorage:storagepart_16384k>);
+craftingTable.remove(<item:extrastorage:disk_256k>);
+craftingTable.remove(<item:extrastorage:disk_1024k>);
+craftingTable.remove(<item:extrastorage:disk_4096k>);
+craftingTable.remove(<item:extrastorage:disk_16384k>);
+craftingTable.remove(<item:extrastorage:storagepart_16384k_fluid>);
+craftingTable.remove(<item:extrastorage:storagepart_65536k_fluid>);
+craftingTable.remove(<item:extrastorage:storagepart_262144k_fluid>);
+craftingTable.remove(<item:extrastorage:storagepart_1048576k_fluid>);
+craftingTable.remove(<item:extrastorage:disk_16384k_fluid>);
+craftingTable.remove(<item:extrastorage:disk_65536k_fluid>);
+craftingTable.remove(<item:extrastorage:disk_262144k_fluid>);
+craftingTable.remove(<item:extrastorage:disk_1048576k_fluid>);

@@ -1,0 +1,2 @@
+craftingTable.removeByName("expatternprovider:silicon_block");
+craftingTable.addShaped("silicon_block", <item:expatternprovider:silicon_block>, [[<tag:items:forge:silicon>, <tag:items:forge:silicon>, <tag:items:forge:silicon>], [<tag:items:forge:silicon>, <tag:items:forge:silicon>, <tag:items:forge:silicon>], [<tag:items:forge:silicon>, <tag:items:forge:silicon>, <tag:items:forge:silicon>]]);

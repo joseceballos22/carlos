@@ -1,0 +1,2 @@
+#packmode normal
+craftingTable.addShaped("cobblegen2",<item:cobblefordays:tier_2>, [[<item:minecraft:cobblestone>,<item:minecraft:cobblestone>,<item:minecraft:cobblestone>],[<item:exdeorum:porcelain_water_bucket>,<item:minecraft:glass>,<item:exdeorum:porcelain_lava_bucket>],[<item:minecraft:cobblestone>,<item:minecraft:cobblestone>,<item:minecraft:cobblestone>]]);

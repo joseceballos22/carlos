@@ -1,0 +1,2 @@
+craftingTable.remove(<item:ae2:inscriber>);
+craftingTable.addShaped("inscriber", <item:ae2:inscriber>, [[<tag:items:forge:ingots/iron>, <item:minecraft:sticky_piston>, <tag:items:forge:ingots/iron>], [<item:rftoolsbase:machine_frame>, <item:minecraft:air>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <item:minecraft:sticky_piston>, <tag:items:forge:ingots/iron>]]);

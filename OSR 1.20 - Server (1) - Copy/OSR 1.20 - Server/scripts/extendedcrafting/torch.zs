@@ -1,0 +1,5 @@
+#packmode normal
+craftingTable.remove(<item:torcherino:torcherino>);
+mods.extendedcrafting.CombinationCrafting.addRecipe("torcherino", <item:torcherino:torcherino>, 500000, [
+	<item:minecraft:torch>, <item:botania:gaia_ingot>, <item:botania:gaia_ingot>, <item:extendedcrafting:the_ultimate_component>, <item:avaritia:infinity_catalyst>, <item:extendedcrafting:the_ultimate_component>, <item:botania:gaia_ingot>, <item:minecraft:clock>, <item:minecraft:clock>, <item:botania:gaia_ingot>, <item:pipez:infinity_upgrade>, <item:avaritia:infinity_catalyst>, <item:avaritia:infinity_catalyst>, <item:pipez:infinity_upgrade>, <item:pipez:infinity_upgrade>, <item:botania:gaia_ingot>, <item:minecraft:clock>, <item:minecraft:clock>, <item:botania:gaia_ingot>, <item:extendedcrafting:the_ultimate_component>, <item:avaritia:infinity_catalyst>, <item:extendedcrafting:the_ultimate_component>, <item:botania:gaia_ingot>, <item:botania:gaia_ingot>, <item:pipez:infinity_upgrade>
+]);

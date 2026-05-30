@@ -1,0 +1,1 @@
+craftingTable.addShapeless("dust_essence", <item:exdeorum:dust> *16, [<item:mysticalagriculture:dirt_essence>, <item:mysticalagriculture:air_essence>, <item:mysticalagriculture:air_essence>, <item:mysticalagriculture:dirt_essence>]);

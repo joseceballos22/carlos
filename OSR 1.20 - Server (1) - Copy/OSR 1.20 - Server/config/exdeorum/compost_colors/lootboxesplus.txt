@@ -1,0 +1,7 @@
+// Compost colors for lootboxesplus. You may add your own colors, change existing ones, or remove colors that aren't needed.
+boss_loot_bag, #be2923
+common_loot_bag, #b4aea8
+epic_loot_bag, #b41fb2
+loot_crate, #c6c9cc
+rare_loot_bag, #34aea8
+uncommon_loot_bag, #34ae29

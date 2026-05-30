@@ -1,0 +1,854 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "omega"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "mekanism:solar_neutron_activator"
+	id: "6663B6FE27A78EFC"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: -2.0d
+		y: -1.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6450516E0A3A74DF"]
+			description: [
+				"Note: Most machines in the Mekanism mod can be upgraded into factories. "
+				""
+				"The Metallurgic Infuser is the first step in the Mekanism tech tree. The Metallurgic Infuser is a machine used in the production of Steel Ingots, Bronze Ingots, Enriched Alloy, and Obsidian Ingots. "
+			]
+			id: "6C675D88FE73ADE6"
+			rewards: [
+				{
+					id: "3811A5E5CC4F5EE8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "26A7B8720CF7FBDD"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "392177EB1BCEDE6D"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "73757CDF574F5127"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C675D88FE73ADE6"]
+			description: ["The energized smelter is your basic electric furnace that uses energy instead of fuel to smelt items. "]
+			id: "15189D9DBA11779E"
+			rewards: [
+				{
+					id: "0A457340ADBA815F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "07E03D11B2C3C852"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "630D64A5B7A32CCE"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15189D9DBA11779E"]
+			description: ["The Crusher, well, crushes things"]
+			id: "67CC9D4B57B81F68"
+			rewards: [
+				{
+					id: "7BBC224EE330191C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0C84EB70B9B14F22"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77159B4371C4D22A"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67CC9D4B57B81F68"]
+			description: ["The Precision Sawmill is used for reclaiming wood from wooden items and turn logs into planks with a 50% better yield (6 instead of 4). Also makes sawdust for use in making Cardboard Boxes. "]
+			id: "4204E62CC213F589"
+			rewards: [
+				{
+					id: "42167FF1F0AEEE28"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6672F8A2B55622E9"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "375CAFBDC0150165"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "57D90B41DEAA1699"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4204E62CC213F589"]
+			description: [
+				"The Osmium Compressor is used to create Refined Obsidian Ingots from Refined Obsidian Dust and Glowstone Ingots from Glowstone Dust."
+				"It fuses liquid Osmium (melted down Osmium Ingots placed in the machine's bottom slot) with the originating materials to create their corresponding ingots. "
+			]
+			id: "30087CE07AD56C2E"
+			rewards: [
+				{
+					id: "3A78FADBA1506E14"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0361CE3BDC5A6204"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "748807342FE3E492"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30087CE07AD56C2E"]
+			description: ["The Combiner allows the player to create an ore block from 8 dust. Place the ore dust in the top slot, and some cobblestone in the bottom slot, and it will combine to make the ore block. It requires 1000J per operation. Works with the dust of copper, iron, tin, osmium, obsidian (only needs 4) and gold. Also allows 1 Flint to a gravel block and 16 Redstone/Lapis to their ores. "]
+			id: "60E0858BEF4F9702"
+			rewards: [
+				{
+					id: "7F0243E55E52CD7C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "542B06364B4CB378"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5014C18E4BF3903E"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60E0858BEF4F9702"]
+			description: ["This machine uses energy to extract dusts out of certain blocks and ores, making it essential to producing different kinds of tools. Not to be mistaken with the Crusher, this machine is the pulverizer equivalent in other mods."]
+			id: "6417762CBF914C64"
+			rewards: [
+				{
+					id: "2F1BA8299B2D3768"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5C68D02ED5FAD270"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72AA9216C140F37F"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "181B3B1EF835A36D"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6417762CBF914C64"]
+			description: ["The Purification Chamber uses oxygen to refine Ores and shards into clumps. Each ore makes 3 clumps, whereas each shard only gives one clump. "]
+			id: "700578C9ED61AA16"
+			rewards: [
+				{
+					id: "088A402E80FDC4ED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0886EBBF8EF82B13"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53CE6785AF2182AA"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["700578C9ED61AA16"]
+			description: ["The Chemical Injection Chamber uses Hydrogen Chloride gas to turn ores into 4 Shards. It is the start of x4 ore processing and requires a steady supply of Hydrogen Chloride, which in turn requires the player to have a Thermal Evaporation Plant running. "]
+			id: "30578613220E2188"
+			rewards: [
+				{
+					id: "3C063BA29FAD2E3B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "621D1BB982BB14E4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BD4A9C296DD4EA9"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30578613220E2188"]
+			description: ["The Digital Miner is the scale mining machine of Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory. "]
+			id: "5EAA0221EABDA255"
+			rewards: [
+				{
+					id: "64E2A62D235FB55B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "48FFFD11AB830FF2"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "039C4240E728D5CF"
+					table_id: 6934286827609696671L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "619DE7E94C90F1E7"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6450516E0A3A74DF"]
+			description: ["Energy cubes can be used to hold large amounts of RF. The higher the tier, the more RF can be stored"]
+			id: "12EB38289B348239"
+			rewards: [
+				{
+					id: "1949BDB85F7AEC4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "110C9764958661D4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35C7AEC6EC0F9CFE"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7EFB41D9CD6B2A87"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12EB38289B348239"]
+			description: ["Energy cubes can be used to hold large amounts of RF. The higher the tier, the more RF can be stored"]
+			id: "4B0781982EFCF468"
+			rewards: [
+				{
+					id: "6BCD0AC75C0FF5EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "36A014B5ED8ED78C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "601BEE1D0DDB157B"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "12A05EAB856505D1"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B0781982EFCF468"]
+			description: ["Energy cubes can be used to hold large amounts of RF. The higher the tier, the more RF can be stored"]
+			id: "552EF8646F9D5E55"
+			rewards: [
+				{
+					id: "459110AD683565CD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0E898AE0DB00444A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A6EE6935B35B54F"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "38624283B92216E9"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["552EF8646F9D5E55"]
+			description: ["Energy cubes can be used to hold large amounts of RF. The higher the tier, the more RF can be stored"]
+			id: "553EB2BD34769B0A"
+			rewards: [
+				{
+					id: "0DD6595EDD90C10C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2997068FBFD1038F"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "771AADC1123018D4"
+					table_id: 6934286827609696671L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6C2FB7B14720389A"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C675D88FE73ADE6"]
+			description: ["Control circuits are used to craft several Mekanism items and machines. Tier 1"]
+			id: "3B05D233BD036F90"
+			rewards: [
+				{
+					id: "154707EA0995313A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "278F24311BFD50B2"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1808BD3639F5045E"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "10C01571C2B5EE57"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B05D233BD036F90"]
+			description: ["Control circuits are used to craft several Mekanism items and machines. Tier 2"]
+			id: "0698A40FAC316CF7"
+			rewards: [
+				{
+					id: "5EDBFA2EA349323F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1F841E41AEB793E1"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C33D84BE3A334BB"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "22330B244AA6BEB9"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0698A40FAC316CF7"]
+			description: ["Control circuits are used to craft several Mekanism items and machines. Tier 3"]
+			id: "3279F0A5EC784995"
+			rewards: [
+				{
+					id: "25502474D173A0AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5AE0B3B4649CA30E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31004648709D878B"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "50C82FFF7431255C"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3279F0A5EC784995"]
+			description: ["Control circuits are used to craft several Mekanism items and machines. Tier 4"]
+			id: "54FF1E782343EAAF"
+			rewards: [
+				{
+					id: "566207D3717DE601"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2FF1706660C1ABAF"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24331137497C6FEF"
+					table_id: 6934286827609696671L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "52C7EF4E637FEF45"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["30087CE07AD56C2E"]
+			description: ["Can create portans between different locations. Works across dimensions!"]
+			id: "07190E7B4881D272"
+			rewards: [
+				{
+					id: "3E8F5776137A0D34"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5AD65611A8E0B637"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57D9738B2AD86473"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "09F0B6CC26F52F88"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "65DFD9FBA59D50E8"
+					item: { Count: 9, id: "mekanism:teleporter_frame" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6450516E0A3A74DF"]
+			description: ["Power from solid fuels (coal, charcoal, wood...)"]
+			id: "0DCB380AD60B3615"
+			rewards: [
+				{
+					id: "5D9227972E53655E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7FD3CDF2E77D58FE"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36173BF7C232164E"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "316A7387CB5AB411"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DCB380AD60B3615"]
+			description: ["Power from the sun."]
+			id: "29FFD5CE69AB6A31"
+			rewards: [
+				{
+					id: "71C71B4B798EFFC5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "429C880276BE94B9"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65976C5DF4BDCE29"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["29FFD5CE69AB6A31"]
+			description: ["Power from the sun, but more advanced!"]
+			id: "1C5DB079B5AA1BCD"
+			rewards: [
+				{
+					id: "60E73A2381322615"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "731CBB370E43866B"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24D93C89E14B4D9C"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1C5DB079B5AA1BCD"]
+			description: ["Generates power from wind - more RF is generated the higher you place it. Must have sky above it."]
+			id: "3895713C1C5AE788"
+			rewards: [
+				{
+					id: "20D85A99D124370C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4EF115CE1729D7EC"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "010CDF3AEE9AF726"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3895713C1C5AE788"]
+			description: ["Power from biofuel (plant matter in the crusher)."]
+			id: "42CEB2E7C533F796"
+			rewards: [
+				{
+					id: "0B43693802D1F476"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "706722027D060744"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "579154A3687A8CE9"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "056D00BE8A662DC0"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["42CEB2E7C533F796"]
+			description: ["Burns combustable fuels!"]
+			id: "71F4CA2830D6EB69"
+			rewards: [
+				{
+					id: "2BA3C9391AE110DA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2F14BC8375F21E93"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26B1FF24E593A2FC"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1E616BE2DADE7028"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: [
+				"The base material for Mekanism."
+				""
+				"Here at Mekanism, Inc., we bring you a suite of low, mid, and high tier machinery to elevate your archaic home and inefficient resource processing to the 21st century. With our collection of high-tech tools, high-end energy generators, advanced transmission systems and intricate processing mechanisms, you’ll find yourself relieved of the tedious tasks of ‘mining’ and ‘crafting’ and quickly progressing to new levels of technological enlightenment."
+				""
+				"You may not realize it, but every time you smelt an ore directly into its respective ingot, you’re wasting the majority of what you’ve mined. Mekanism’s team of experienced chemical and mechanical engineers have developed advanced ore processing machinery to extract resources from ores with utmost efficiency. With our purification, dissolution, chemical injection, and crystallization technologies, you can now double, triple, quadruple, even quintuple your ingot production per ore, given enough infrastructure and energy."
+				""
+				"Our engineering team understands and embraces gradual technological progression. For whatever stage of gameplay you’ve reached, we offer a tier of machinery to suit your needs. Every Mekanism machine can be upgraded to a factory, allowing you to process, 3 (basic), 5 (advanced), 7 (elite), or even 9 (ultimate) different items at once -- in a single machine! No more are the rows, even walls of slow and ugly furnaces that once plagued your home. Condense your machinery infrastructure with Mekanism today."
+			]
+			id: "6450516E0A3A74DF"
+			rewards: [
+				{
+					id: "7BCE5AF93730DDFB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "33962D9124DAA941"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "4F2C4560A00CC163"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -4.375d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1329CBF5C724AC0B"]
+			description: [
+				"Entangled gives you the materials needed to bind two blocks together, allowing you to interact with either one as if they were the same block! This will allow you to transfer items, energy, fluids or whatever you want instantly, you can have more than six sides to work with or you could just hide your messy cables, the possibilities are endless!"
+				""
+				"This block will absorb the state of another!"
+			]
+			id: "5F6794C948CA652F"
+			rewards: [
+				{
+					id: "406A33924BA7F943"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "57724407D2715508"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28BC9433D1E37E58"
+				item: {
+					Count: 1
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5F6794C948CA652F"]
+			description: [
+				"Allows you to control what blocks bind together!"
+				""
+				"1. Craft an Entangled Block and an Entangled Binder"
+				"2. Place down your Entangled Block"
+				"3. Right-Click on the block you want to bind with the Entangled Binder"
+				"4. Right-Click on your Entangled Block with the Entangled Binder"
+			]
+			id: "603ED822FDAEA25D"
+			rewards: [
+				{
+					id: "2D6C5D1A9BFAF22C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "579A30EA2326A87C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25525B3DEEAE8762"
+				item: "entangled:item"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54FF1E782343EAAF"]
+			description: ["The Quantum Entangloporter is a machine that allows liquids/items/energy/gas to be sent from one Quantum Entangloporter to another through a channel. "]
+			id: "1329CBF5C724AC0B"
+			rewards: [
+				{
+					id: "35FCE408FBED795E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "76A42D8831626D77"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08A8315C4A053535"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	title: "Eta"
+}

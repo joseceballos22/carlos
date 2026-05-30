@@ -1,0 +1,1152 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:dragon_egg",
+      "emc": 0
+    },
+    {
+      "item": "chancecubes:chance_cube",
+      "emc": 0
+    },
+    {
+      "item": "torcherino:compressed_lanterino",
+      "emc": 0
+    },
+    {
+      "item": "torcherino:compressed_lantern",
+      "emc": 0
+    },
+    {
+      "item": "torcherino:compressed_torcherino",
+      "emc": 0
+    },
+    {
+      "item": "torcherino:double_compressed_lanterino",
+      "emc": 0
+    },
+    {
+      "item": "torcherino:double_compressed_lantern",
+      "emc": 0
+    },
+    {
+      "item": "torcherino:double_compressed_torcherino",
+      "emc": 0
+    },
+    {
+      "item": "torcherino:lanterino",
+      "emc": 0
+    },
+    {
+      "item": "torcherino:lantern",
+      "emc": 0
+    },
+    {
+      "item": "torcherino:torcherino",
+      "emc": 0
+    },
+    {
+      "item": "enderio:copper_alloy_ingot",
+      "emc": 384
+    },
+    {
+      "item": "enderio:energetic_alloy_ingot",
+      "emc": 2496
+    },
+    {
+      "item": "enderio:vibrant_alloy_ingot",
+      "emc": 3520
+    },
+    {
+      "item": "enderio:redstone_alloy_ingot",
+      "emc": 320
+    },
+    {
+      "item": "enderio:conductive_alloy_ingot",
+      "emc": 704
+    },
+    {
+      "item": "enderio:pulsating_alloy_ingot",
+      "emc": 1280
+    },
+    {
+      "item": "enderio:dark_steel_ingot",
+      "emc": 448
+    },
+    {
+      "item": "enderio:soularium_ingot",
+      "emc": 2097
+    },
+    {
+      "item": "enderio:end_steel_ingot",
+      "emc": 513
+    },
+    {
+      "item": "enderio:silicon",
+      "emc": 256
+    },
+    {
+      "item": "ae2:silicon",
+      "emc": 256
+    },
+    {
+      "item": "ae2:certus_quartz_crystal",
+      "emc": 1024
+    },
+    {
+      "item": "ae2:certus_quartz_dust",
+      "emc": 1024
+    },
+    {
+      "item": "ae2:charged_certus_quartz_crystal",
+      "emc": 2048
+    },
+    {
+      "item": "ae2:fluix_crystal",
+      "emc": 1184
+    },
+    {
+      "item": "ae2:fluix_dust",
+      "emc": 1184
+    },
+    {
+      "item": "ae2:printed_calculation_processor",
+      "emc": 1024
+    },
+    {
+      "item": "ae2:printed_engineering_processor",
+      "emc": 8192
+    },
+    {
+      "item": "ae2:printed_logic_processor",
+      "emc": 2048
+    },
+    {
+      "item": "ae2:printed_silicon",
+      "emc": 256
+    },
+    {
+      "item": "ae2:calculation_processor",
+      "emc": 1344
+    },
+    {
+      "item": "ae2:logic_processor",
+      "emc": 2368
+    },
+    {
+      "item": "ae2:engineering_processor",
+      "emc": 8512
+    },
+    {
+      "item": "ae2:ender_dust",
+      "emc": 1024
+    },
+    {
+      "item": "ae2:sky_dust",
+      "emc": 16
+    },
+    {
+      "item": "ae2:sky_stone_block",
+      "emc": 16
+    },
+    {
+      "item": "megacells:sky_steel_ingot",
+      "emc": 1160
+    },
+    {
+      "item": "megacells:printed_accumulation_processor",
+      "emc": 1160
+    },
+    {
+      "item": "megacells:accumulation_processor",
+      "emc": 2344
+    },
+    {
+      "item": "ae2:matter_ball",
+      "emc": 256
+    },
+    {
+      "item": "industrialforegoing:machine_frame_simple",
+      "emc": 86594
+    },
+    {
+      "item": "industrialforegoing:machine_frame_advanced",
+      "emc": 148162
+    },
+    {
+      "item": "extendedcrafting:flux_star",
+      "emc": 147456
+    },
+    {
+      "item": "extendedcrafting:ender_star",
+      "emc": 146432
+    },
+    {
+      "item": "extendedcrafting:enhanced_redstone_ingot",
+      "emc": 37179
+    },
+    {
+      "item": "extendedcrafting:enhanced_ender_ingot",
+      "emc": 37886
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot",
+      "emc": 90480
+    },
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed",
+      "emc": 256
+    },
+    {
+      "item": "enderio:grains_of_infinity",
+      "emc": 384
+    },
+    {
+      "item": "botania:manastar",
+      "emc": 0
+    },
+    {
+      "item": "botania:hydroangeas",
+      "emc": 0
+    },
+    {
+      "item": "botania:endoflame",
+      "emc": 0
+    },
+    {
+      "item": "botania:thermalily",
+      "emc": 0
+    },
+    {
+      "item": "botania:rosa_arcana",
+      "emc": 0
+    },
+    {
+      "item": "botania:munchdew",
+      "emc": 0
+    },
+    {
+      "item": "botania:entropinnyum",
+      "emc": 0
+    },
+    {
+      "item": "botania:kekimurus",
+      "emc": 0
+    },
+    {
+      "item": "botania:gourmaryllis",
+      "emc": 0
+    },
+    {
+      "item": "botania:heisei_dream",
+      "emc": 0
+    },
+    {
+      "item": "botania:dreadthorn",
+      "emc": 0
+    },
+    {
+      "item": "botania:bergamute",
+      "emc": 0
+    },
+    {
+      "item": "botania:bellethorn_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:dandelifeon",
+      "emc": 0
+    },
+    {
+      "item": "botania:solegnolia",
+      "emc": 0
+    },
+    {
+      "item": "botania:orechid_ignem",
+      "emc": 0
+    },
+    {
+      "item": "botania:bubbell_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:marimorphosis_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:tangleberrie_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:jiyuulia",
+      "emc": 0
+    },
+    {
+      "item": "botania:jiyuulia_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:rannuncarpus",
+      "emc": 0
+    },
+    {
+      "item": "botania:pollidisiac",
+      "emc": 0
+    },
+    {
+      "item": "botania:vinculotus",
+      "emc": 0
+    },
+    {
+      "item": "botania:hyacidus",
+      "emc": 0
+    },
+    {
+      "item": "botania:medumone",
+      "emc": 0
+    },
+    {
+      "item": "botania:marimorphosis",
+      "emc": 0
+    },
+    {
+      "item": "botania:hopperhock_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:agricarnation_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:exoflame",
+      "emc": 0
+    },
+    {
+      "item": "botania:orechid",
+      "emc": 0
+    },
+    {
+      "item": "botania:jaded_amaranthus",
+      "emc": 0
+    },
+    {
+      "item": "botania:bellethorn",
+      "emc": 0
+    },
+    {
+      "item": "botania:shulk_me_not",
+      "emc": 0
+    },
+    {
+      "item": "botania:rafflowsia",
+      "emc": 0
+    },
+    {
+      "item": "botania:narslimmus",
+      "emc": 0
+    },
+    {
+      "item": "botania:clayconia",
+      "emc": 0
+    },
+    {
+      "item": "botania:clayconia_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:pure_daisy",
+      "emc": 0
+    },
+    {
+      "item": "botania:solegnolia_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:labellia",
+      "emc": 0
+    },
+    {
+      "item": "botania:bubbell",
+      "emc": 0
+    },
+    {
+      "item": "botania:loonium",
+      "emc": 0
+    },
+    {
+      "item": "botania:daffomill",
+      "emc": 0
+    },
+    {
+      "item": "botania:spectranthemum",
+      "emc": 0
+    },
+    {
+      "item": "botania:rannuncarpus_chibi",
+      "emc": 0
+    },
+    {
+      "item": "botania:tangleberrie",
+      "emc": 0
+    },
+    {
+      "item": "botania:hopperhock",
+      "emc": 0
+    },
+    {
+      "item": "botania:agricarnation",
+      "emc": 0
+    },
+    {
+      "item": "botania:tigerseye",
+      "emc": 0
+    },
+    {
+      "item": "botania:fallen_kanade",
+      "emc": 0
+    },
+    {
+      "item": "botania:spectrolus",
+      "emc": 0
+    },
+    {
+      "item": "enderio:fused_quartz",
+      "emc": 1024
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 139264
+    },
+    {
+      "item": "thermal:rich_slag",
+      "emc": 128
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 15159220
+    },
+    {
+      "item": "projecte:alchemical_chest",
+      "emc": 253156
+    },
+    {
+      "item": "undergarden:cloggrum_ingot",
+      "emc": 256
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 5313506
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 26878178
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 40152336
+    },
+    {
+      "item": "avaritia:cosmic_meatballs",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:ultimate_stew",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_pile",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_nugget",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_ingot",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_nugget",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_catalyst",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_ingot",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_helmet",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_chestplate",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_pants",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_boots",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_bucket",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:infinity_totem{Damage:0}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_collector",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:bronze\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:coal\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:electrum\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:lapis_lazuli\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:steel\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:nickel\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:diamond\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:silver\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:iron\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:netherite\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:aluminum\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:invar\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:emerald\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:tin\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:redstone\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:copper\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:gold\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:glowstone\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:lead\"}",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:soulstone",
+      "emc": 128
+    },
+    {
+      "item": "mysticalagriculture:soulstone_cobble",
+      "emc": 128
+    },
+    {
+      "item": "projecte:collector_mk1",
+      "emc": 0
+    },
+    {
+      "item": "projecte:collector_mk2",
+      "emc": 0
+    },
+    {
+      "item": "projecte:collector_mk3",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:basic_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:dark_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:red_collector",
+      "emc": 0
+    },
+    {
+      "item": "thermal:phytogro",
+      "emc": 305
+    },
+    {
+      "item": "ae2:energy_cell",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_item_cell_1k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_item_cell_4k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_item_cell_16k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_item_cell_64k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_item_cell_256k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_fluid_cell_1k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_fluid_cell_4k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_fluid_cell_16k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_fluid_cell_64k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:portable_fluid_cell_256k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:_item_storage_cell_1k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:_item_storage_cell_4k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:item_storage_cell_16k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:item_storage_cell_64k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:item_storage_cell_256k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:fluid_storage_cell_1k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:fluid_storage_cell_4k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:fluid_storage_cell_16k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:fluid_storage_cell_64k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:fluid_storage_cell_256k",
+      "emc": 0
+    },
+    {
+      "item": "ae2:spatial_storage_cell_2",
+      "emc": 0
+    },
+    {
+      "item": "ae2:spatial_storage_cell_16",
+      "emc": 0
+    },
+    {
+      "item": "ae2:spatial_storage_cell_128",
+      "emc": 0
+    },
+    {
+      "item": "megacells:item_storage_cell_1m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:item_storage_cell_4m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:item_storage_cell_16m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:item_storage_cell_64m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:item_storage_cell_256m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:fluid_storage_cell_1m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:fluid_storage_cell_4m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:fluid_storage_cell_16m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:fluid_storage_cell_64m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:fluid_storage_cell_256m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:bulk_item_cell",
+      "emc": 0
+    },
+    {
+      "item": "megacells:mana_storage_cell_1m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:mana_storage_cell_4m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:mana_storage_cell_16m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:mana_storage_cell_64m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:mana_storage_cell_256m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:chemical_storage_cell_1m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:chemical_storage_cell_4m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:chemical_storage_cell_16m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:chemical_storage_cell_64m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:chemical_storage_cell_256m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_item_cell_1m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_item_cell_4m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_item_cell_16m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_item_cell_64m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_item_cell_256m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_fluid_cell_1m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_fluid_cell_4m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_fluid_cell_16m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_fluid_cell_64m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_fluid_cell_256m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_mana_cell_1m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_mana_cell_4m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_mana_cell_16m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_mana_cell_64m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_mana_cell_256m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_chemical_cell_1m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_chemical_cell_4m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_chemical_cell_16m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_chemical_cell_64m",
+      "emc": 0
+    },
+    {
+      "item": "megacells:portable_chemical_cell_256m",
+      "emc": 0
+    },
+    {
+      "item": "appmek:chemical_cell_housing",
+      "emc": 0
+    },
+    {
+      "item": "ae2things:disk_drive_1k",
+      "emc": 0
+    },
+    {
+      "item": "ae2things:disk_drive_4k",
+      "emc": 0
+    },
+    {
+      "item": "ae2things:disk_drive_16k",
+      "emc": 0
+    },
+    {
+      "item": "ae2things:disk_drive_64k",
+      "emc": 0
+    },
+    {
+      "item": "ae2things:disk_drive_256k",
+      "emc": 0
+    },
+    {
+      "item": "refinedstorage:1k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "refinedstorage:4k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "refinedstorage:16k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "refinedstorage:64k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "refinedstorage:64k_fluid_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "refinedstorage:256k_fluid_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "refinedstorage:1024k_fluid_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "refinedstorage:4096k_fluid_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:256k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:1024k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:4096k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:16384k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:65536k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:363144k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:1048576k_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:infinite_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:16384k_fluid_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:65536k_fluid_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:262144k_fluid_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:1048576k_fluid_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "extradisks:infinite_fluid_storage_disk",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:trident",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bread",
+      "emc": 72
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:basic_relay",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:basic_emc_link",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:final_star_shard",
+      "emc": 3377699720667136
+    },
+    {
+      "item": "minecraft:clay",
+      "emc": 64
+    },
+    {
+      "item": "immersiveengineering:ingot_constantan",
+      "emc": 576
+    },
+    {
+      "item": "immersiveengineering:ingot_electrum",
+      "emc": 1280
+    },
+    {
+      "item": "thermal:rose_gold_ingot",
+      "emc": 608
+    },
+    {
+      "item": "thermal:invar_ingot",
+      "emc": 512
+    },
+    {
+      "item": "thermal:signalum_ingot",
+      "emc": 288
+    },
+    {
+      "item": "thermal:lumium_ingot",
+      "emc": 512
+    },
+    {
+      "item": "thermal:enderium_ingot",
+      "emc": 5888
+    },
+    {
+      "item": "thermal:enderium_plate",
+      "emc": 5888
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron",
+      "emc": 256
+    },
+    {
+      "item": "redstone_arsenal:flux_ingot",
+      "emc": 2367
+    },
+    {
+      "item": "immersiveengineering:slag_gravel",
+      "emc": 4
+    },
+    {
+      "item": "tconstruct:seared_brick",
+      "emc": 445
+    },
+    {
+      "item": "tconstruct:scorched_brick",
+      "emc": 445
+    },
+    {
+      "item": "minecraft:iron_block",
+      "emc": 2304
+    },
+    {
+      "item": "minecraft:gold_block",
+      "emc": 18432
+    },
+    {
+      "item": "minecraft:copper_block",
+      "emc": 1152
+    },
+    {
+      "item": "immersiveengineering:storage_aluminum",
+      "emc": 1152
+    },
+    {
+      "item": "immersiveengineering:storage_silver",
+      "emc": 4608
+    },
+    {
+      "item": "immersiveengineering:storage_nickel",
+      "emc": 9216
+    },
+    {
+      "item": "mekanism:block_uranium",
+      "emc": 36864
+    },
+    {
+      "item": "mekanism:block_osmium",
+      "emc": 4608
+    },
+    {
+      "item": "mekanism:block_tin",
+      "emc": 2304
+    },
+    {
+      "item": "mekanism:block_lead",
+      "emc": 4608
+    },
+    {
+      "item": "re_endergy:crude_steel_ingot",
+      "emc": 273
+    },
+    {
+      "item": "re_endergy:construction_alloy_ingot",
+      "emc": 388
+    },
+    {
+      "item": "re_endergy:crystalline_alloy_ingot",
+      "emc": 10608
+    },
+    {
+      "item": "re_endergy:melodic_alloy_ingot",
+      "emc": 705
+    },
+    {
+      "item": "re_endergy:stellar_alloy_ingot",
+      "emc": 140033
+    },
+    {
+      "item": "industrialforegoing:pink_slime",
+      "emc": 128
+    },
+    {
+      "item": "re_endergy:crystalline_pink_slime_ingot",
+      "emc": 10736
+    },
+    {
+      "item": "re_endergy:energetic_silver_ingot",
+      "emc": 960
+    },
+    {
+      "item": "re_endergy:vivid_alloy_ingot",
+      "emc": 1984
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+	hide_tooltip: true
+	icon: "kubejs:reward_bag"
+	id: "4473949DAB8BBCAE"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "rftoolsbase:dimensionalshard" }
+		{ item: "cyclic:plate_launch" }
+		{ item: "cyclic:hopper" }
+		{ item: "minecraft:soul_campfire" }
+		{ item: "minecraft:crying_obsidian" }
+		{ item: "minecraft:spyglass" }
+		{ item: "minecraft:name_tag" }
+		{ item: "pamhc2foodextended:brownieitem" }
+		{ item: "pamhc2foodextended:grapesodaitem" }
+		{ item: "cyclic:laser" }
+		{ item: "slabmachines:tnt_slab", title: "The Etho Slab" }
+		{ item: "slabmachines:chest_slab" }
+		{ item: "slabmachines:furnace_slab" }
+		{ item: "slabmachines:note_slab" }
+		{ item: "minecraft:iron_ingot" }
+		{ item: "minecraft:copper_ingot" }
+		{ item: "minecraft:gold_ingot" }
+		{ item: "mysticalagriculture:prosperity_ingot" }
+		{ item: "industrialforegoing:pink_slime" }
+		{ item: "avaritia:neutron_pile" }
+		{ item: "mysticalagradditions:nether_star_shard" }
+		{ count: 64, item: "framedblocks:framed_cube" }
+		{ item: "gag:no_solicitors" }
+		{ item: "manavisualizer:manareader" }
+		{ count: 64, item: "toms_storage:ts.inventory_cable" }
+		{ item: "craftingstation:crafting_station_slab" }
+		{ item: "botania:entropinnyum" }
+		{ item: "avaritia:diamond_lattice" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ensorcellation:soulbound"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "usefulslime:slippery_slime_block" }
+		{ item: "draconicevolution:awakened_draconium_nugget" }
+		{ item: "mekanismadditions:obsidian_tnt" }
+		{ item: "mekanismgenerators:wind_generator" }
+		{ item: "exdeorum:random_armor_trim" }
+		{ item: "exdeorum:random_pottery_sherd" }
+		{ item: "immersiveengineering:electric_lantern" }
+		{ item: "redstone_arsenal:flux_obsidian_rod" }
+		{ item: "aether:gingerbread_man" }
+		{ item: "rftoolsbase:tablet" }
+		{ item: "havenanimalseeds:polar_bear_seed" }
+		{ item: "havenanimalseeds:sniffer_seed" }
+		{ item: "havenanimalseeds:turtle_seed" }
+		{ item: "minecraft:iron_block" }
+		{ item: "minecraft:gold_block" }
+		{ item: "minecraft:copper_block" }
+	]
+	title: "Okay Reward"
+	use_title: true
+}

@@ -1,0 +1,3 @@
+// Compost colors for tinycoal. You may add your own colors, change existing ones, or remove colors that aren't needed.
+tinycharcoal, #f2f1ed
+tinycoal, #302d33

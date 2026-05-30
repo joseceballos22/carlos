@@ -1,0 +1,9 @@
+{
+    "boom": {
+    "category": "master",
+    "sounds": [
+    "boom"
+  ],
+    "subtitle": "subtitles.custom.boom"
+  }
+}

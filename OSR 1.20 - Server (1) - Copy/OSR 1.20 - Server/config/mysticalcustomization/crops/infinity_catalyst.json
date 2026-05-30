@@ -1,0 +1,15 @@
+{
+  "name": "Infinity Catalyst",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "avaritia:infinity_catalyst"
+  },
+  "glint": true,
+  "color": "ffedff",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  },
+  "crux": "avaritia:infinity"
+}

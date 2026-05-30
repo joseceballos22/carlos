@@ -1,0 +1,14 @@
+{
+  "name": "Aercloud",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "aether:cold_aercloud"
+  },
+  "color": "f4f5f3",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "aether:cold_aercloud"
+}

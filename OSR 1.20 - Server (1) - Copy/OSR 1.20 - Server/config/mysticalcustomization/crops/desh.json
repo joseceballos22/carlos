@@ -1,0 +1,14 @@
+{
+  "name": "Desh",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "ad_astra:desh_ingot"
+  },
+  "color": "e67300",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "ad_astra:desh_block"
+}

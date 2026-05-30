@@ -1,0 +1,9 @@
+#packmode expert
+craftingTable.removeByName("rftoolsdim:dimension_builder");
+craftingTable.removeByName("rftoolsdim:dimension_editor");
+craftingTable.removeByName("rftoolsstorage:modular_storage");
+craftingTable.removeByName("rftoolspower:dimensionalcell");
+craftingTable.addShaped("dimension_builder", <item:rftoolsdim:dimension_builder>, [[<tag:items:forge:ender_pearls>, <tag:items:forge:gems/emerald>, <tag:items:forge:ender_pearls>], [<tag:items:forge:gems/diamond>, <item:rftoolsbase:machine_frame>, <tag:items:forge:gems/diamond>], [<item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>]]);
+craftingTable.addShaped("dimension_editor", <item:rftoolsdim:dimension_editor>, [[<tag:items:forge:ender_pearls>, <tag:items:forge:ingots/iron>, <tag:items:forge:ender_pearls>], [<tag:items:forge:ingots/iron>, <item:rftoolsbase:machine_frame>, <tag:items:forge:ingots/iron>], [<item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>]]);
+craftingTable.addShaped("modular_storage", <item:rftoolsstorage:modular_storage>, [[<item:extendedcrafting:redstone_ingot>, <item:toms_storage:ts.crafting_terminal>, <item:extendedcrafting:redstone_ingot>], [<item:minecraft:quartz>, <item:rftoolsbase:machine_frame>, <item:minecraft:quartz>], [<item:extendedcrafting:redstone_ingot>, <item:minecraft:quartz>, <item:extendedcrafting:redstone_ingot>]]);
+craftingTable.addShaped("dimensionalcell", <item:rftoolspower:dimensionalcell>, [[<item:extendedcrafting:redstone_ingot_block>, <tag:items:forge:gems/diamond>, <item:extendedcrafting:redstone_ingot_block>], [<item:minecraft:prismarine_shard>, <item:rftoolsbase:machine_frame>, <item:minecraft:prismarine_shard>], [<item:extendedcrafting:redstone_ingot_block>, <item:tesseract:tesseract>, <item:extendedcrafting:redstone_ingot_block>]]);

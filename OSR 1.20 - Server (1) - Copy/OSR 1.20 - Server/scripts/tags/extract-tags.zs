@@ -1,0 +1,12 @@
+import crafttweaker.api.tag.manager.ITagManager;
+<tagmanager:items>.clear(<tag:items:extractinator:cobblestone>);
+<tagmanager:items>.clear(<tag:items:extractinator:common_drops>);
+<tagmanager:items>.clear(<tag:items:extractinator:common_gravel_drops>);
+<tagmanager:items>.clear(<tag:items:extractinator:common_snow_drops>);
+<tagmanager:items>.clear(<tag:items:extractinator:rare_drops>);
+<tagmanager:items>.clear(<tag:items:extractinator:rare_sand_drops>);
+<tagmanager:items>.clear(<tag:items:extractinator:stones>);
+<tagmanager:items>.clear(<tag:items:extractinator:very_rare_drops>);
+<tagmanager:items>.addId(<tag:items:extractinator:very_rare_drops>, <resource:projectexpansion:final_star_shard>);
+<tagmanager:items>.addId(<tag:items:extractinator:rare_drops>, <resource:kubejs:sextuple_compressed_cobblestone>);
+<tagmanager:items>.addId(<tag:items:extractinator:common_drops>, <resource:draconicevolution:dragon_heart>);

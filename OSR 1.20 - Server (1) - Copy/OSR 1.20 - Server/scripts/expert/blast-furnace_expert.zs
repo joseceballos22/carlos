@@ -1,0 +1,5 @@
+#packmode expert
+craftingTable.remove(<item:ad_astra:etrionic_blast_furnace>);
+craftingTable.remove(<item:minecraft:blast_furnace>);
+craftingTable.addShaped("etrionic_blast_furnace", <item:ad_astra:etrionic_blast_furnace>, [[<item:mekanism:steel_casing>, <item:mekanism:steel_casing>, <item:mekanism:steel_casing>], [<item:extendedcrafting:redstone_ingot_block>, <item:minecraft:blast_furnace>, <item:extendedcrafting:redstone_ingot_block>], [<item:mekanism:steel_casing>, <item:mekanism:steel_casing>, <item:mekanism:steel_casing>]]);
+craftingTable.addShaped("blast_furnace", <item:minecraft:blast_furnace>, [[<tag:items:forge:ingots/compressed_iron>, <tag:items:forge:ingots/compressed_iron>, <tag:items:forge:ingots/compressed_iron>], [<tag:items:forge:ingots/compressed_iron>, <item:ironfurnaces:copper_furnace>, <tag:items:forge:ingots/compressed_iron>], [<item:kubejs:double_compressed_cobblestone>, <item:kubejs:double_compressed_cobblestone>, <item:kubejs:double_compressed_cobblestone>]]);

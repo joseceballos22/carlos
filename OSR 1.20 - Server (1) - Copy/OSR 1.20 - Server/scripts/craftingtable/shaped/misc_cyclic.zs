@@ -1,0 +1,23 @@
+#packmode normal
+craftingTable.remove(<item:cyclic:unbreakable_block>);
+craftingTable.remove(<item:cyclic:anvil>);
+craftingTable.remove(<item:cyclic:anvil_magma>);
+craftingTable.remove(<item:cyclic:teleport>);
+craftingTable.remove(<item:cyclic:solidifier>);
+craftingTable.remove(<item:cyclic:melter>);
+craftingTable.remove(<item:cyclic:wireless_energy>);
+craftingTable.remove(<item:cyclic:wireless_item>);
+craftingTable.remove(<item:cyclic:wireless_fluid>);
+craftingTable.remove(<item:cyclic:crate>);
+craftingTable.remove(<item:cyclic:unbreakable_reactive>);
+craftingTable.addShaped("unbreakable_block", <item:cyclic:unbreakable_block> * 4, [[<tag:items:forge:obsidian>, <tag:items:forge:obsidian>, <tag:items:forge:obsidian>], [<tag:items:forge:obsidian>, <item:kubejs:nonuple_compressed_cobblestone>, <tag:items:forge:obsidian>], [<tag:items:forge:obsidian>, <tag:items:forge:obsidian>, <tag:items:forge:obsidian>]]);
+craftingTable.addShaped("powered_anvil", <item:cyclic:anvil>, [[<item:minecraft:diamond>, <item:minecraft:diamond>, <item:minecraft:diamond>], [<item:powah:capacitor_niotic>, <item:cyclic:gem_obsidian>, <item:powah:capacitor_niotic>], [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>]]);
+craftingTable.addShaped("magma_anvil", <item:cyclic:anvil_magma>, [[<item:minecraft:magma_block>, <item:minecraft:magma_block>, <item:minecraft:magma_block>], [<item:powah:capacitor_blazing>, <tag:items:exdeorum:compressed/cobblestone>, <item:powah:capacitor_blazing>], [<tag:items:forge:obsidian>, <item:cyclic:fireball>, <tag:items:forge:obsidian>]]);
+craftingTable.addShaped("cyclic_teleport", <item:cyclic:teleport>, [[<item:minecraft:end_stone>, <item:cyclic:gem_obsidian>, <item:minecraft:end_stone>], [<item:minecraft:calcite>, <item:mekanism:teleportation_core>, <item:minecraft:calcite>]]);
+craftingTable.addShaped("solidifier", <item:cyclic:solidifier>, [[<tag:items:forge:storage_blocks/lapis>, <tag:items:exdeorum:compressed/cobblestone>, <tag:items:forge:storage_blocks/lapis>], [<tag:items:forge:glass/colorless>, <item:industrialforegoing:machine_frame_simple>, <tag:items:forge:glass/colorless>], [<item:cyclic:obsidian_pressure_plate>, <item:cyclic:obsidian_pressure_plate>, <item:cyclic:obsidian_pressure_plate>]]);
+craftingTable.addShaped("melter", <item:cyclic:melter>, [[<item:minecraft:redstone_block>, <item:minecraft:furnace>, <item:minecraft:redstone_block>], [<tag:items:forge:glass/colorless>, <item:industrialforegoing:machine_frame_simple>, <tag:items:forge:glass/colorless>], [<tag:items:forge:obsidian>, <tag:items:forge:obsidian>, <tag:items:forge:obsidian>]]);
+craftingTable.addShaped("wireless_energy", <item:cyclic:wireless_energy>, [[<item:undergarden:cloggrum_bars>, <item:minecraft:nether_brick>, <item:undergarden:cloggrum_bars>], [<item:cyclic:gem_amber>, <item:tesseract:tesseract>, <item:cyclic:gem_amber>], [<item:undergarden:cloggrum_bars>, <item:minecraft:nether_brick>, <item:undergarden:cloggrum_bars>]]);
+craftingTable.addShaped("wireless_item", <item:cyclic:wireless_item>, [[<item:undergarden:cloggrum_bars>, <item:minecraft:diamond>, <item:undergarden:cloggrum_bars>], [<item:cyclic:gem_amber>, <item:tesseract:tesseract>, <item:cyclic:gem_amber>], [<item:undergarden:cloggrum_bars>, <item:minecraft:diamond>, <item:undergarden:cloggrum_bars>]]);
+craftingTable.addShaped("wireless_fluid", <item:cyclic:wireless_fluid>, [[<item:undergarden:cloggrum_bars>, <item:minecraft:bucket>, <item:undergarden:cloggrum_bars>], [<item:cyclic:gem_amber>, <item:tesseract:tesseract>, <item:cyclic:gem_amber>], [<item:undergarden:cloggrum_bars>, <item:minecraft:bucket>, <item:undergarden:cloggrum_bars>]]);
+craftingTable.addShaped("crate", <item:cyclic:crate>, [[<tag:items:minecraft:planks>, <item:minecraft:iron_bars>, <tag:items:minecraft:planks>], [<item:minecraft:iron_bars>, <item:ironchests:obsidian_chest>, <item:minecraft:iron_bars>], [<tag:items:minecraft:planks>, <item:minecraft:iron_bars>, <tag:items:minecraft:planks>]]);
+craftingTable.addShaped("unbreakable_reactive", <item:cyclic:unbreakable_reactive> * 4, [[<item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>], [<item:minecraft:crying_obsidian>, <item:kubejs:nonuple_compressed_cobblestone>, <item:minecraft:crying_obsidian>], [<item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>]]);

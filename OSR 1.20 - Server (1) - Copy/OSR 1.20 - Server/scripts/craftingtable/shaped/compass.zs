@@ -1,0 +1,4 @@
+craftingTable.remove(<item:naturescompass:naturescompass>);
+craftingTable.remove(<item:explorerscompass:explorerscompass>);
+craftingTable.addShaped("naturescompass", <item:naturescompass:naturescompass>, [[<item:mysticalagriculture:prudentium_essence>, <item:minecraft:pointed_dripstone>, <item:mysticalagriculture:prudentium_essence>], [<item:minecraft:pointed_dripstone>, <item:minecraft:compass>, <item:minecraft:pointed_dripstone>], [<item:mysticalagriculture:prudentium_essence>, <item:minecraft:pointed_dripstone>, <item:mysticalagriculture:prudentium_essence>]]);
+craftingTable.addShaped("explorerscompass", <item:explorerscompass:explorerscompass>, [[<item:minecraft:cobweb>, <item:enderio:dark_steel_ingot>, <item:minecraft:cobweb>], [<item:enderio:dark_steel_ingot>, <item:minecraft:compass>, <item:enderio:dark_steel_ingot>], [<item:minecraft:cobweb>, <item:enderio:dark_steel_ingot>, <item:minecraft:cobweb>]]);

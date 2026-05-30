@@ -1,0 +1,2 @@
+craftingTable.remove(<item:farmingforblockheads:red_fertilizer>);
+craftingTable.addShaped("red_fertilizer", <item:farmingforblockheads:red_fertilizer> * 4, [[<tag:items:balm:red_dyes>, <item:thermal:phytogro>, <tag:items:balm:red_dyes>], [<tag:items:forge:nuggets/netherite>, <item:botania:fertilizer>, <tag:items:forge:nuggets/netherite>], [<item:mysticalagriculture:mystical_fertilizer>, <item:mysticalagriculture:mystical_fertilizer>, <item:mysticalagriculture:mystical_fertilizer>]]);

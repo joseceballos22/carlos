@@ -1,0 +1,4 @@
+craftingTable.remove(<item:simplemagnets:basicmagnet>);
+craftingTable.remove(<item:simplemagnets:advancedmagnet>);
+craftingTable.addShaped("basicmagnet", <item:simplemagnets:basicmagnet>, [[<item:pneumaticcraft:ingot_iron_compressed>, <item:pneumaticcraft:ingot_iron_compressed>, <item:industrialforegoing:laser_lens11>], [<item:enderio:electromagnet>, <item:botania:lens_magnet>, <item:minecraft:air>], [<item:pneumaticcraft:ingot_iron_compressed>, <item:pneumaticcraft:ingot_iron_compressed>, <item:industrialforegoing:laser_lens14>]]);
+craftingTable.addShaped("advancedmagnet", <item:simplemagnets:advancedmagnet>, [[<tag:items:forge:plates/electrum>, <tag:items:forge:plates/electrum>, <item:industrialforegoing:laser_lens11>], [<item:simplemagnets:basicmagnet>, <item:cyclic:ender_eye_reuse>, <item:rftoolsbase:infused_diamond>], [<tag:items:forge:plates/electrum>, <tag:items:forge:plates/electrum>, <item:industrialforegoing:laser_lens14>]]);

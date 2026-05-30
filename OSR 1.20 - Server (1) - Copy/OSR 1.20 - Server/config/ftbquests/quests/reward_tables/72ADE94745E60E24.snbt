@@ -1,0 +1,85 @@
+{
+	hide_tooltip: true
+	icon: "kubejs:reward_bag"
+	id: "72ADE94745E60E24"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "minecraft:bedrock" }
+		{ item: "bigreactors:anglesite_crystal" }
+		{ item: "minecraft:axolotl_bucket" }
+		{ item: "bigreactors:benitoite_crystal" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 5
+					}
+				}
+				id: "immersiveengineering:buzzsaw"
+			}
+		}
+		{ item: "botania:blacker_lotus" }
+		{ item: "botania:exchange_rod" }
+		{ item: "botania:enchanted_soil" }
+		{ item: "minecraft:sculk_shrieker" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 81
+					}
+				}
+				id: "cyclic:storage_bag"
+				tag: { }
+			}
+		}
+		{ item: "cyclic:charm_stealthpotion" }
+		{ item: "cyclic:ender_bag" }
+		{ item: "pamhc2foodextended:jambalayaitem" }
+		{ item: "ad_astra:ostrum_ingot" }
+		{ item: "ad_astra:desh_ingot" }
+		{ item: "chancecubes:silk_touch_pendant" }
+		{ item: "cyclic:anvil" }
+		{ item: "cyclic:disenchanter" }
+		{ item: "cyclic:altar_destruction" }
+		{ item: "cyclic:netherite_lantern" }
+		{ item: "powah:capacitor_nitro" }
+		{ item: "ironchests:netherite_chest" }
+		{ item: "extradisks:withering_processor" }
+		{ item: "minecraft:netherite_block" }
+		{ item: "cobblefordays:tier_5" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:tadpole_bucket" }
+		{ count: 16, item: "minecraft:enchanted_golden_apple" }
+		{ count: 16, item: "botania:blacker_lotus" }
+		{ item: "pamhc2foodcore:epicbaconitem" }
+		{ item: "minecraft:warden_spawn_egg" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:turtle_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "draconicevolution:wyvern_core" }
+		{ item: "cyclic:tile_transporter_empty" }
+		{ item: "simplybackpacks:epicbackpack" }
+	]
+	title: "Epic Reward"
+	use_title: true
+}

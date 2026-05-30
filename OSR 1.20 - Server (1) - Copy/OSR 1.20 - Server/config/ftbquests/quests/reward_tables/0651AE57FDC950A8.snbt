@@ -1,0 +1,115 @@
+{
+	hide_tooltip: true
+	icon: "kubejs:reward_bag"
+	id: "0651AE57FDC950A8"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "ftbquests:book" }
+		{ item: "chancecubes:chance_cube" }
+		{ item: "chancecubes:compact_giant_chance_cube" }
+		{ item: "botania:blacker_lotus" }
+		{ item: "botania:black_lotus" }
+		{ item: "minecraft:nether_star" }
+		{ item: "minecraft:dirt" }
+		{ item: "botania:pump" }
+		{ item: "minecraft:calibrated_sculk_sensor" }
+		{ item: "minecraft:lectern" }
+		{ item: "minecraft:daylight_detector" }
+		{ item: "minecraft:redstone_block" }
+		{ item: "minecraft:tnt" }
+		{ item: "cyclic:generator_solar" }
+		{ item: "pamhc2foodcore:pumpkinbreaditem" }
+		{ item: "pamhc2foodcore:carrotcakeitem" }
+		{ item: "minecraft:black_glazed_terracotta" }
+		{ item: "pamhc2foodcore:carrotsoupitem" }
+		{ item: "pamhc2foodcore:caramelappleitem" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:golden_carrot" }
+		{ item: "minecraft:chorus_fruit" }
+		{ item: "minecraft:pufferfish" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:suspicious_stew"
+				tag: {
+					Effects: [{
+						EffectDuration: 200
+						EffectId: 3
+						"forge:effect_id": "minecraft:haste"
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:diamond_horse_armor" }
+		{ item: "minecraft:snowball" }
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:refined_obsidian_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aether:candy_cane_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "ensorcellation:curse_fool"
+							lvl: 1s
+						}
+						{
+							id: "ensorcellation:curse_mercy"
+							lvl: 1s
+						}
+						{
+							id: "ensorcellation:soulbound"
+							lvl: 1s
+						}
+					]
+					RepairCost: 7
+				}
+			}
+		}
+		{ item: "mysticalagriculture:infinity_catalyst_essence" }
+		{ item: "avaritia:neutron_ingot" }
+		{ item: "ae2:singularity" }
+		{ item: "botania:spark" }
+		{ item: "botanypotstiers:elite_terracotta_hopper_botany_pot" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 4
+					}
+				}
+				id: "immersiveengineering:chemthrower"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 3
+					}
+				}
+				id: "immersiveengineering:railgun"
+			}
+		}
+		{ item: "avaritia:infinity_nugget" }
+		{ item: "draconicevolution:dragon_heart" }
+		{ item: "avaritia:compressed_chest" }
+		{ item: "kubejs:animal_seed_base" }
+	]
+	title: "Random Reward"
+	use_title: true
+}

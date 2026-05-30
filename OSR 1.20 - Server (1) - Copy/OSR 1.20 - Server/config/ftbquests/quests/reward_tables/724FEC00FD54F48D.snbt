@@ -1,0 +1,101 @@
+{
+	hide_tooltip: true
+	icon: "kubejs:reward_bag"
+	id: "724FEC00FD54F48D"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "pamhc2foodextended:pizzasliceitem" }
+		{ item: "minecraft:glow_ink_sac" }
+		{ item: "enderio:cake_base" }
+		{ item: "cyclic:hopper" }
+		{ item: "mob_grinding_utils:mob_swab" }
+		{ item: "minecraft:dripstone_block" }
+		{ item: "minecraft:pointed_dripstone" }
+		{ item: "refinedstorage:raw_advanced_processor" }
+		{ item: "refinedstorage:raw_basic_processor" }
+		{ item: "refinedstorage:raw_improved_processor" }
+		{ item: "botania:starfield" }
+		{ item: "mekanismgenerators:turbine_blade" }
+		{ item: "mysticalagriculture:prosperity_block" }
+		{ item: "minecraft:torchflower" }
+		{ item: "minecraft:pitcher_plant" }
+		{ item: "minecraft:disc_fragment_5" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 7
+					}
+				}
+				id: "cyclic:lunchbox"
+				tag: {
+					count_empty: 7
+					count_max: 7
+					holding: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:infusion_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cyclic:torch_launcher"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "chunkloaders:single_chunk_loader" }
+		{ item: "cyclic:no_soliciting" }
+		{ item: "undergarden:gloom_o_lantern" }
+		{ item: "minecraft:brewing_stand" }
+		{ item: "cyclic:workbench" }
+		{ item: "chancecubes:scanner" }
+		{
+			item: {
+				Count: 1
+				id: "cyclic:sleeping_mat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "handcrafted:white_cup" }
+		{ item: "cyclic:anvil_magma" }
+		{ item: "industrialforegoing:mob_imprisonment_tool" }
+		{ item: "avaritia:neutron_pile" }
+		{ item: "mysticalagradditions:nether_star_shard" }
+		{ item: "ae2:printed_calculation_processor" }
+		{ item: "ae2:printed_engineering_processor" }
+		{ item: "ae2:printed_logic_processor" }
+		{ item: "minecraft:bee_nest" }
+		{ item: "botania:entropinnyum" }
+		{ item: "botania:orechid" }
+		{ item: "enderstorage:ender_chest" }
+		{ item: "cyclic:crate" }
+		{ item: "cyclic:anvil_void" }
+		{ item: "cyclic:doorbell" }
+		{ item: "chancecubes:scanner" }
+		{ item: "thermal:lightning_tnt" }
+		{ count: 64, item: "mob_grinding_utils:solid_xp_baby" }
+		{ item: "cyclic:water_candle" }
+		{ item: "cyclic:sponge_lava" }
+		{ item: "kubejs:animal_seed_base" }
+		{ item: "havenanimalseeds:dolphin_seed" }
+		{ item: "havenanimalseeds:donkey_seed" }
+		{ item: "havenanimalseeds:horse_seed" }
+	]
+	title: "Decent Reward"
+	use_title: true
+}

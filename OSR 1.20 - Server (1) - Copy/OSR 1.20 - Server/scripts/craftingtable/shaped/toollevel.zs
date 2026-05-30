@@ -1,0 +1,2 @@
+craftingTable.remove(<item:toolleveling:tool_leveling_table>);
+craftingTable.addShaped("tool_leveling_table", <item:toolleveling:tool_leveling_table>, [[<item:mysticalagradditions:nether_star_shard>, <item:extendedcrafting:flux_star>, <item:mysticalagradditions:nether_star_shard>], [<item:extendedcrafting:flux_star>, <item:minecraft:enchanting_table>, <item:extendedcrafting:flux_star>], [<item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>]]);

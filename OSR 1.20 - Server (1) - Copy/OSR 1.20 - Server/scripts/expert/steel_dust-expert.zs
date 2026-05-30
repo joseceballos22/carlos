@@ -1,0 +1,2 @@
+<recipetype:immersiveengineering:blast_furnace>.addJsonRecipe("steel_dust",
+{"type":"immersiveengineering:blast_furnace","input":{"item":"mekanism:dust_iron"},"result":{"item":"mekanism:dust_steel"},"slag":{"tag":"forge:slag"},"time":1200});

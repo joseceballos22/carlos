@@ -1,0 +1,9 @@
+craftingTable.addShaped("demon_steel_tier_2", <item:kubejs:demon_steel_tier_2>, [[<item:kubejs:demon_steel_tier_1>, <item:kubejs:demon_steel_tier_1>, <item:kubejs:demon_steel_tier_1>], [<item:kubejs:demon_steel_tier_1>, <item:minecraft:air>, <item:kubejs:demon_steel_tier_1>], [<item:kubejs:demon_steel_tier_1>, <item:kubejs:demon_steel_tier_1>, <item:kubejs:demon_steel_tier_1>]]);
+craftingTable.addShaped("demon_steel_tier_3", <item:kubejs:demon_steel_tier_3>, [[<item:kubejs:demon_steel_tier_2>, <item:kubejs:demon_steel_tier_2>, <item:kubejs:demon_steel_tier_2>], [<item:kubejs:demon_steel_tier_2>, <item:minecraft:air>, <item:kubejs:demon_steel_tier_2>], [<item:kubejs:demon_steel_tier_2>, <item:kubejs:demon_steel_tier_2>, <item:kubejs:demon_steel_tier_2>]]);
+craftingTable.addShaped("demon_steel_tier_4", <item:kubejs:demon_steel_tier_4>, [[<item:kubejs:demon_steel_tier_3>, <item:kubejs:demon_steel_tier_3>, <item:kubejs:demon_steel_tier_3>], [<item:kubejs:demon_steel_tier_3>, <item:minecraft:air>, <item:kubejs:demon_steel_tier_3>], [<item:kubejs:demon_steel_tier_3>, <item:kubejs:demon_steel_tier_3>, <item:kubejs:demon_steel_tier_3>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped("infinity_catalyst_from_essence", 1, <item:avaritia:infinity_catalyst>, [
+	[<item:mysticalagriculture:infinity_catalyst_essence>, <item:mysticalagriculture:infinity_catalyst_essence>, <item:mysticalagriculture:infinity_catalyst_essence>], 
+	[<item:mysticalagriculture:infinity_catalyst_essence>, <item:extendedcrafting:ultimate_singularity>, <item:mysticalagriculture:infinity_catalyst_essence>], 
+	[<item:mysticalagriculture:infinity_catalyst_essence>, <item:mysticalagriculture:infinity_catalyst_essence>, <item:mysticalagriculture:infinity_catalyst_essence>]
+]);

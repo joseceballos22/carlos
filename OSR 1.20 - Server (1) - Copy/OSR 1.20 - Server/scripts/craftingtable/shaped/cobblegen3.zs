@@ -1,0 +1,2 @@
+#packmode normal
+craftingTable.addShaped("cobblegen3",<item:cobblefordays:tier_3>, [[<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>],[<item:exdeorum:porcelain_water_bucket>,<item:minecraft:glass>,<item:exdeorum:porcelain_lava_bucket>],[<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>]]);

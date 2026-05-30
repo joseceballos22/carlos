@@ -1,0 +1,742 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mu"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "chipped:botanist_workbench"
+	id: "5A50281F2260059C"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 3.0d
+		y: -3.0d
+	}]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5051F80ECA9FBFB9"]
+			description: ["The botanist's workbench is a workbench that allows the player to craft variations of plant based blocks."]
+			id: "2E4FB49A2DD9A513"
+			rewards: [
+				{
+					id: "3E031A3A8E98445F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3B8E855E2A112058"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6364D8FD11C52671"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "006CC6F72C47F9DA"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5051F80ECA9FBFB9"]
+			description: ["The glass blower is a workbench that allows the player to craft variations of glass blocks and panes. "]
+			id: "1AA5CB18794F41EC"
+			rewards: [
+				{
+					id: "51ACED88ADAEB971"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "14EE2F0A40911D82"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BEF59364E25189B"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "776B98E4A5AD16DD"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5051F80ECA9FBFB9"]
+			description: ["The carpenter's table is a workbench that allows the player to craft variations of planks and torches. "]
+			id: "63C16B115A6500B6"
+			rewards: [
+				{
+					id: "08483063B68E5FC1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "121EF9CFFCD5C89F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A03D4568DD439EC"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "20F76B7233DFA176"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5051F80ECA9FBFB9"]
+			description: ["The loom is a workbench that allows the player to craft variations of wool blocks and carpet. "]
+			id: "78F681277CF86ACC"
+			rewards: [
+				{
+					id: "0D07863AD464CF18"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "07C328A886BA7DB0"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10D05653BD5A3F4B"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6A9921D357199FA6"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5051F80ECA9FBFB9"]
+			description: ["The mason's table is a workbench that allows the player to craft variations of stone-like blocks. "]
+			id: "05277533590463A1"
+			rewards: [
+				{
+					id: "478B9B696B44FDCF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "14AE3B60C01B73F2"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EC365453AEF672A"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "29C0CDC9A02CD4F2"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5051F80ECA9FBFB9"]
+			description: ["The alchemy bench is a workbench that allows the player to craft variations of obsidian, glowstone, sea lanterns, and soul sand. "]
+			id: "326BB3D7D7F1C495"
+			rewards: [
+				{
+					id: "54338C584A2F8A97"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2407AE125CEA0AAB"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57471B093F67D967"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7FA0740294133D97"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5051F80ECA9FBFB9"]
+			description: ["The tinkering table is a workbench that allows the player to craft variations of redstone lamps, torches and lanterns."]
+			id: "70FC8BA6D4E1C08E"
+			rewards: [
+				{
+					id: "41BAB8C17829DB0D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3252060A9396C1B1"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32959875548533E0"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0C95270DBF5986E1"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: [
+				"Places multiple blocks at once! Gets better with each upgrade. Block range of 9."
+				""
+				"To undo: Holding down SHIFT+CTRL while looking at a blocks will show you the last blocks you placed with a green border around them. SHIFT+CTRL+Right clicking any of them will undo the operation, giving you all the items back. If you used the Destruction core, it will restore the blocks."
+			]
+			id: "4F263B60E4157BCA"
+			rewards: [
+				{
+					id: "4CAC5F6E3C2C4042"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1F25F8807958199B"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "69465BFCAC49A2AE"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F263B60E4157BCA"]
+			description: [
+				"Places multiple blocks at once! Gets better with each upgrade. Block range of 27."
+				""
+				"To undo: Holding down SHIFT+CTRL while looking at a blocks will show you the last blocks you placed with a green border around them. SHIFT+CTRL+Right clicking any of them will undo the operation, giving you all the items back. If you used the Destruction core, it will restore the blocks."
+			]
+			id: "0226202FC2B70325"
+			rewards: [
+				{
+					id: "6ED2EF062AF7EB68"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4F93D83E80CDC835"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19FBAFBBD3B3B2A7"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0226202FC2B70325"]
+			description: [
+				"Places multiple blocks at once! Gets better with each upgrade. Block range of 128."
+				""
+				"To undo: Holding down SHIFT+CTRL while looking at a blocks will show you the last blocks you placed with a green border around them. SHIFT+CTRL+Right clicking any of them will undo the operation, giving you all the items back. If you used the Destruction core, it will restore the blocks."
+			]
+			id: "66EB0CF3E7120F96"
+			rewards: [
+				{
+					id: "209495A19EC2F8E9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3139D54E6F87621E"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F4531ED89C57EA6"
+					table_id: 3056162591087503147L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6A04B887F1178DD4"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66EB0CF3E7120F96"]
+			description: [
+				"Places multiple blocks at once! Max tier, infinite durability. Block range of 1024."
+				""
+				"To undo: Holding down SHIFT+CTRL while looking at a blocks will show you the last blocks you placed with a green border around them. SHIFT+CTRL+Right clicking any of them will undo the operation, giving you all the items back. If you used the Destruction core, it will restore the blocks."
+			]
+			id: "0B4FE52E8C83C177"
+			rewards: [
+				{
+					id: "7E87566E6778C56D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3900B79E724A03B7"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58C252794E19C3DF"
+					table_id: 3056162591087503147L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "34C99EA6C1101CEE"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5051F80ECA9FBFB9"]
+			description: ["Used to \"paint\" blocks with different textures and colors. Each works a bit differently - try them both out and decorate your base!"]
+			id: "2315AD5F89763FA7"
+			rewards: [
+				{
+					id: "1ECB44042FC3145E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "52DA59CC7564D861"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "04EB4C1189935791"
+					item: "enderio:painting_machine"
+					type: "item"
+				}
+				{
+					id: "149608E55A0EC16A"
+					item: "mekanism:painting_machine"
+					type: "item"
+				}
+			]
+			title: "Painting Machines"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: [
+				"Inspired by the popular Chisel mod, Chipped allous builders to have their full range of creativity because every bock deserves a friend!"
+				""
+				"To start out all you have to do is craft one of the seven tables that allow you to change various vanilla blocks into their chipped variants. All tables look different, but work the same, so you can pick whichever looks best in your build, or make a few different ones and spread them out in your home. Whatever you want to do, Chipped can help you bring it to life!"
+				""
+				"See JEI for all the blocks you can use to build! "
+			]
+			id: "5051F80ECA9FBFB9"
+			rewards: [{
+				id: "49D0E1448460E2CA"
+				item: "sc:copper_coin"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "49188B6319398575"
+				title: "Varied Block Types"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F263B60E4157BCA"]
+			description: ["Place a block in midair! Breaks with no tools and goes right back in your inventory."]
+			id: "673A9F05CA581D87"
+			rewards: [
+				{
+					id: "182A2DBED6A0D54A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "51097CE23CA09A7A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66959AE2EC525032"
+				item: "angelblockrenewed:angel_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B4FE52E8C83C177"]
+			description: ["Acts as an angel block"]
+			id: "08C08FE6676AF787"
+			rewards: [
+				{
+					id: "511D86A7C148D0ED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5599A36038AB61F5"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04FFB31014F8D367"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B4FE52E8C83C177"]
+			description: ["Destroy blocks"]
+			id: "17E5A5A650EC804A"
+			rewards: [
+				{
+					id: "5419A123C7E5822C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "28565089384764EB"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CE150173938AB9F"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["The Building Gadget allows you to build structures using a set of different Building Modes."]
+			id: "4A5CACBE57BF327E"
+			rewards: [
+				{
+					id: "643564AE33CB2BF8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2D5F3D585B933E3B"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "5977C9D29DF8A075"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_building"
+					tag: {
+						uuid: [I;
+							-61061065
+							-1270068474
+							-1740263166
+							-1392484962
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A5CACBE57BF327E"]
+			description: [
+				"- Burns any Fuel (Coal/Wood/etc). "
+				"- 1 Coal = 20,000 RF (Similar to most other mods fuel levels). "
+				"- Internal storage capacity of 1,000,000 RF"
+				"- Burns fuel and charges a single item rather quickly."
+				"- Meant as a stop gap measure to charge items you want to use before you get a fully fledged energy system going. "
+				"- Doesn't waste fuels! Will stop burning a piece of fuel once the internal capacitor is full. "
+			]
+			id: "28FFF34E3794B10A"
+			rewards: [
+				{
+					id: "7196E321B8A24779"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3CBBCF6684C71DCB"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C6F97B8D3F3477A"
+				item: {
+					Count: 1
+					id: "charginggadgets:charging_station"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A5CACBE57BF327E"]
+			description: ["The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."]
+			id: "7FCDF31A8253FC5D"
+			rewards: [
+				{
+					id: "12ECB50D0D7B2157"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7E60283C2005960C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66DED5BC4CDC40DB"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FCDF31A8253FC5D"]
+			description: ["The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."]
+			id: "0FA3F67B3538DF82"
+			rewards: [
+				{
+					id: "54448C9FD967F7B9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5D5E8AA498D7A38C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11A6FB97557B35D0"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FA3F67B3538DF82"]
+			description: ["The Cut Paste Gadget allows you to select a large radius to cut and paste in a different location."]
+			id: "0CBE39476157E2A9"
+			rewards: [
+				{
+					id: "7BFFDB430A0EDCC2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "59A544062C17910B"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55D2611DF6486370"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_cut_paste"
+					tag: {
+						pastereplace: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CBE39476157E2A9"]
+			description: ["The Destruction Gadget allows you to void a large area."]
+			id: "4F6A9E7CA3AC487E"
+			rewards: [
+				{
+					id: "5FCA2A620C5D2DA7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4ABB45AD7A53DFF9"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AE6EE763B598834"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["This mod allows you to cover up pretty much any cable/pipe from any mod!"]
+			id: "6945D1949C24555B"
+			rewards: [
+				{
+					id: "13E821DADC5EA398"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6F1E17144DA46344"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "12B98ECA48072AD5"
+				item: "cable_facades:facade_wrench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6945D1949C24555B"]
+			description: ["This mod allows you to cover up pretty much any cable/pipe from any mod!"]
+			id: "59A302744EE5819B"
+			rewards: [
+				{
+					id: "566D12D8D5F2E8FD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "73B5BF7CD7061CFB"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28CFF3FD46A95CC5"
+				item: "cable_facades:facade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+	]
+	title: "Mu"
+}

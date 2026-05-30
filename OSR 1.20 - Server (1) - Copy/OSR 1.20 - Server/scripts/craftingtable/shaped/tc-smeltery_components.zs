@@ -1,0 +1,8 @@
+craftingTable.remove(<item:tconstruct:seared_melter>);
+craftingTable.addShaped("tconstruct_melter", <item:tconstruct:seared_melter>, [[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>], [<item:tconstruct:seared_brick>, <item:tconstruct:seared_fuel_gauge> | <item:tconstruct:seared_ingot_gauge>, <item:tconstruct:seared_brick>], [<item:tconstruct:seared_brick>, <item:tconstruct:seared_brick>, <item:tconstruct:seared_brick>]]);
+craftingTable.remove(<item:tconstruct:seared_basin>);
+craftingTable.addShaped("tconstruct_basin", <item:tconstruct:seared_basin>, [[<item:tconstruct:seared_brick>, <item:minecraft:air>, <item:tconstruct:seared_brick>], [<item:tconstruct:seared_brick>, <item:extendedcrafting:black_iron_slate>, <item:tconstruct:seared_brick>], [<item:tconstruct:seared_brick>, <item:tconstruct:seared_brick>, <item:tconstruct:seared_brick>]]);
+craftingTable.remove(<item:tconstruct:seared_fuel_tank>);
+craftingTable.addShaped("tconstruct_fuel_tank", <item:tconstruct:seared_fuel_tank>, [[<item:tconstruct:seared_brick>, <item:tconstruct:seared_brick>, <item:tconstruct:seared_brick>], [<item:tconstruct:seared_brick>, <item:mob_grinding_utils:jumbo_tank>, <item:tconstruct:seared_brick>], [<item:tconstruct:seared_brick>, <item:tconstruct:seared_brick>, <item:tconstruct:seared_brick>]]);
+craftingTable.remove(<item:tconstruct:seared_drain>);
+craftingTable.addShaped("tconstruct_drain", <item:tconstruct:seared_drain>, [[<item:tconstruct:seared_brick>, <item:enderio:redstone_alloy_ingot>, <item:tconstruct:seared_brick>], [<tag:items:forge:ingots/copper>, <item:minecraft:air>, <tag:items:forge:ingots/copper>], [<item:tconstruct:seared_brick>, <item:enderio:redstone_alloy_ingot>, <item:tconstruct:seared_brick>]]);

@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("mekanism:teleportation_core");
+craftingTable.addShaped("teleportation_core", <item:mekanism:teleportation_core>, [[<item:extendedcrafting:enhanced_ender_ingot>, <tag:items:mekanism:alloys/atomic>, <item:extendedcrafting:enhanced_ender_ingot>], [<item:mekanism:ultimate_control_circuit>, <item:enderio:ender_crystal>, <item:mekanism:ultimate_control_circuit>], [<item:extendedcrafting:enhanced_ender_ingot>, <tag:items:mekanism:alloys/atomic>, <item:extendedcrafting:enhanced_ender_ingot>]]);

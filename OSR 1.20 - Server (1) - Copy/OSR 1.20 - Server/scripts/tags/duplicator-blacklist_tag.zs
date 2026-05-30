@@ -1,0 +1,14 @@
+import crafttweaker.api.tag.manager.type.EntityTypeTagManager;
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:piglin>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:piglin_brute>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:zombified_piglin>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:wither>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:ender_dragon>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:vex>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:vindicator>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:witch>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:evoker>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:pillager>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:undergarden:forgotten_guardian>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:donkey>);
+<tag:entity_types:industrialforegoing:mob_duplicator_blacklist>.add(<entitytype:minecraft:allay>);

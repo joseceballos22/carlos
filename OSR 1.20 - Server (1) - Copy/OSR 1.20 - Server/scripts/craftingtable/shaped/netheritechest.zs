@@ -1,0 +1,3 @@
+#packmode normal
+craftingTable.addShaped("netherite_chest",<item:ironchests:netherite_chest>, [[<item:minecraft:diamond>,<item:minecraft:diamond>,<item:minecraft:diamond>],[<item:minecraft:netherite_ingot>,<item:ironchests:obsidian_chest>,<item:minecraft:netherite_ingot>],[<item:minecraft:diamond>,<item:minecraft:diamond>,<item:minecraft:diamond>]]);
+craftingTable.addShaped("netherite_chest_upgrade",<item:ironchests:netherite_chest_upgrade>, [[<item:minecraft:diamond>,<item:minecraft:diamond>,<item:minecraft:diamond>],[<item:minecraft:netherite_ingot>,<item:ironchests:blank_chest_upgrade>,<item:minecraft:netherite_ingot>],[<item:minecraft:diamond>,<item:minecraft:diamond>,<item:minecraft:diamond>]]);

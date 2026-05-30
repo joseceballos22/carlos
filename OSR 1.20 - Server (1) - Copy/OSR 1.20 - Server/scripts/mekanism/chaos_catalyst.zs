@@ -1,0 +1,2 @@
+#packmode normal
+<recipetype:mekanism:nucleosynthesizing>.addRecipe("chaos_shard_catalyst", <item:draconicevolution:small_chaos_frag>, <gas:mekanism:antimatter> * 4, <item:kubejs:chaos_shard_catalyst>, 500);

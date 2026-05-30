@@ -1,0 +1,14 @@
+{
+  "name": "Enchanted Gravitite",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "aether:enchanted_gravitite"
+  },
+  "color": "cc0099",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_rock"
+  },
+  "crux": "aether:enchanted_gravitite"
+}

@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("expatternprovider:circuit_cutter");
+craftingTable.addShaped("circuit_cutter", <item:expatternprovider:circuit_cutter>, [[<tag:items:forge:ingots/compressed_iron>, <item:expatternprovider:ex_inscriber>, <tag:items:forge:ingots/compressed_iron>], [<item:ae2:calculation_processor_press>, <item:minecraft:stonecutter>, <item:ae2:engineering_processor_press>], [<item:ae2:logic_processor_press>, <item:ae2:sky_stone_tank>, <item:ae2:silicon_press>]]);

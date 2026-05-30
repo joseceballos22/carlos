@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("minecraft:enchanting_table");
+craftingTable.addShaped("enchanting_table", <item:minecraft:enchanting_table>, [[<item:minecraft:air>, <item:minecraft:book>, <item:minecraft:air>], [<item:rftoolsbase:infused_diamond>, <item:minecraft:obsidian>, <item:rftoolsbase:infused_diamond>], [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]]);

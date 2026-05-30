@@ -1,0 +1,38 @@
+{
+	hide_tooltip: true
+	icon: "kubejs:reward_bag"
+	id: "585AFD71F2DE4057"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "reliquary:holy_hand_grenade" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:helium_flamingo" }
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:eternal_steak" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:digging_claws" }
+	]
+	title: "Artifact Reward"
+	use_title: true
+}

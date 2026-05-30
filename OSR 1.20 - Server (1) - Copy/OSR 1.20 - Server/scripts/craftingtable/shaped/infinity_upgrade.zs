@@ -1,0 +1,1 @@
+craftingTable.addShaped("infinity_upgrade",<item:pipez:infinity_upgrade>, [[<item:pipez:ultimate_upgrade>,<item:mekanism:alloy_atomic>,<item:pipez:ultimate_upgrade>],[<item:powah:crystal_nitro>,<item:avaritia:infinity_catalyst>,<item:powah:crystal_nitro>],[<item:pipez:ultimate_upgrade>,<item:mekanism:alloy_atomic>,<item:pipez:ultimate_upgrade>]]);

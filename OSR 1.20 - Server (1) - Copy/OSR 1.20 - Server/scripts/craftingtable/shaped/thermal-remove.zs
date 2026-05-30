@@ -1,0 +1,12 @@
+craftingTable.removeByName("thermal:fire_charge/bronze_ingot_4");
+craftingTable.removeByName("thermal:fire_charge/constantan_ingot_2");
+craftingTable.removeByName("thermal:fire_charge/electrum_ingot_2");
+craftingTable.removeByName("thermal:fire_charge/invar_ingot_3");
+craftingTable.removeByName("thermal:fire_charge/signalum_ingot_4");
+craftingTable.removeByName("thermal:fire_charge/lumium_ingot_4");
+craftingTable.removeByName("thermal:fire_charge/enderium_ingot_2");
+craftingTable.removeByName("redstone_arsenal:materials/flux_ingot_fire_charge_from_dust");
+craftingTable.removeByName("thermal:fire_charge/signalum_glass_2");
+craftingTable.removeByName("thermal:fire_charge/obsidian_glass_2");
+craftingTable.removeByName("thermal:fire_charge/enderium_glass_2");
+craftingTable.removeByName("thermal:fire_charge/lumium_glass_2");

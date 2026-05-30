@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("enderio:void_chassis");
+craftingTable.addShaped("void_chassis", <item:enderio:void_chassis>, [[<item:minecraft:iron_bars>, <item:avaritia:diamond_lattice>, <item:minecraft:iron_bars>], [<item:avaritia:diamond_lattice>, <tag:items:forge:dusts/grains_of_infinity>, <item:avaritia:diamond_lattice>], [<item:minecraft:iron_bars>, <item:avaritia:diamond_lattice>, <item:minecraft:iron_bars>]]);

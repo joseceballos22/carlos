@@ -1,0 +1,7 @@
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("alloy-infused", <tag:items:forge:ingots/iron>, <tag:mekanism/infuse_type:mekanism:redstone> * 10, <item:mekanism:alloy_infused>);
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("alloy-reinforced", <tag:items:mekanism:alloys/infused>, <tag:mekanism/infuse_type:mekanism:diamond> * 20, <item:mekanism:alloy_reinforced>);
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("alloy-atomic", <tag:items:mekanism:alloys/reinforced>, <tag:mekanism/infuse_type:mekanism:refined_obsidian> * 40, <item:mekanism:alloy_atomic>);
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("control_circuit-basic", <tag:items:forge:ingots/osmium>, <tag:mekanism/infuse_type:mekanism:redstone> * 20, <item:mekanism:basic_control_circuit>);
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("refined_obsidian-dust", <tag:items:forge:dusts/obsidian>, <tag:mekanism/infuse_type:mekanism:diamond> * 10, <item:mekanism:dust_refined_obsidian>);
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("iron-enriched", <tag:items:forge:ingots/iron>, <tag:mekanism/infuse_type:mekanism:carbon> * 10, <item:mekanism:enriched_iron>);
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("netherite-scrap_to_dust", <item:minecraft:netherite_scrap> * 4, <tag:mekanism/infuse_type:mekanism:gold> * 40, <item:mekanism:dust_netherite>);

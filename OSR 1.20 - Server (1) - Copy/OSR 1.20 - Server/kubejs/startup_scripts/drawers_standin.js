@@ -1,0 +1,12 @@
+StartupEvents.registry('block', e => {
+e.create('framedcompactdrawers:framed_compact_drawer').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+e.create('framedcompactdrawers:framed_drawer_controller').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+e.create('framedcompactdrawers:framed_slave').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+e.create('framedcompactdrawers:framed_trim').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+e.create('framedcompactdrawers:framed_full_one').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+e.create('framedcompactdrawers:framed_full_two').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+e.create('framedcompactdrawers:framed_full_four').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+e.create('framedcompactdrawers:framed_half_one').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+e.create('framedcompactdrawers:framed_half_two').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+e.create('framedcompactdrawers:framed_half_four').textureAll('kubejs:block/example_block').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('deprecated')
+})

@@ -1,0 +1,13 @@
+StartupEvents.registry('item', e => {
+e.create('ludicrite_star', 'basic').texture('ozone:item/ludicrite_star').rarity('rare')
+e.create('ridiculite_star', 'basic').texture('ozone:item/ridiculite_star').rarity('rare')
+e.create('inanite_star', 'basic').texture('ozone:item/inanite_star').rarity('rare')
+e.create('insanite_star', 'basic').texture('ozone:item/insanite_star').rarity('rare')
+e.create('ultimate_star', 'basic').texture('ozone:item/ultimate_star').rarity('forgotten')
+e.create('compressed_singularity', 'basic').texture('ozone:item/compressed_singularity').rarity('forgotten')
+e.create('quasar', 'basic').texture('ozone:item/quasar').rarity('rare')
+e.create('animal_seed_base', 'basic').texture('ozone:item/animal_seed_base').rarity('common')
+e.create('magical_seed_base', 'basic').texture('ozone:item/magical_seed_base').rarity('common')
+e.create('seed_base', 'basic').texture('ozone:item/seed_base').rarity('common')
+e.create('reward_bag', 'basic').texture('ozone:item/ftb_reward_bag').rarity('common')
+})

@@ -1,0 +1,12 @@
+ServerEvents.tags('item', event => {
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_oak_wood')
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_spruce_wood')
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_birch_wood')
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_jungle_wood')
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_acacia_wood')
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_dark_oak_wood')
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_mangrove_wood')
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_cherry_wood')
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_crimson_hyphae')
+	event.add('forge:vanilla_stripped_wood', 'minecraft:stripped_warped_hyphae')
+})

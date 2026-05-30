@@ -1,0 +1,2 @@
+craftingTable.remove(<item:ae2:charger>);
+craftingTable.addShaped("ae2charger", <item:ae2:charger>, [[<tag:items:forge:ingots/iron>, <item:redstone_arsenal:flux_ingot>, <tag:items:forge:ingots/iron>], [<tag:items:forge:ingots/iron>, <item:minecraft:air>, <item:minecraft:air>], [<tag:items:forge:ingots/iron>, <item:redstone_arsenal:flux_ingot>, <tag:items:forge:ingots/iron>]]);

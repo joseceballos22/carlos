@@ -1,0 +1,2 @@
+craftingTable.remove(<item:supplementaries:flint_block>);
+craftingTable.addShapeless("flint_block", <item:supplementaries:flint_block> * 4, [<item:cyclic:flint_block>, <item:cyclic:flint_block>, <item:cyclic:flint_block>, <item:cyclic:flint_block>]);

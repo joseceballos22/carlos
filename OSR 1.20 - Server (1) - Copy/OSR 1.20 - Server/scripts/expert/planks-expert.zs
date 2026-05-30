@@ -1,0 +1,60 @@
+#packmode expert
+craftingTable.removeByName("minecraft:oak_planks");
+craftingTable.addShapeless("oak_planks", <item:minecraft:oak_planks>, [<tag:items:minecraft:oak_logs>]);
+craftingTable.removeByName("minecraft:spruce_planks");
+craftingTable.addShapeless("spruce_planks", <item:minecraft:spruce_planks>, [<tag:items:minecraft:spruce_logs>]);
+craftingTable.removeByName("minecraft:birch_planks");
+craftingTable.addShapeless("birch_planks", <item:minecraft:birch_planks>, [<tag:items:minecraft:birch_logs>]);
+craftingTable.removeByName("minecraft:jungle_planks");
+craftingTable.addShapeless("jungle_planks", <item:minecraft:jungle_planks>, [<tag:items:minecraft:jungle_logs>]);
+craftingTable.removeByName("minecraft:acacia_planks");
+craftingTable.addShapeless("acacia_planks", <item:minecraft:acacia_planks>, [<tag:items:minecraft:acacia_logs>]);
+craftingTable.removeByName("minecraft:dark_oak_planks");
+craftingTable.addShapeless("dark_oak_planks", <item:minecraft:dark_oak_planks>, [<tag:items:minecraft:dark_oak_logs>]);
+craftingTable.removeByName("minecraft:mangrove_planks");
+craftingTable.addShapeless("mangrove_planks", <item:minecraft:mangrove_planks>, [<tag:items:minecraft:mangrove_logs>]);
+craftingTable.removeByName("minecraft:cherry_planks");
+craftingTable.addShapeless("cherry_planks", <item:minecraft:cherry_planks>, [<tag:items:minecraft:cherry_logs>]);
+craftingTable.removeByName("minecraft:crimson_planks");
+craftingTable.addShapeless("crimson_planks", <item:minecraft:crimson_planks>, [<tag:items:minecraft:crimson_stems>]);
+craftingTable.removeByName("minecraft:warped_planks");
+craftingTable.addShapeless("warped_planks", <item:minecraft:warped_planks>, [<tag:items:minecraft:warped_stems>]);
+craftingTable.removeByName("undergarden:grongle_planks");
+craftingTable.addShapeless("grongle_planks", <item:undergarden:grongle_planks>, [<tag:items:undergarden:grongle_logs>]);
+craftingTable.removeByName("undergarden:smogstem_planks");
+craftingTable.addShapeless("smogstem_planks", <item:undergarden:smogstem_planks>, [<tag:items:undergarden:smogstem_logs>]);
+craftingTable.removeByName("undergarden:wigglewood_planks");
+craftingTable.addShapeless("wigglewood_planks", <item:undergarden:wigglewood_planks>, [<tag:items:undergarden:wigglewood_logs>]);
+craftingTable.removeByName("twilightforest:wood/twilight_oak_planks");
+craftingTable.addShapeless("twilight_oak_planks", <item:twilightforest:twilight_oak_planks>, [<tag:items:twilightforest:twilight_oak_logs>]);
+craftingTable.removeByName("twilightforest:wood/canopy_planks");
+craftingTable.addShapeless("canopy_planks", <item:twilightforest:canopy_planks>, [<tag:items:twilightforest:canopy_logs>]);
+craftingTable.removeByName("twilightforest:wood/mangrove_planks");
+craftingTable.addShapeless("twilight_mangrove_planks", <item:twilightforest:mangrove_planks>, [<tag:items:twilightforest:mangrove_logs>]);
+craftingTable.removeByName("twilightforest:wood/dark_planks");
+craftingTable.addShapeless("dark_planks", <item:twilightforest:dark_planks>, [<tag:items:twilightforest:darkwood_logs>]);
+craftingTable.removeByName("twilightforest:wood/time_planks");
+craftingTable.addShapeless("time_planks", <item:twilightforest:time_planks>, [<tag:items:twilightforest:timewood_logs>]);
+craftingTable.removeByName("twilightforest:wood/transformation_planks");
+craftingTable.addShapeless("transformation_planks", <item:twilightforest:transformation_planks>, [<tag:items:twilightforest:transwood_logs>]);
+craftingTable.removeByName("twilightforest:wood/mining_planks");
+craftingTable.addShapeless("mining_planks", <item:twilightforest:mining_planks>, [<tag:items:twilightforest:mining_logs>]);
+craftingTable.removeByName("twilightforest:wood/sorting_planks");
+craftingTable.addShapeless("sorting_planks", <item:twilightforest:sorting_planks>, [<tag:items:twilightforest:sortwood_logs>]);
+craftingTable.removeByName("aether:skyroot_planks");
+craftingTable.addShapeless("skyroot_planks", <item:aether:skyroot_planks>, [<tag:items:aether:crafts_skyroot_planks>]);
+
+craftingTable.removeByName("enderio:stick");
+craftingTable.addShaped("log_stick", <item:minecraft:stick> * 4, [[<tag:items:minecraft:logs>], [<tag:items:minecraft:logs>]]);
+
+craftingTable.removeByName("cyclic:crafting/chest");
+craftingTable.removeByName("minecraft:chest");
+craftingTable.removeByName("aether:skyroot_chest");
+craftingTable.removeByName("slabmachines:chest_slab");
+craftingTable.addShaped("log_chest", <item:minecraft:chest>, [[<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>], [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>], [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
+
+furnace.removeByName("minecraft:charcoal");
+furnace.addRecipe("tiny_charcoal", <item:tinycoal:tinycharcoal>, <tag:items:minecraft:logs_that_burn>, 0.15, 200);
+
+craftingTable.removeByName("minecraft:composter");
+craftingTable.addShaped("composter", <item:minecraft:composter>, [[<item:minecraft:crimson_slab>, <item:minecraft:air>, <item:minecraft:crimson_slab>], [<item:minecraft:crimson_slab>, <item:minecraft:air>, <item:minecraft:crimson_slab>], [<item:minecraft:crimson_slab>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_slab>]]);

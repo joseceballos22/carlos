@@ -1,0 +1,1 @@
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("demon_steel_tier_1", <item:mysticalagradditions:insanium_essence>, <tag:mekanism/infuse_type:mekanism:diamond> * 500, <item:kubejs:demon_steel_tier_1>);

@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("angelring:diamond_ring");
+craftingTable.addShaped("diamond_ring", <item:angelring:diamond_ring>, [[<item:ironjetpacks:ultimate_coil>, <item:botania:mana_diamond_block>, <item:ironjetpacks:ultimate_coil>], [<item:botania:mana_diamond_block>, <item:minecraft:elytra>, <item:botania:mana_diamond_block>], [<item:ironjetpacks:ultimate_coil>, <item:botania:mana_diamond_block>, <item:ironjetpacks:ultimate_coil>]]);

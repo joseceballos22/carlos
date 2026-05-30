@@ -1,0 +1,2 @@
+#packmode normal
+craftingTable.addShaped("cobblegen4",<item:cobblefordays:tier_4>, [[<item:minecraft:gold_ingot>,<item:minecraft:gold_ingot>,<item:minecraft:gold_ingot>],[<item:exdeorum:porcelain_water_bucket>,<item:minecraft:glass>,<item:exdeorum:porcelain_lava_bucket>],[<item:minecraft:gold_ingot>,<item:minecraft:gold_ingot>,<item:minecraft:gold_ingot>]]);

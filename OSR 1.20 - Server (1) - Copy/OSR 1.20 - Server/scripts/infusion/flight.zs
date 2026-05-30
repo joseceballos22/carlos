@@ -1,0 +1,2 @@
+mods.mysticalagriculture.InfusionCrafting.remove(<item:mysticalagriculture:flight_augment>);
+mods.mysticalagriculture.InfusionCrafting.addRecipe("flight", <item:mysticalagriculture:flight_augment>, [<item:angelring:angel_ring>, <item:minecraft:nether_star>, <item:mysticalagriculture:supremium_essence>, <item:minecraft:nether_star>, <item:mysticalagriculture:supremium_essence>, <item:minecraft:nether_star>, <item:mysticalagriculture:supremium_essence>, <item:minecraft:nether_star>, <item:mysticalagriculture:supremium_essence>]);

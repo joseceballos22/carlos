@@ -1,0 +1,2 @@
+craftingTable.remove(<item:extendedcrafting:frame>);
+craftingTable.addShaped("blackframe", <item:extendedcrafting:frame>, [[<item:extendedcrafting:black_iron_ingot>, <tag:items:enderio:fused_quartz>, <item:extendedcrafting:black_iron_ingot>], [<tag:items:enderio:fused_quartz>, <item:hammerlib:gears/netherite>.withTag({display: {Name: "[{\"text\":\"The Ultimate Gear\",\"italic\":false}]"}, Enchantments: [{}]}), <tag:items:enderio:fused_quartz>], [<item:extendedcrafting:black_iron_ingot>, <tag:items:enderio:fused_quartz>, <item:extendedcrafting:black_iron_ingot>]]);

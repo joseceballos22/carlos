@@ -1,0 +1,2 @@
+#packmode normal
+craftingTable.addShaped("twilight_diamond", <item:kubejs:twilight_diamond>, [[<item:extendedcrafting:redstone_ingot>, <item:minecraft:fire_charge>, <item:extendedcrafting:redstone_ingot>], [<item:minecraft:fire_charge>, <item:minecraft:diamond>, <item:minecraft:fire_charge>], [<item:extendedcrafting:redstone_ingot>, <item:minecraft:fire_charge>, <item:extendedcrafting:redstone_ingot>]]);

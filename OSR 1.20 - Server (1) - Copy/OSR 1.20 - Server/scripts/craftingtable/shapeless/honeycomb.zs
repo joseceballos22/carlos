@@ -1,0 +1,1 @@
+craftingTable.addShapeless("honeycomb",<item:minecraft:honeycomb>, [<item:pamhc2crops:candleberryitem>, <item:pamhc2crops:candleberryitem>, <item:pamhc2crops:candleberryitem>, <item:pamhc2crops:candleberryitem>]);

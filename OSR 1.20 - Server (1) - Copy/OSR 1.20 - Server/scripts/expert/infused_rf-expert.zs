@@ -1,0 +1,5 @@
+#packmode expert
+craftingTable.removeByName("rftoolsbase:infused_enderpearl");
+craftingTable.removeByName("rftoolsbase:infused_diamond");
+craftingTable.addShaped("infused_enderpearl", <item:rftoolsbase:infused_enderpearl>, [[<item:rftoolsbase:dimensionalshard>, <item:rftoolsbase:dimensionalshard>, <item:rftoolsbase:dimensionalshard>], [<item:rftoolsbase:dimensionalshard>, <item:botania:mana_pearl>, <item:rftoolsbase:dimensionalshard>], [<item:rftoolsbase:dimensionalshard>, <item:rftoolsbase:dimensionalshard>, <item:rftoolsbase:dimensionalshard>]]);
+craftingTable.addShaped("infused_diamond", <item:rftoolsbase:infused_diamond>, [[<item:rftoolsbase:dimensionalshard>, <item:rftoolsbase:dimensionalshard>, <item:rftoolsbase:dimensionalshard>], [<item:rftoolsbase:dimensionalshard>, <item:botania:mana_diamond>, <item:rftoolsbase:dimensionalshard>], [<item:rftoolsbase:dimensionalshard>, <item:rftoolsbase:dimensionalshard>, <item:rftoolsbase:dimensionalshard>]]);

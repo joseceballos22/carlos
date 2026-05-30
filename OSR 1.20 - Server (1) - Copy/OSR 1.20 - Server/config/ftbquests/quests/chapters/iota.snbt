@@ -1,0 +1,893 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iota"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "industrialforegoing:mob_imprisonment_tool"
+	id: "0BC9F4CCF0311366"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: -4.0d
+		y: -3.5d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01AB1445EBDED5F2"]
+			description: ["Created using the latex processing unit. Smelt to make plastic."]
+			id: "36C9019C18E3D598"
+			rewards: [
+				{
+					id: "2BE1E13BAD79F55A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "469258C801D93272"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "271CDBD967C3C9DE"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["36C9019C18E3D598"]
+			description: ["Smelt dry rubber to make plastic."]
+			id: "4C20760BE5CE7796"
+			rewards: [
+				{
+					id: "331D3AB43ECFC437"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "218375AF6F05BA5E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D7170E0B1C1488F"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CE059588A2A9A97"]
+			description: ["Machine frames are needed to make all Industrial Foregoing machines."]
+			id: "47C0A4FE9AA357A8"
+			rewards: [
+				{
+					id: "27EEE3B82CDFB7FB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "18D9E9CE5454EA57"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11CE52AFB945EFCA"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47C0A4FE9AA357A8"]
+			description: ["Upgraded machine frames are crafted using the Dissolution Chamber. See JEI"]
+			id: "715D790B9529BA88"
+			rewards: [
+				{
+					id: "1571E45DEC5DA6AD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2303031C30E050D2"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3192B1C7F993EA81"
+					table_id: 8237061732478284941L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "590B2E0C83690176"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["715D790B9529BA88"]
+			description: ["Upgraded machine frames are crafted using the Dissolution Chamber. See JEI"]
+			id: "71AFD1B1BAA2D468"
+			rewards: [
+				{
+					id: "3CFB400DF1A20C15"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5CAF00EEA03A43D3"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0129F9C6EA141DFA"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "087011EDBA079210"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71AFD1B1BAA2D468"]
+			description: [
+				"Upgraded machine frames are crafted using the Dissolution Chamber. See JEI."
+				""
+				"To obtain Ether:"
+				""
+				"Craft a Stasis Chamber. The main purpose of the Stasis Chamber is to indefinitely contain a Wither. Using a Laser Drill with a Fluid Laser Base and a Purple Laser Lens produces Ether Gas when placed directly above a Wither. This fluid is required to craft Industrial Foregoing's most expensive items, including its highest tier machine frame."
+				""
+				"A Wither that is spawned inside an active Stasis Chamber's working area will be frozen immediately. It will not lose its invulnerability shield, but the Laser Drill ignores the shield. The Wither will not cause an explosion, and cannot take any actions. Despite this, the player may want to encase the working area in Wither-proof blocks anyway, to prevent any accidents should the Stasis Chamber ever run out of power. "
+				""
+				"The Stasis Chamber's default working area is a 3x3x3 cube directly above the machine. Its size can be increased using Range Addons. Players will be affected by Slowness while inside the machine's working area. "
+			]
+			id: "1F4B7FC6646657F3"
+			rewards: [
+				{
+					id: "1BE5464EAA63DF76"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "771B51C5ECF15B1C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33EEAA8EF57537F7"
+					table_id: 8263517383619382820L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "08197CF38525DC16"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47C0A4FE9AA357A8"]
+			description: ["Place in front of a tree or log to generate latex."]
+			id: "21B24ABB821326B6"
+			rewards: [
+				{
+					id: "30B91FD22286FD28"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "357075A44A0C47DF"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B6D14DFD72FCB78"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["21B24ABB821326B6"]
+			description: ["Pump in latex to start making rubber."]
+			id: "01AB1445EBDED5F2"
+			rewards: [
+				{
+					id: "495DB2F41DF50722"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "015DBB5EA53811F4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03E66BA94B780E32"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01AB1445EBDED5F2"]
+			description: ["This machines is needed to craft more advanced items and machines, such as more complex machine frames."]
+			id: "0E8AEDBF4367D34D"
+			rewards: [
+				{
+					id: "6EB374240F5C2BC5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "723E5030FB425BED"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BB1D7A91C60BCC5"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47C0A4FE9AA357A8"]
+			description: ["Black hole units hold large quantities of items -  as you upgrade the units, more items can be stored. "]
+			id: "09DA42D1300AEF21"
+			rewards: [
+				{
+					id: "5F2C36743C23A2F9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "66DB82D0E90245F0"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FCE51CDD7B25B76"
+				item: "industrialforegoing:common_black_hole_unit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09DA42D1300AEF21"]
+			description: ["Black hole tanks hold large quantities of fluid -  as you upgrade the tanks more fluid can be stored. "]
+			id: "1C4D8135917B74EB"
+			rewards: [
+				{
+					id: "5AC0E35B6CA9FB2A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6EE3C58DEE6A39B4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36FC98A9636564E9"
+				item: "industrialforegoing:common_black_hole_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C4D8135917B74EB"]
+			description: ["Players can store multiple black holes inside the controller."]
+			id: "129ACE50C21E79EF"
+			rewards: [
+				{
+					id: "1B2F5A5ED709D7E1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "614FEF1BFC996A1D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D004CBF9A885BC0"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: [
+				"Industrial Foregoing is a comprehensive, industrial automation mod designed to streamline and improve your in-game production systems! Inspired by the classic MineFactory Reloaded, it brings modern, tech-driven machinery and tools to Minecraft, allowing players to create intricate automated systems for farming, processing resources, animal care, and more."
+				""
+				"With a wide array of industrial machines and utilities, you can automate almost every task in Minecraft. From resource gathering and processing to farming and mob management, Industrial Foregoing offers machines for efficiency and innovation."
+			]
+			id: "3CE059588A2A9A97"
+			rewards: [
+				{
+					id: "56C6DC6991D2D3C0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6F939E3C73DB534A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "205A64CC98016EEB"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47C0A4FE9AA357A8"]
+			description: ["There are several types of generators in Industrial Foreging, refer to the manual to see how each one performs."]
+			id: "6A40A9ED42048DC0"
+			rewards: [
+				{
+					id: "4AD3E5842248E71A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1C1A9F260659A8B4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08DFF1833004389A"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A40A9ED42048DC0"]
+			description: ["Turns anything you can use to smelt in a vanilla furnace (ie coal, wood) into RF"]
+			id: "30456C23D0367E64"
+			rewards: [
+				{
+					id: "3122AA4C72BB6FD4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2821C88249D687F1"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4529F97EACE74991"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30456C23D0367E64"]
+			description: ["Turns foodstuffs into RF"]
+			id: "569F057DEE9840AB"
+			rewards: [
+				{
+					id: "15F5139AA17FF97D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2884B39C405BB840"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03670FB0E6723C95"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["569F057DEE9840AB"]
+			description: ["Turns lava and lava+redstone into RF"]
+			id: "09801AD3826251FF"
+			rewards: [
+				{
+					id: "552776D5C56EE872"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "15EC7E4CE910D651"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "270899303B8CCD59"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09801AD3826251FF"]
+			description: ["Turns ender pearls and eyes of ender into RF"]
+			id: "2E9E5B35927F5A4C"
+			rewards: [
+				{
+					id: "3FF91F53E831547B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "011390B2234744EA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A393C0CA609FAF7"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E9E5B35927F5A4C"]
+			description: ["Turns dragon's breath into RF"]
+			id: "710E293C5F362BDA"
+			rewards: [
+				{
+					id: "75D4270920EBF2C1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6C08EC191783B795"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "246C7BA65074575F"
+					table_id: 8263517383619382820L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5339561BC4C4EEEE"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["710E293C5F362BDA"]
+			description: ["Turns nether stars into RF"]
+			id: "6BC096C9F0BE3611"
+			rewards: [
+				{
+					id: "178CA0C8E2F6A6F6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5E3D2FC52342989D"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "772A5A37CD2156F4"
+					table_id: 8263517383619382820L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "29A7081715B90238"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["45C50B63083377EB"]
+			description: [
+				"Tom's Simple Storage is a vanilla-style Minecraft mod that provides sophisticated inventory management without complex setup requirements. "
+				""
+				"To connect Storage Blocks (like chests) that are near each other, you can use an Inventory Connector. This item is placed between blocks, and it connects any Storage touching it."
+				""
+				"Inventory Cable Connectors serve as the interface points between your cables and storage blocks. These connectors must be placed directly against the storage block you want to connect, then linked back to your leading network using Inventory Cables."
+			]
+			id: "246E215555745ED8"
+			rewards: [
+				{
+					id: "2E5C3F79F940E444"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "26F782941DA0281B"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Mana Pool\" to unlock"
+			tasks: [
+				{
+					id: "32A7F5CF34A842DD"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "632794875E9DD46A"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			title: "Inventory Connectors"
+			x: 5.0d
+			y: -1.875d
+		}
+		{
+			dependencies: ["246E215555745ED8"]
+			description: ["Once you’ve crafted your Storage Terminal, place it adjacent to any storage block, such as a chest, barrel, shulker box, or inventory connector. The terminal will automatically detect and connect to the storage, allowing you to right-click the terminal to access the inventory."]
+			id: "0DB542277D42B746"
+			rewards: [
+				{
+					id: "07CF79FD6B7EEA6F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5D0097A45B661C88"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57B8FE02E7142226"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "65A3CAC9F862B322"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DB542277D42B746"]
+			description: ["While the Storage Terminal provides excellent storage access, the Crafting Terminal elevates your storage system by integrating crafting functionality directly into your inventory interface."]
+			id: "2B794F45927A55D1"
+			rewards: [
+				{
+					id: "4B93A3FCA2D6C1A5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "58B0152A89C65021"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "750158593203D956"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E8AEDBF4367D34D"]
+			description: ["Machines can be upgraded with specialized tools and add-ons to increase productivity and efficiency."]
+			id: "2F61339A93F974E2"
+			rewards: [
+				{
+					id: "328C4D21B314126E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3DC734636F269FCC"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4BE98E40390131E5"
+					item: {
+						Count: 1
+						id: "industrialforegoing:speed_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Speed: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D52BFC90FE9E925"
+					item: {
+						Count: 1
+						id: "industrialforegoing:efficiency_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.9f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10FD7DA5BB747544"
+					item: {
+						Count: 1
+						id: "industrialforegoing:processing_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Processing: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Addon Tier 1"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F61339A93F974E2"]
+			description: ["Machines can be upgraded with specialized tools and add-ons to increase productivity and efficiency."]
+			id: "3D2D983F9956799A"
+			rewards: [
+				{
+					id: "4F9652EF89EF1BE4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7CD6BC5FB5AB4B82"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18BD3C056B34932D"
+					item: {
+						Count: 1
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EBC982EC01469A7"
+					item: {
+						Count: 1
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F03643AD970426E"
+					item: {
+						Count: 1
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Addon Tier 2"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D2D983F9956799A"]
+			description: ["Machines can be upgraded with specialized tools and add-ons to increase productivity and efficiency."]
+			id: "5E6F26362CE01345"
+			rewards: [
+				{
+					id: "6273CFD1A78CD9B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5951478D0DEDDE11"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "478DBFD515C394DE"
+					item: {
+						Count: 1
+						id: "mifa:efficiency_addon_3"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.7f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13F12D13A4BBBEC4"
+					item: {
+						Count: 1
+						id: "mifa:processing_addon_3"
+						tag: {
+							TitaniumAugment: {
+								Processing: 4.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E8A9B77F09EB025"
+					item: {
+						Count: 1
+						id: "mifa:speed_addon_3"
+						tag: {
+							TitaniumAugment: {
+								Speed: 4.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Addon Tier 3"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E6F26362CE01345"]
+			description: ["Machines can be upgraded with specialized tools and add-ons to increase productivity and efficiency."]
+			id: "39D407AEDF4974F2"
+			rewards: [
+				{
+					id: "6D267A8C7F2A1D96"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1E7B04DBC2EA57C3"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A7329536D6175D6"
+					item: {
+						Count: 1
+						id: "mifa:efficiency_addon_4"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "028A6C454B303888"
+					item: {
+						Count: 1
+						id: "mifa:speed_addon_4"
+						tag: {
+							TitaniumAugment: {
+								Speed: 5.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A81595F09F5A391"
+					item: {
+						Count: 1
+						id: "mifa:processing_addon_4"
+						tag: {
+							TitaniumAugment: {
+								Processing: 5.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Addon Tier 4"
+			x: -3.0d
+			y: 4.0d
+		}
+	]
+	title: "Iota"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Skyroot",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "aether:skyroot_log"
+  },
+  "color": "726140",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "aether:skyroot_log"
+}

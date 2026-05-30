@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.remove(<item:cyclic:crusher>);
+craftingTable.addShaped("cyclic_crusher", <item:cyclic:crusher>, [[<item:kubejs:triple_compressed_cobblestone>, <tag:items:forge:ingots/copper>, <item:kubejs:triple_compressed_cobblestone>], [<item:minecraft:stonecutter>, <tag:items:forge:storage_blocks/flint>, <item:minecraft:stonecutter>], [<item:kubejs:triple_compressed_cobblestone>, <tag:items:forge:ingots/copper>, <item:kubejs:triple_compressed_cobblestone>]]);

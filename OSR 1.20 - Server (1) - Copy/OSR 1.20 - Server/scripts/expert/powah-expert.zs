@@ -1,0 +1,5 @@
+#packmode expert
+craftingTable.removeByName("powah:crafting/energizing_orb");
+craftingTable.removeByName("powah:crafting/aerial_pearl");
+craftingTable.addShaped("energizing_orb", <item:powah:energizing_orb>, [[<item:thermal:obsidian_glass>, <item:thermal:obsidian_glass>, <item:thermal:obsidian_glass>], [<item:thermal:obsidian_glass>, <item:powah:dielectric_casing>, <item:thermal:obsidian_glass>], [<item:powah:dielectric_rod_horizontal>, <item:powah:dielectric_rod_horizontal>, <item:powah:dielectric_rod_horizontal>]]);
+craftingTable.addShaped("aerial_pearl", <item:powah:aerial_pearl>, [[<item:powah:dielectric_paste>, <item:cyclic:netherite_bars>, <item:powah:dielectric_paste>], [<item:cyclic:netherite_bars>, <item:rftoolsbase:infused_enderpearl>, <item:cyclic:netherite_bars>], [<item:powah:dielectric_paste>, <item:cyclic:netherite_bars>, <item:powah:dielectric_paste>]]);

@@ -1,0 +1,1 @@
+<recipetype:immersiveengineering:crusher>.remove(<item:ad_astra:ice_shard>);

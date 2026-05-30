@@ -1,0 +1,37 @@
+#Simple Achievements
+#Note: These quests are designed to be completed using minimal (or no) EMC and no creative items.
+Fill an experience obelisk with 2000 levels worth of experience
+Kill the Gaia Guardian 4 times (any before this does not count)
+Fully automate a wither farm to mass produce nether stars
+Produce and sustain 1 million EMC/minute without using creative items or the mod Project Expansion at all in the process
+Build a refined storage or an applied energistics system in another dimension where you have a secure base
+Use the digital miner at least once in every dimension
+Craft at least one of every available Mystical Agriculture seed (see JEI for a list)
+Automate at least 20 different Mystical Agriculture crops with max growth accelerators (planting, harvesting, compressing, storing)
+Open one stack of chance cubes (any before this does not count)
+Build a max sized big reactor with reinforced materials
+Connect the supreme black hole unit to your refined storage or applied energistics system and fill it up with cobblestone
+Build a base on each planet that lets you breathe without a space suit
+Create, maintain, and generate power from a max size turbine from Mekanism
+Create a mining laser setup for each Industrial Foregoing lens (see JEI for a list)
+Set up a Mekanism portal network that connects your main base to every dimension
+Generate 1 billion RF/tick
+Craft a Double Compressed Torcherino
+Build a house out of bedrock
+Craft a Nonuple Compressed Cobblestone without using EMC at all in the process
+Collect one of every armor trim in the game (see JEI for a list)
+Craft the Solar Panel of Infinity
+Kill a wither using Endest Pearls
+Craft a stack of Demon Steel Tier 4 without using EMC at all in the process
+Craft an Endless Cake
+Craft, assemble, start, and successfully maintain a Draconic Reactor (no boom allowed)
+Craft the Compact Sun (EMC is allowed)
+Craft the Creative Supply Upgrade
+Complete all tasks 100% - Thanks for playing Ozone Skyblock Reborn by MuggleOrWizard!
+#Have a suggestion on what to add to the Simple Achievements? Send a message on Discord!
+#If you beat this pack on Normal difficulty, try Expert mode! Use the command /packmode set Expert (if on a server, this is set by your admin)
+
+
+
+
+

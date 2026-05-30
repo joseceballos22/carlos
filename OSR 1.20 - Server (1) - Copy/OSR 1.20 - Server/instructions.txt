@@ -1,0 +1,9 @@
+Need a server host? Check out my server partner for 20% off your first month: https://www.akliz.net/muggleorwizard
+
+As you always should, make a backup of your server/worlds(s) before updating.
+
+To Install: Unzip the downloaded file and start server by clicking on run.bat (Windows) or run.sh (Mac/Linux). Server tested on Windows 11. You will need to have Java 17 installed. Default ram usage is 4gb, but I'd recommend to change to 6gb if your computer can handle it. If you are using a third party host, contact their support team for information on how to install server packs.
+
+To Update: Backup your world save. Follow installation instructions listed above. Before starting up the server, copy your world folder to the server folder. If updating to an existing directory, do not copy new folders into your old server directory without deleting old folders first. Folders that will need to be replaced when updating: config, default config, kubejs, libraries, mods, scripts. 
+
+The modpack will not work properly unless the following files/folders are included in your server (directly from the server pack): config, defaultconfigs, kubejs, libraries, mods, scripts, default-server.properties, eula.txt, user_jvm_args.txt, and run.bat/run.sh. Recommended files are: server-icon.png. 

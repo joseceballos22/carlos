@@ -1,0 +1,2 @@
+craftingTable.remove(<item:powah:capacitor_hardened>);
+craftingTable.addShaped("capacitor_hardened", <item:powah:capacitor_hardened> * 2, [[<item:powah:dielectric_paste>, <item:powah:steel_energized>, <item:powah:dielectric_paste>], [<item:mekanism:alloy_reinforced>, <item:powah:capacitor_basic_large>, <item:mekanism:alloy_reinforced>], [<item:powah:dielectric_paste>, <item:powah:steel_energized>, <item:powah:dielectric_paste>]]);

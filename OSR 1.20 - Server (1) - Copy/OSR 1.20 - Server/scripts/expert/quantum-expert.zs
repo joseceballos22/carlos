@@ -1,0 +1,11 @@
+#packmode expert
+craftingTable.removeByName("extendedcrafting:compressor");
+mods.extendedcrafting.TableCrafting.addShaped("quantum_compressor", 3, <item:extendedcrafting:compressor>, [
+	[<item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>], 
+	[<item:enderio:reinforced_obsidian_block>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:enderio:reinforced_obsidian_block>], 
+	[<item:enderio:reinforced_obsidian_block>, <item:extendedcrafting:black_iron_ingot>, <item:enderio:fused_quartz_d>, <item:extendedcrafting:elite_catalyst>, <item:enderio:fused_quartz_d>, <item:extendedcrafting:black_iron_ingot>, <item:enderio:reinforced_obsidian_block>], 
+	[<item:enderio:reinforced_obsidian_block>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:elite_catalyst>, <item:extendedcrafting:frame>, <item:extendedcrafting:elite_catalyst>, <item:extendedcrafting:black_iron_ingot>, <item:enderio:reinforced_obsidian_block>], 
+	[<item:enderio:reinforced_obsidian_block>, <item:extendedcrafting:black_iron_ingot>, <item:enderio:fused_quartz_d>, <item:extendedcrafting:elite_catalyst>, <item:enderio:fused_quartz_d>, <item:extendedcrafting:black_iron_ingot>, <item:enderio:reinforced_obsidian_block>], 
+	[<item:enderio:reinforced_obsidian_block>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:black_iron_ingot>, <item:enderio:reinforced_obsidian_block>], 
+	[<item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>]
+]);

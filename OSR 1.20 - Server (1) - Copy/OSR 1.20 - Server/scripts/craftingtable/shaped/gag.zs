@@ -1,0 +1,5 @@
+#packmode normal
+craftingTable.remove(<item:gag:hearthstone>);
+craftingTable.remove(<item:gag:time_sand_pouch>);
+craftingTable.addShaped("hearthstone", <item:gag:hearthstone>, [[<item:minecraft:air>, <item:enderio:dark_steel_block>, <item:minecraft:air>], [<item:enderio:dark_steel_block>, <item:mekanism:teleportation_core>, <item:enderio:dark_steel_block>], [<item:minecraft:air>, <item:enderio:dark_steel_block>, <item:minecraft:air>]]);
+craftingTable.addShaped("time_sand_pouch", <item:gag:time_sand_pouch>, [[<item:extendedcrafting:flux_star>, <item:immersiveengineering:ersatz_leather>, <item:extendedcrafting:flux_star>], [<item:immersiveengineering:ersatz_leather>, <item:powah:crystal_nitro>, <item:immersiveengineering:ersatz_leather>], [<item:extendedcrafting:flux_star>, <item:immersiveengineering:ersatz_leather>, <item:extendedcrafting:flux_star>]]);

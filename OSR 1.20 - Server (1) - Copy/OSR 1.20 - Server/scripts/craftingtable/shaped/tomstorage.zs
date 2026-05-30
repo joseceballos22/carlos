@@ -1,0 +1,11 @@
+#packmode normal
+craftingTable.remove(<item:toms_storage:ts.inventory_cable>);
+craftingTable.remove(<item:toms_storage:ts.inventory_connector>);
+craftingTable.remove(<item:toms_storage:ts.crafting_terminal>);
+craftingTable.remove(<item:toms_storage:ts.wireless_terminal>);
+smithing.remove(<item:toms_storage:ts.adv_wireless_terminal>);
+craftingTable.remove(<item:toms_storage:ts.storage_terminal>);
+craftingTable.addShaped("storage_terminal", <item:toms_storage:ts.storage_terminal>, [[<item:industrialforegoing:machine_frame_pity>, <item:enderio:double_layer_capacitor>, <item:industrialforegoing:machine_frame_pity>], [<item:mysticalagriculture:soul_glass>, <item:ironchests:obsidian_chest>, <item:mysticalagriculture:soul_glass>], [<item:industrialforegoing:machine_frame_pity>, <item:storagedrawers:controller>, <item:industrialforegoing:machine_frame_pity>]]);
+craftingTable.addShaped("tom_crafting_terminal", <item:toms_storage:ts.crafting_terminal>, [[<item:avaritia:compressed_crafting_table>, <item:botania:mana_diamond>, <item:avaritia:compressed_crafting_table>], [<item:botania:mana_diamond>, <item:toms_storage:ts.storage_terminal>, <item:botania:mana_diamond>], [<item:avaritia:compressed_crafting_table>, <item:botania:mana_diamond>, <item:avaritia:compressed_crafting_table>]]);
+craftingTable.addShaped("tom_inventory_connector", <item:toms_storage:ts.inventory_connector>, [[<tag:items:minecraft:planks>, <item:minecraft:comparator>, <tag:items:minecraft:planks>], [<item:ironchests:obsidian_chest>, <item:botania:mana_diamond>, <item:ironchests:obsidian_chest>], [<tag:items:minecraft:planks>, <item:rftoolsbase:infused_enderpearl>, <tag:items:minecraft:planks>]]);
+craftingTable.addShaped("tom_inventory_cable", <item:toms_storage:ts.inventory_cable> * 6, [[<tag:items:forge:rods/iron>, <tag:items:minecraft:planks>, <tag:items:forge:rods/iron>], [<tag:items:minecraft:trapdoors>, <tag:items:forge:chests/wooden>, <tag:items:minecraft:trapdoors>], [<tag:items:forge:rods/iron>, <tag:items:minecraft:planks>, <tag:items:forge:rods/iron>]]);

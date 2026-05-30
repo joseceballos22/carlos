@@ -1,0 +1,2 @@
+craftingTable.remove(<item:laserio:logic_chip_raw>);
+craftingTable.addShaped("logic_chip_raw", <item:laserio:logic_chip_raw>, [[<item:enderio:conductive_alloy_ingot>, <item:redstone_arsenal:flux_ingot>, <item:enderio:conductive_alloy_ingot>], [<tag:items:forge:silicon>, <item:pipez:universal_pipe>, <tag:items:forge:silicon>], [<item:enderio:conductive_alloy_ingot>, <item:redstone_arsenal:flux_ingot>, <item:enderio:conductive_alloy_ingot>]]);

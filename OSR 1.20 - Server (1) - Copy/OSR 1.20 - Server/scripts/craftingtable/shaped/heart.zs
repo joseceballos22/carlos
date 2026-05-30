@@ -1,0 +1,2 @@
+craftingTable.remove(<item:cyclic:heart>);
+craftingTable.addShaped("heart", <item:cyclic:heart>, [[<item:pamhc2foodextended:spaghettidinneritem>, <item:minecraft:lily_pad>, <item:botania:gaia_ingot>], [<item:minecraft:cake>, <item:cyclic:gem_obsidian>, <item:minecraft:enchanted_golden_apple>], [<item:extendedcrafting:nether_star_block>, <item:mysticalagriculture:awakened_supremium_essence>, <item:minecraft:netherite_block>]]);

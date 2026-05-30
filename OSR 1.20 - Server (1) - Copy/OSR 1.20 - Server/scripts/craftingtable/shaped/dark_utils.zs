@@ -1,0 +1,8 @@
+craftingTable.remove(<item:darkutils:vector_plate>);
+craftingTable.remove(<item:darkutils:charm_portal>);
+craftingTable.remove(<item:darkutils:charm_sleep>);
+craftingTable.remove(<item:darkutils:charm_warding>);
+craftingTable.addShaped("vector_plate", <item:darkutils:vector_plate> * 6, [[<tag:items:darkutils:plate_base>, <tag:items:darkutils:plate_base>, <tag:items:darkutils:plate_base>], [<item:minecraft:sugar>, <item:mob_grinding_utils:entity_conveyor>, <item:minecraft:sugar>], [<tag:items:darkutils:plate_base>, <tag:items:darkutils:plate_base>, <tag:items:darkutils:plate_base>]]);
+craftingTable.addShaped("charm_portal_crystal", <item:darkutils:charm_portal>, [[<tag:items:bookshelf:strings>, <tag:items:bookshelf:strings>, <tag:items:bookshelf:strings>], [<item:minecraft:crying_obsidian>, <item:minecraft:end_crystal>, <item:minecraft:crying_obsidian>], [<item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>]]);
+craftingTable.addShaped("charm_sleep", <item:darkutils:charm_sleep>, [[<tag:items:bookshelf:strings>, <tag:items:bookshelf:strings>, <tag:items:bookshelf:strings>], [<item:minecraft:phantom_membrane>, <tag:items:minecraft:beds>, <item:minecraft:phantom_membrane>], [<item:minecraft:gold_ingot>, <item:minecraft:phantom_membrane>, <item:minecraft:gold_ingot>]]);
+craftingTable.addShaped("charm_warding", <item:darkutils:charm_warding>, [[<tag:items:bookshelf:strings>, <tag:items:bookshelf:strings>, <tag:items:bookshelf:strings>], [<item:minecraft:nether_star>, <item:cyclic:charm_ultimate>, <item:minecraft:nether_star>], [<item:minecraft:gold_ingot>, <item:minecraft:totem_of_undying>, <item:minecraft:gold_ingot>]]);

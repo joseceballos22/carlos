@@ -1,0 +1,1 @@
+craftingTable.addShaped("cobblegen1",<item:cobblefordays:tier_1>, [[<tag:items:minecraft:logs>,<tag:items:minecraft:logs>,<tag:items:minecraft:logs>],[<item:exdeorum:porcelain_water_bucket>,<item:minecraft:glass>,<item:exdeorum:porcelain_lava_bucket>],[<tag:items:minecraft:logs>,<tag:items:minecraft:logs>,<tag:items:minecraft:logs>]]);

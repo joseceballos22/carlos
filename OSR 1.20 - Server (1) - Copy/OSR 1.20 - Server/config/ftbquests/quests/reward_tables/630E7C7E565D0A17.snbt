@@ -1,0 +1,123 @@
+{
+	hide_tooltip: true
+	icon: "kubejs:reward_bag"
+	id: "630E7C7E565D0A17"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "handcrafted:oak_couch" }
+		{ item: "handcrafted:oak_fancy_bed" }
+		{ item: "minecraft:cauldron" }
+		{ item: "cyclic:fan" }
+		{ item: "elevatorid:elevator_white" }
+		{ item: "pneumaticcraft:lubricant_bucket" }
+		{ item: "enderio:enderios" }
+		{ item: "pneumaticcraft:nuke_virus" }
+		{ item: "minecraft:chicken_spawn_egg" }
+		{ item: "minecraft:cow_spawn_egg" }
+		{ item: "minecraft:pig_spawn_egg" }
+		{ item: "minecraft:sheep_spawn_egg" }
+		{ item: "minecraft:observer" }
+		{ item: "mekanismgenerators:turbine_blade" }
+		{ item: "minecraft:anvil" }
+		{ item: "mekanism:configurator" }
+		{ item: "pamhc2foodextended:hushpuppiesitem" }
+		{ item: "pamhc2foodextended:banananutbreaditem" }
+		{ item: "enderio:zombie_electrode" }
+		{ item: "enderio:ender_resonator" }
+		{ item: "enderio:z_logic_controller" }
+		{ item: "enderio:skeletal_contractor" }
+		{ item: "enderio:guardian_diode" }
+		{ item: "thermal:ruby_gear" }
+		{ item: "thermal:sapphire_gear" }
+		{ item: "thermal:rose_gold_gear" }
+		{ item: "thermal:enderium_gear" }
+		{ item: "mysticalagradditions:nether_star_shard" }
+		{ count: 8, item: "avaritia:neutron_pile" }
+		{ item: "betterfurnacesreforged:raw_ore_processing_upgrade" }
+		{ item: "undergarden:forgotten_nugget" }
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:empty_pcb"
+				tag: {
+					"pneumaticcraft:uv_exposure": 100
+				}
+			}
+		}
+		{ item: "mekanism:heavy_water_bucket" }
+		{ item: "bigreactors:verderium_bucket" }
+		{ item: "mysticalagriculture:cognizant_dust" }
+		{ item: "usefulslime:jello" }
+		{ item: "appbot:fluix_mana_pool" }
+		{ item: "minecraft:netherite_upgrade_smithing_template" }
+		{ item: "ad_astra:desh_ingot" }
+		{ item: "ad_astra:ostrum_ingot" }
+		{ item: "ad_astra:calorite_ingot" }
+		{ item: "avaritia:crystal_matrix_ingot" }
+		{ item: "supplementaries:hourglass" }
+		{ item: "minecraft:lodestone" }
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:slingshot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulslime:slime_sling"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:ponder_goat_horn"
+				}
+			}
+		}
+		{ item: "ironchests:diamond_dolly" }
+		{
+			item: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ad_astra_giselle_addon:space_breathing"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "reliquary:twilight_cloak" }
+		{ item: "twilightforest:magic_beans" }
+		{ item: "farmingforblockheads:chicken_nest" }
+		{ item: "havenanimalseeds:axolotl_seed" }
+		{ item: "havenanimalseeds:bee_seed" }
+		{ item: "havenanimalseeds:llama_seed" }
+	]
+	title: "Good Reward"
+	use_title: true
+}

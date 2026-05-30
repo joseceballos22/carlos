@@ -1,0 +1,21 @@
+#packmode expert
+craftingTable.removeByName("ae2:network/parts/terminals");
+craftingTable.removeByName("refinedstorage:grid");
+craftingTable.removeByName("ae2:network/parts/terminals_crafting");
+craftingTable.removeByName("refinedstorage:crafting_grid/crafting_grid");
+craftingTable.removeByName("ae2:network/blocks/storage_drive");
+craftingTable.removeByName("refinedstorage:disk_drive");
+craftingTable.removeByName("ae2:network/blocks/controller");
+craftingTable.removeByName("refinedstorage:controller");
+craftingTable.removeByName("refinedstorage:upgrade");
+craftingTable.removeByName("ae2:materials/advancedcard");
+craftingTable.addShapeless("ae2_terminal", <item:ae2:terminal>, [<item:ae2:formation_core>, <tag:items:ae2:illuminated_panel>, <item:ae2:logic_processor>, <item:ae2:annihilation_core>, <item:toms_storage:ts.storage_terminal>,]);
+craftingTable.addShapeless("ae2_terminal_crafting", <item:ae2:crafting_terminal>, [<item:ae2:terminal>, <item:mekanism:hdpe_sheet>, <item:ae2:calculation_processor>, <item:toms_storage:ts.crafting_terminal>]);
+craftingTable.addShaped("refinedstorage_grid", <item:refinedstorage:grid>, [[<item:refinedstorage:improved_processor>, <item:refinedstorage:construction_core>, <tag:items:forge:glass>], [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:machine_casing>, <item:toms_storage:ts.storage_terminal>], [<item:refinedstorage:improved_processor>, <item:refinedstorage:destruction_core>, <tag:items:forge:glass>]]);
+craftingTable.addShapeless("refinedstorage_crafting_grid", <item:refinedstorage:crafting_grid>, [<item:refinedstorage:grid>, <item:refinedstorage:advanced_processor>, <item:mekanism:hdpe_sheet>, <item:toms_storage:ts.crafting_terminal>]);
+craftingTable.addShaped("rs_disk_drive", <item:refinedstorage:disk_drive>, [[<item:refinedstorage:quartz_enriched_iron>, <item:ad_astra:desh_plate>, <item:refinedstorage:quartz_enriched_iron>], [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:machine_casing>, <item:refinedstorage:quartz_enriched_iron>], [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:advanced_processor>, <item:refinedstorage:quartz_enriched_iron>]]);
+craftingTable.addShaped("ae2_storage_drive", <item:ae2:drive>, [[<item:refinedstorage:quartz_enriched_iron>, <item:ae2:engineering_processor>, <item:refinedstorage:quartz_enriched_iron>], [<item:ae2:fluix_glass_cable>, <item:ad_astra:desh_plate>, <item:ae2:fluix_glass_cable>], [<item:refinedstorage:quartz_enriched_iron>, <item:ae2:engineering_processor>, <item:refinedstorage:quartz_enriched_iron>]]);
+craftingTable.addShaped("rs_controller", <item:refinedstorage:controller>, [[<item:refinedstorage:quartz_enriched_iron>, <item:mekanism:hdpe_sheet>, <item:refinedstorage:quartz_enriched_iron>], [<tag:items:forge:silicon>, <item:refinedstorage:advanced_processor>, <tag:items:forge:silicon>], [<item:refinedstorage:quartz_enriched_iron>, <item:undergarden:forgotten_ingot>, <item:refinedstorage:quartz_enriched_iron>]]);
+craftingTable.addShaped("ae2_controller", <item:ae2:controller>, [[<item:ae2:smooth_sky_stone_block>, <item:mekanism:hdpe_sheet>, <item:ae2:smooth_sky_stone_block>], [<item:ae2:fluix_crystal>, <item:ae2:engineering_processor>, <item:ae2:fluix_crystal>], [<item:ae2:smooth_sky_stone_block>, <item:undergarden:forgotten_ingot>, <item:ae2:smooth_sky_stone_block>]]);
+craftingTable.addShaped("rs_upgrade", <item:refinedstorage:upgrade>, [[<item:refinedstorage:quartz_enriched_iron>, <item:pneumaticcraft:printed_circuit_board>, <item:refinedstorage:quartz_enriched_iron>], [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:improved_processor>, <item:refinedstorage:quartz_enriched_iron>], [<item:refinedstorage:quartz_enriched_iron>, <tag:items:forge:glass>, <item:refinedstorage:quartz_enriched_iron>]]);
+craftingTable.addShaped("advanced_card", <item:ae2:advanced_card>, [[<tag:items:forge:gems/diamond>, <item:refinedstorage:quartz_enriched_iron>, <item:minecraft:air>], [<tag:items:forge:dusts/redstone>, <item:ae2:calculation_processor>, <item:pneumaticcraft:printed_circuit_board>], [<tag:items:forge:gems/diamond>, <item:refinedstorage:quartz_enriched_iron>, <item:minecraft:air>]]);

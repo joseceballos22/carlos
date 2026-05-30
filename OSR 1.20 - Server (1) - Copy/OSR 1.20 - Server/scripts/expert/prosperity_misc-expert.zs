@@ -1,0 +1,7 @@
+#packmode expert
+craftingTable.removeByName("mysticalagriculture:prosperity_ingot");
+craftingTable.removeByName("mysticalagriculture:prosperity_gemstone");
+craftingTable.removeByName("redstone_arsenal:materials/flux_dust");
+craftingTable.addShaped("prosperity_ingot", <item:mysticalagriculture:prosperity_ingot>, [[<item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:prosperity_shard>], [<item:mysticalagriculture:prosperity_shard>, <item:redstone_arsenal:flux_ingot>, <item:mysticalagriculture:prosperity_shard>], [<item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:prosperity_shard>]]);
+craftingTable.addShaped("prosperity_gemstone", <item:mysticalagriculture:prosperity_gemstone>, [[<item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:prosperity_shard>], [<item:mysticalagriculture:prosperity_shard>, <item:redstone_arsenal:flux_gem>, <item:mysticalagriculture:prosperity_shard>], [<item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:prosperity_shard>]]);
+craftingTable.addShapeless("flux_dust", <item:redstone_arsenal:flux_dust>, [<tag:items:forge:dusts/electrum>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>, <tag:items:forge:dusts/redstone>]);

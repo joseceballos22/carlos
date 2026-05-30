@@ -1,0 +1,16 @@
+#packmode expert
+craftingTable.removeByName("minecraft:furnace");
+craftingTable.removeByName("slabmachines:slab_from_furnace");
+craftingTable.removeByName("betterfurnacesreforged:iron_conductor_block");
+craftingTable.removeByName("betterfurnacesreforged:gold_conductor_block");
+craftingTable.removeByName("betterfurnacesreforged:netherhot_conductor_block");
+craftingTable.removeByName("ultimatefurnaces:steel_gold_upgrade");
+craftingTable.removeByName("ultimatefurnaces:copper_iron_upgrade");
+craftingTable.removeByName("ultimatefurnaces:iron_furnace");
+craftingTable.addShaped("slab_furnace", <item:slabmachines:furnace_slab>, [[<tag:items:exdeorum:compressed/cobblestone>, <tag:items:exdeorum:compressed/cobblestone>, <tag:items:exdeorum:compressed/cobblestone>], [<tag:items:exdeorum:compressed/cobblestone>, <item:minecraft:air>, <tag:items:exdeorum:compressed/cobblestone>], [<tag:items:exdeorum:compressed/cobblestone>, <tag:items:exdeorum:compressed/cobblestone>, <tag:items:exdeorum:compressed/cobblestone>]]);
+craftingTable.addShaped("gold_conductor_block", <item:betterfurnacesreforged:gold_conductor_block>, [[<tag:items:forge:plates/gold>, <item:minecraft:iron_bars>, <tag:items:forge:plates/gold>], [<item:minecraft:iron_bars>, <tag:items:forge:plates/iron>, <item:minecraft:iron_bars>], [<tag:items:forge:plates/gold>, <item:minecraft:iron_bars>, <tag:items:forge:plates/gold>]]);
+craftingTable.addShaped("iron_conductor_block", <item:betterfurnacesreforged:iron_conductor_block>, [[<tag:items:forge:plates/iron>, <tag:items:enderio:fused_quartz>, <tag:items:forge:plates/iron>], [<tag:items:enderio:fused_quartz>, <tag:items:forge:plates/gold>, <tag:items:enderio:fused_quartz>], [<tag:items:forge:plates/iron>, <tag:items:enderio:fused_quartz>, <tag:items:forge:plates/iron>]]);
+craftingTable.addShaped("netherhot_conductor_block", <item:betterfurnacesreforged:netherhot_conductor_block>, [[<item:thermal:signalum_plate>, <item:minecraft:blaze_rod>, <item:thermal:signalum_plate>], [<item:minecraft:blaze_rod>, <item:betterfurnacesreforged:gold_conductor_block>, <item:minecraft:blaze_rod>], [<item:thermal:signalum_plate>, <item:minecraft:blaze_rod>, <item:thermal:signalum_plate>]]);
+craftingTable.addShaped("steel_gold_upgrade", <item:betterfurnacesreforged:steel_gold_upgrade>, [[<tag:items:forge:plates/gold>, <tag:items:forge:plates/gold>, <tag:items:forge:plates/gold>], [<tag:items:forge:plates/gold>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/gold>]]);
+craftingTable.addShaped("copper_iron_upgrade", <item:betterfurnacesreforged:copper_iron_upgrade>, [[<tag:items:forge:plates/iron>, <tag:items:forge:glass>, <tag:items:forge:plates/iron>], [<tag:items:forge:glass>, <tag:items:forge:plates/copper>, <tag:items:forge:glass>], [<tag:items:forge:plates/iron>, <tag:items:forge:glass>, <tag:items:forge:plates/iron>]]);
+craftingTable.addShaped("iron_furnace_copper", <item:betterfurnacesreforged:iron_furnace>, [[<tag:items:forge:plates/iron>, <tag:items:forge:glass>, <tag:items:forge:plates/iron>], [<tag:items:forge:glass>, <item:betterfurnacesreforged:copper_furnace>, <tag:items:forge:glass>], [<tag:items:forge:plates/iron>, <tag:items:forge:glass>, <tag:items:forge:plates/iron>]]);

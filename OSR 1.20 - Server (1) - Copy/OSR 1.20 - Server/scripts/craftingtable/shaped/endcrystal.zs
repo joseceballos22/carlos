@@ -1,0 +1,2 @@
+craftingTable.remove(<item:minecraft:end_crystal>);
+craftingTable.addShaped("end_crystal", <item:minecraft:end_crystal>, [[<item:mysticalagriculture:soul_glass>, <item:mysticalagriculture:soul_glass>, <item:mysticalagriculture:soul_glass>], [<item:mysticalagriculture:soul_glass>, <item:cyclic:ender_eye_reuse>, <item:mysticalagriculture:soul_glass>], [<item:mysticalagriculture:soul_glass>, <item:minecraft:ghast_tear>, <item:mysticalagriculture:soul_glass>]]);

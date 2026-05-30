@@ -1,0 +1,718 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "upsilon"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "hostilenetworks:deep_learner"
+	id: "0D7E90D99EB86390"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 6.5d
+		y: 2.0d
+	}]
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3082BB769BB97BEC"]
+			description: ["Used to create simulations of mobs."]
+			id: "20E4E8939E7021CD"
+			rewards: [
+				{
+					id: "00521FC598207216"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "53D29C023C333562"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "473D3090642C6242"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["20E4E8939E7021CD"]
+			description: ["Generates loot from neural networks"]
+			id: "146CF4A0D8FF14D3"
+			rewards: [
+				{
+					id: "591AD7F793C8154D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "326620C9EA4225BB"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "142AC7E4902C1040"
+					table_id: 8263517383619382820L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "65E181CDA27A5160"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0E5632983BB97532"]
+			description: ["Hostile Neural Networks is a mod based on Deep Mob Learning for 1.16.5 and higher. It allows you to train data models and run simulations, producing mob predictions, which can be used to generate mob loot."]
+			id: "3082BB769BB97BEC"
+			rewards: [
+				{
+					id: "1E457D1593BC3BCB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "52EDE01839541B37"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D0D46E0D9D6404F"
+					table_id: 6934286827609696671L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Mob Masher\" to unlock"
+			tasks: [{
+				id: "0CB4CE9A31C33018"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3082BB769BB97BEC"]
+			description: [
+				"The fundamental unit of this mod is the Data Model - an item which holds information about an entity that you can utilize to generate their drops. To get a Data Model, you must first craft a Data Model Framework, and use it on the target entity to build the model. Once you have your model, you will have to train it."
+				""
+				"Training a Data Model can be done in one of two ways, with a Deep Learner or with a Simulation Chamber. The deep learner allows you to store a few data models within, and kills you receive will begin to train the model. All models start out in the Faulty state, and must be trained up to Basic in the deep learner."
+			]
+			id: "74AC6573C1A806BE"
+			rewards: [
+				{
+					id: "1C334698E024DC46"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "480349400BAF3756"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D4BC610BCF40237"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74AC6573C1A806BE"]
+			description: ["Once your model is Basic or higher, you can use the simulation chamber to run simulations of your model. Simulations will always produce a generalized prediction, and may also produce a Mob Prediction, based on the accuracy of the model. The higher tier of the model, the higher the accuracy, up to 99.5% at Self Aware. Running simulations requires energy (based on the model type) and a catalyst item, which is usually a Prediction Matrix."]
+			id: "160D692027A53B64"
+			rewards: [
+				{
+					id: "0B4B3C1DEE11322A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "22E8A0243721A993"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0803910E09B6DB4A"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74AC6573C1A806BE"]
+			description: ["From overworld mobs"]
+			id: "582381B5E9F65894"
+			rewards: [
+				{
+					id: "31B8AD7C50B6851D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "338D1B3C7214A4C4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F878C05EAE87986"
+					table_id: 455336730284347560L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6E2200A93960A28A"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["582381B5E9F65894"]
+			description: ["From nether mobs"]
+			id: "632DBB9D66CB2457"
+			rewards: [
+				{
+					id: "722F6A777CB7150F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3227B195CDCF9C69"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "030769C734E779BC"
+					table_id: 455336730284347560L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "60821BAEC12D0F3B"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["632DBB9D66CB2457"]
+			description: ["From end mobs"]
+			id: "7617CB1F7F502680"
+			rewards: [
+				{
+					id: "45A913CAEA9C38D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6E78946F8A13ED3D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E4B896709C6837"
+					table_id: 455336730284347560L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0EDD5BD0465D0949"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: [
+				"Redstone Arsenal adds tools and weaponry which harness the power of Redstone Flux, the energy system added by CoFH and Thermal Expansion."
+				""
+				"Redstone Arsenal Armor: Makes piglins neutral when worn. Each piece grants a single charge of flux shielding. A charge can be used to negate a single instance of damage, up to 500 damage points. Charges regenerate after 30 seconds."
+			]
+			id: "4D8D51291629C01B"
+			rewards: [{
+				id: "7D6FD3D3875ED72E"
+				item: "chancecubes:chance_cube"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "Must complete \"Crescent Hammer\" to unlock"
+			tasks: [{
+				id: "35FC92E62DEED5C8"
+				item: "redstone_arsenal:flux_metal_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: ["Empowered: Propels fired arrows at hyperspeed, often allowing them to reach their destinations instantly."]
+			id: "641F869574914AB0"
+			rewards: [
+				{
+					id: "3B894B9583751B65"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0B6CB8871368B364"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14A954857D138EE9"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: [
+				"The crossbow can be reloaded with up to 3 shots. Left click to fire."
+				""
+				"Empowered: Fires all 3 shots at once, vertically offset from each other."
+			]
+			id: "08E49BD35B88AB59"
+			rewards: [
+				{
+					id: "5F75FE6AE7E2A5E7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "182BCD504FDB315B"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D952981309A6F82"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_crossbow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: [
+				"Produces flux arrows that deal armor-piercing damage."
+				""
+				"Empowered:  Produces gravity-defying arrows when shot from a bow, and arrows that explode on contact when shot from a crossbow."
+			]
+			id: "6D28BFB719B857C5"
+			rewards: [
+				{
+					id: "33171DB0B72DA2F2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4C10520C46DF9DFE"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A30A01CE30A0333"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: [
+				"Attack range increased by 2 blocks."
+				""
+				"Empowered: When the user is off the ground, the trident can be swung to launch them downwards in the direction they are looking. Upon landing, the kinetic energy is used to deal armor piercing damage to nearby mobs, negating fall damage. Synergizes with the riptide enchantment."
+			]
+			id: "3C392D84AF0B5711"
+			rewards: [
+				{
+					id: "1B6A1F3E04908CE8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "647BE35E4AEFCB47"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "703E751709021A7E"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_trident"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: [
+				"Performs radial sweeping attacks when swung, regardless of whether a mob is directly hit. Accepts the sweeping edge enchantment."
+				""
+				"Empowered: Only damages adult (non-baby) mobs. Exclusively breaks \"mature\" plants, such as fully grown crops, melons/pumpkin blocks (not stems), non-base sugarcane/cactus/kelp/vine/bamboo blocks, natural leaf blocks, tall grass/flowers, and big dripleaves."
+			]
+			id: "1463D0E842943F8B"
+			rewards: [
+				{
+					id: "56E5F5CC6E12A6A7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "00673B4B6CF2C04C"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69E6CEE76930D839"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_sickle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: ["Empowered: Can be used to reel in hooked mobs with much greater control. The mob is unhooked if the user attacks it or uses the rod when crouching."]
+			id: "1B2809B6F2B4ECA2"
+			rewards: [
+				{
+					id: "0B4F85D472295FA3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "205FCC2E8CA9A7F6"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C5E9C4A68D83B63"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_fishing_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: [
+				"Can be thrown, dealing damage to mobs and rotating blocks in its path. Returns after hitting something or when it is 16 blocks away from the user."
+				""
+				"Empowered: Upon hitting anything or reaching its max distance, instantly teleports back to the user's inventory."
+			]
+			id: "1F0F791303414C9F"
+			rewards: [
+				{
+					id: "2801D9E982688A90"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "52EF5168A572EDA4"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EBCEDDD40B64036"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: ["Empowered: Coalesces flux energy on the blade, releasing it as a piercing projectile when swung."]
+			id: "1FD4C674E8ACF4A8"
+			rewards: [
+				{
+					id: "7BAA237827B5326E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "79D6CC3FFF69EA9F"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78462A4AF4D17FE4"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: [
+				"Can be used to charge the air with flux, producing a permanent light source. Using it on fluxed air will remove the effect. Using it while crouching will remove all fluxed air blocks in a large radius."
+				""
+				"Empowered: Automatically creates fluxed air when the user is in dark locations."
+			]
+			id: "0D56F9F5F92A22D1"
+			rewards: [
+				{
+					id: "5112029767CDE863"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6DA24B325616E848"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04B6E61E5CBF47F1"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_pickaxe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: [
+				"Effectively mines powder snow. Can be used on farmland or dirt paths to revert them to dirt."
+				""
+				"Empowered: When used on dirt-type blocks, creates a flux-infused path block that is faster to walk on."
+			]
+			id: "010C229774F22C63"
+			rewards: [
+				{
+					id: "03EF14E812EA0099"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1DE5580490978CBA"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21FBF498DC915A7B"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_shovel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: ["Empowered: Breaks up to 36 vertically contiguous wood blocks of the same type."]
+			id: "717674BB18DF203E"
+			rewards: [
+				{
+					id: "76C612994B646DD5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "40A90C0D2C2EDFCF"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09F233AC0F251BFC"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_axe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: [
+				"Effectively mines powder snow. Can be used to place matching earth-type blocks in its area of effect."
+				""
+				"Empowered: Area of effect increased to 5x5."
+			]
+			id: "735D4596340E6B02"
+			rewards: [
+				{
+					id: "7E904EE643266696"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "65EBB1332DC66571"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "376DD764993C2ED3"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_excavator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: ["Empowered: Mining speed greatly reduced. Damage and attack speed increased. Hitting a mob grants the user 2s of speed. Using it on the ground creates a shockwave, which knocks affected mobs back, inflicts the sundered debuff on affected mobs, and grants the user a 2.5s strength buff. Hitting a mob while this buff is active will extend its duration by 0.5s."]
+			id: "5D6289BEC50F8A91"
+			rewards: [
+				{
+					id: "6AE9BF2F3475408C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7F8206388CA04E65"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4121A0A9F860CC34"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_hammer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D8D51291629C01B"]
+			description: [
+				"&nElytra&r"
+				""
+				"Brakes when the user crouches in the air."
+				""
+				"Empowered: Uses flux energy to constantly propel the user, similar to continuously using firework rockets."
+				""
+				"&nController&r"
+				""
+				"Unempowering or empowering the controller will also unempower or empower the equipped elytra. Using the controller will boost the user, similar to using a single firework rocket. If the user is on the ground, using the controller will allow them to easily take off in the direction they are looking."
+			]
+			id: "283D4AE04F36E7DF"
+			rewards: [
+				{
+					id: "5909728B04F0F013"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7312C093CAC9239B"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "49FEA81B3C8D10B6"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_elytra"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7DD670F2440FFEE8"
+					item: {
+						Count: 1
+						id: "redstone_arsenal:flux_controller"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 3.5d
+		}
+	]
+	title: "Upsilon"
+}

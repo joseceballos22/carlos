@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("rftoolsutility:crafter1");
+craftingTable.addShaped("crafter1", <item:rftoolsutility:crafter1>, [[<item:mekanism:alloy_infused>, <item:minecraft:redstone_torch>, <item:mekanism:alloy_infused>], [<item:enderio:crafter>, <item:rftoolsbase:machine_frame>, <item:enderio:crafter>], [<item:mekanism:alloy_infused>, <item:minecraft:redstone_torch>, <item:mekanism:alloy_infused>]]);

@@ -1,0 +1,13 @@
+craftingTable.remove(<item:powah:energy_cell_nitro>);
+craftingTable.addShaped("energy_cell_nitro", <item:powah:energy_cell_nitro>, [[<item:powah:crystal_nitro>, <item:powah:capacitor_nitro>, <item:powah:crystal_nitro>], [<item:powah:energy_cell_spirited>, <item:bigreactors:insanite_block>, <item:powah:energy_cell_spirited>], [<item:powah:crystal_nitro>, <item:powah:capacitor_nitro>, <item:powah:crystal_nitro>]]);
+craftingTable.remove(<item:powah:ender_cell_nitro>);
+craftingTable.addShaped("ender_cell_nitro", <item:powah:ender_cell_nitro>, [[<item:minecraft:obsidian>, <item:powah:crystal_nitro>, <item:minecraft:obsidian>], [<item:powah:crystal_nitro>, <item:bigreactors:insanite_block>, <item:powah:crystal_nitro>], [<item:minecraft:obsidian>, <item:powah:crystal_nitro>, <item:minecraft:obsidian>]]);
+craftingTable.addShapeless("ender_cell_nitro_2", <item:powah:ender_cell_nitro>, [<item:powah:ender_cell_nitro>]);
+craftingTable.remove(<item:powah:furnator_nitro>);
+craftingTable.addShaped("furnator_nitro", <item:powah:furnator_nitro>, [[<item:powah:crystal_nitro>, <item:powah:crystal_nitro>, <item:powah:crystal_nitro>], [<item:powah:capacitor_nitro>, <item:bigreactors:insanite_block>, <item:powah:capacitor_nitro>], [<item:powah:crystal_nitro>, <item:powah:furnator_spirited>, <item:powah:crystal_nitro>]]);
+craftingTable.remove(<item:powah:magmator_nitro>);
+craftingTable.addShaped("magmator_nitro", <item:powah:magmator_nitro>, [[<item:powah:crystal_nitro>, <item:powah:crystal_nitro>, <item:powah:crystal_nitro>], [<item:powah:capacitor_nitro>, <item:bigreactors:insanite_block>, <item:powah:capacitor_nitro>], [<item:powah:crystal_nitro>, <item:powah:magmator_spirited>, <item:powah:crystal_nitro>]]);
+craftingTable.remove(<item:powah:thermo_generator_nitro>);
+craftingTable.addShaped("thermo_generator_nitro", <item:powah:thermo_generator_nitro>, [[<item:powah:dielectric_paste>, <item:powah:crystal_nitro>, <item:powah:dielectric_paste>], [<item:powah:capacitor_nitro>, <item:bigreactors:insanite_block>, <item:powah:capacitor_nitro>], [<item:powah:thermoelectric_plate>, <item:powah:thermo_generator_spirited>, <item:powah:thermoelectric_plate>]]);
+craftingTable.remove(<item:powah:reactor_nitro>);
+craftingTable.addShaped("reactor_nitro", <item:powah:reactor_nitro> * 4, [[<item:powah:reactor_spirited>, <item:powah:capacitor_nitro>, <item:powah:reactor_spirited>], [<item:powah:capacitor_nitro>, <item:bigreactors:insanite_block>, <item:powah:capacitor_nitro>], [<item:powah:reactor_spirited>, <item:powah:capacitor_nitro>, <item:powah:reactor_spirited>]]);

@@ -1,0 +1,2 @@
+craftingTable.removeByName("cyclic:sprinkler");
+craftingTable.addShaped("cyclic_sprinkler", <item:cyclic:sprinkler>, [[<item:cyclic:terra_glass>, <item:sprinklerz:copper_sprinkler>, <item:cyclic:terra_glass>], [<item:minecraft:cauldron>, <item:cyclic:hopper_fluid>, <item:minecraft:cauldron>], [<item:cyclic:terra_glass>, <item:sprinklerz:copper_sprinkler>, <item:cyclic:terra_glass>]]);

@@ -1,0 +1,2 @@
+craftingTable.remove(<item:mekanismgenerators:heat_generator>);
+craftingTable.addShaped("heat_generator", <item:mekanismgenerators:heat_generator>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:minecraft:planks>, <item:enderio:energetic_alloy_ingot>, <tag:items:minecraft:planks>], [<tag:items:forge:ingots/copper>, <item:minecraft:furnace>, <tag:items:forge:ingots/copper>]]);

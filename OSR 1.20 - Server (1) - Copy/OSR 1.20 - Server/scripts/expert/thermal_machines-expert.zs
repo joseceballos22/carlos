@@ -1,0 +1,21 @@
+#packmode expert
+craftingTable.removeByName("thermal:machine_press");
+craftingTable.removeByName("thermal:press_gear_die");
+craftingTable.removeByName("thermal:machine_furnace");
+craftingTable.removeByName("thermal:machine_pulverizer");
+craftingTable.removeByName("thermal:machine_smelter");
+craftingTable.removeByName("thermal:machine_sawmill");
+craftingTable.removeByName("thermal:machine_insolator");
+craftingTable.removeByName("thermal:fire_grenade_4");
+craftingTable.removeByName("thermal:earth_charge_3");
+craftingTable.removeByName("thermal:fire_tnt");
+craftingTable.addShaped("machine_press", <item:thermal:machine_press>, [[<item:enderio:crafter>, <tag:items:forge:storage_blocks/iron>, <item:enderio:crafter>], [<tag:items:forge:storage_blocks/bronze>, <item:thermal:machine_frame>, <tag:items:forge:storage_blocks/bronze>], [<tag:items:forge:storage_blocks/constantan>, <item:thermal:rf_coil>, <tag:items:forge:storage_blocks/constantan>]]);
+craftingTable.addShaped("press_gear_die", <item:thermal:press_gear_die>, [[<item:minecraft:air>, <tag:items:forge:plates/invar>, <item:minecraft:air>], [<tag:items:forge:plates/invar>, <tag:items:forge:gears>, <tag:items:forge:plates/invar>], [<item:minecraft:air>, <tag:items:forge:plates/invar>, <item:minecraft:air>]]);
+craftingTable.addShaped("machine_furnace", <item:thermal:machine_furnace>, [[<item:ironfurnaces:copper_furnace>, <tag:items:forge:dusts/redstone>, <item:ironfurnaces:copper_furnace>], [<item:aether:holystone_bricks>, <item:thermal:machine_frame>, <item:aether:holystone_bricks>], [<tag:items:forge:gears/copper>, <item:thermal:rf_coil>, <tag:items:forge:gears/copper>]]);
+craftingTable.addShaped("machine_pulverizer", <item:thermal:machine_pulverizer>, [[<item:enderio:sag_mill>, <item:minecraft:piston>, <item:enderio:sag_mill>], [<item:cyclic:shears_flint>, <item:thermal:machine_frame>, <item:cyclic:shears_flint>], [<tag:items:forge:gears/tin>, <item:thermal:rf_coil>, <tag:items:forge:gears/tin>]]);
+craftingTable.addShaped("machine_smelter", <item:thermal:machine_smelter>, [[<item:enderio:alloy_smelter>, <item:minecraft:blast_furnace>, <item:enderio:alloy_smelter>], [<tag:items:forge:sand/red>, <item:thermal:machine_frame>, <tag:items:forge:sand/red>], [<tag:items:forge:gears/invar>, <item:thermal:rf_coil>, <tag:items:forge:gears/invar>]]);
+craftingTable.addShaped("machine_sawmill", <item:thermal:machine_sawmill>, [[<item:mekanism:precision_sawmill>, <item:thermal:saw_blade>, <item:mekanism:precision_sawmill>], [<item:undergarden:shiverstone>, <item:thermal:machine_frame>, <item:undergarden:shiverstone>], [<tag:items:forge:gears/gold>, <item:thermal:rf_coil>, <tag:items:forge:gears/gold>]]);
+craftingTable.addShaped("machine_insolator", <item:thermal:machine_insolator>, [[<item:minecraft:air>, <item:immersiveengineering:cloche>, <item:minecraft:air>], [<tag:items:forge:glass>, <item:thermal:machine_frame>, <tag:items:forge:glass>], [<tag:items:forge:gears/lumium>, <item:thermal:rf_coil>, <tag:items:forge:gears/lumium>]]);
+craftingTable.addShaped("fire_grenade", <item:thermal:fire_grenade>, [[<tag:items:forge:gunpowder>, <item:minecraft:fire_charge>, <tag:items:forge:gunpowder>], [<item:minecraft:fire_charge>, <tag:items:forge:ingots/compressed_iron>, <item:minecraft:fire_charge>], [<tag:items:forge:gunpowder>, <item:minecraft:fire_charge>, <tag:items:forge:gunpowder>]]);
+craftingTable.addShapeless("earth_charge", <item:thermal:earth_charge>, [<tag:items:forge:dusts/sulfur>, <item:thermal:basalz_powder>, <item:minecraft:fire_charge>, <item:minecraft:charcoal>]);
+craftingTable.addShaped("fire_tnt", <item:thermal:fire_tnt>, [[<tag:items:forge:gunpowder>, <item:minecraft:blaze_powder>, <tag:items:forge:gunpowder>], [<item:minecraft:blaze_powder>, <item:thermal:fire_grenade>, <item:minecraft:blaze_powder>], [<tag:items:forge:gunpowder>, <item:minecraft:blaze_powder>, <tag:items:forge:gunpowder>]]);

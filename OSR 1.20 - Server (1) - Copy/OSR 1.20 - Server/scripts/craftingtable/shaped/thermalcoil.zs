@@ -1,0 +1,2 @@
+craftingTable.remove(<item:thermal:rf_coil>);
+craftingTable.addShaped("rf_coil", <item:thermal:rf_coil>, [[<item:minecraft:air>, <item:minecraft:air>, <item:redstone_arsenal:flux_gem>], [<item:minecraft:air>, <item:redstone_arsenal:flux_ingot>, <item:minecraft:air>], [<item:redstone_arsenal:flux_gem>, <item:minecraft:air>, <item:minecraft:air>]]);

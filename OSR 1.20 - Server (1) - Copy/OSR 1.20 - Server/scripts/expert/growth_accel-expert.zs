@@ -1,0 +1,16 @@
+#packmode expert
+craftingTable.removeByName("mysticalagriculture:inferium_growth_accelerator");
+craftingTable.removeByName("mysticalagriculture:prudentium_growth_accelerator");
+craftingTable.removeByName("mysticalagriculture:tertium_growth_accelerator");
+craftingTable.removeByName("mysticalagriculture:imperium_growth_accelerator");
+craftingTable.removeByName("mysticalagriculture:supremium_growth_accelerator");
+
+craftingTable.addShaped("inferium_growth_accelerator", <item:mysticalagriculture:inferium_growth_accelerator>, [[<item:mysticalagriculture:inferium_essence>, <item:minecraft:smooth_stone>, <item:mysticalagriculture:inferium_essence>], [<item:minecraft:smooth_stone>, <item:mysticalagriculture:inferium_gemstone>, <item:minecraft:smooth_stone>], [<item:mysticalagriculture:inferium_essence>, <item:minecraft:smooth_stone>, <item:mysticalagriculture:inferium_essence>]]);
+
+craftingTable.addShaped("prudentium_growth_accelerator", <item:mysticalagriculture:prudentium_growth_accelerator>, [[<item:mysticalagriculture:prudentium_essence>, <item:mysticalagriculture:inferium_growth_accelerator>, <item:mysticalagriculture:prudentium_essence>], [<item:mysticalagriculture:inferium_growth_accelerator>, <item:mysticalagriculture:prudentium_gemstone>, <item:mysticalagriculture:inferium_growth_accelerator>], [<item:mysticalagriculture:prudentium_essence>, <item:mysticalagriculture:inferium_growth_accelerator>, <item:mysticalagriculture:prudentium_essence>]]);
+
+craftingTable.addShaped("tertium_growth_accelerator", <item:mysticalagriculture:tertium_growth_accelerator>, [[<item:mysticalagriculture:tertium_essence>, <item:mysticalagriculture:prudentium_growth_accelerator>, <item:mysticalagriculture:tertium_essence>], [<item:mysticalagriculture:prudentium_growth_accelerator>, <item:mysticalagriculture:tertium_gemstone>, <item:mysticalagriculture:prudentium_growth_accelerator>], [<item:mysticalagriculture:tertium_essence>, <item:mysticalagriculture:prudentium_growth_accelerator>, <item:mysticalagriculture:tertium_essence>]]);
+
+craftingTable.addShaped("imperium_growth_accelerator", <item:mysticalagriculture:imperium_growth_accelerator>, [[<item:mysticalagriculture:imperium_essence>, <item:mysticalagriculture:tertium_growth_accelerator>, <item:mysticalagriculture:imperium_essence>], [<item:mysticalagriculture:tertium_growth_accelerator>, <item:mysticalagriculture:imperium_gemstone>, <item:mysticalagriculture:tertium_growth_accelerator>], [<item:mysticalagriculture:imperium_essence>, <item:mysticalagriculture:tertium_growth_accelerator>, <item:mysticalagriculture:imperium_essence>]]);
+
+craftingTable.addShaped("supremium_growth_accelerator", <item:mysticalagriculture:supremium_growth_accelerator>, [[<item:mysticalagriculture:supremium_essence>, <item:mysticalagriculture:imperium_growth_accelerator>, <item:mysticalagriculture:supremium_essence>], [<item:mysticalagriculture:imperium_growth_accelerator>, <item:mysticalagriculture:supremium_gemstone>, <item:mysticalagriculture:imperium_growth_accelerator>], [<item:mysticalagriculture:supremium_essence>, <item:mysticalagriculture:imperium_growth_accelerator>, <item:mysticalagriculture:supremium_essence>]]);

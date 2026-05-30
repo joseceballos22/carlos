@@ -1,0 +1,2 @@
+#packmode normal
+craftingTable.addShaped("cobblegen5",<item:cobblefordays:tier_5>, [[<item:minecraft:diamond>,<item:minecraft:diamond>,<item:minecraft:diamond>],[<item:exdeorum:porcelain_water_bucket>,<item:minecraft:glass>,<item:exdeorum:porcelain_lava_bucket>],[<item:minecraft:diamond>,<item:minecraft:diamond>,<item:minecraft:diamond>]]);

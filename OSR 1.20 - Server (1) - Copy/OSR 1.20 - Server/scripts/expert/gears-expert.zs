@@ -1,0 +1,25 @@
+#packmode expert
+craftingTable.removeByName("pneumaticcraft:compressed_iron_gear");
+craftingTable.removeByName("thermal:parts/iron_gear");
+craftingTable.removeByName("thermal:parts/gold_gear");
+craftingTable.removeByName("thermal:parts/copper_gear");
+craftingTable.removeByName("thermal:parts/netherite_gear");
+craftingTable.removeByName("thermal:parts/tin_gear");
+craftingTable.removeByName("thermal:parts/lead_gear");
+craftingTable.removeByName("thermal:parts/silver_gear");
+craftingTable.removeByName("thermal:parts/nickel_gear");
+craftingTable.removeByName("thermal:parts/steel_gear");
+craftingTable.removeByName("thermal:parts/rose_gold_gear");
+craftingTable.removeByName("thermal:parts/signalum_gear");
+craftingTable.removeByName("thermal:parts/lumium_gear");
+craftingTable.removeByName("thermal:parts/enderium_gear");
+craftingTable.removeByName("thermal:parts/bronze_gear");
+craftingTable.removeByName("thermal:parts/electrum_gear");
+craftingTable.removeByName("thermal:parts/invar_gear");
+craftingTable.removeByName("thermal:parts/constantan_gear");
+craftingTable.removeByName("thermal:parts/lapis_gear");
+craftingTable.removeByName("thermal:parts/diamond_gear");
+craftingTable.removeByName("thermal:parts/emerald_gear");
+craftingTable.removeByName("thermal:parts/quartz_gear");
+craftingTable.removeByName("redstone_arsenal:materials/flux_gear");
+craftingTable.removeByName("avaritia:neutron_gear");

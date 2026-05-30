@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("draconicevolution:components/chaotic_energy_core");
+craftingTable.addShaped("chaotic_energy_core", <item:draconicevolution:chaotic_energy_core>, [[<item:draconicevolution:medium_chaos_frag>, <item:draconicevolution:draconic_energy_core>, <item:draconicevolution:medium_chaos_frag>], [<item:draconicevolution:draconic_energy_core>, <item:kubejs:compressed_singularity>, <item:draconicevolution:draconic_energy_core>], [<item:draconicevolution:medium_chaos_frag>, <item:draconicevolution:draconic_energy_core>, <item:draconicevolution:medium_chaos_frag>]]);

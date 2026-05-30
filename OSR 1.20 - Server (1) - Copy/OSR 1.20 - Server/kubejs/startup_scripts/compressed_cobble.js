@@ -1,0 +1,10 @@
+StartupEvents.registry('block', e => {
+e.create('double_compressed_cobblestone').textureAll('ozone:block/cobblex2').requiresTool(true).tagBlock("mineable/pickaxe").soundType('stone')
+e.create('triple_compressed_cobblestone').textureAll('ozone:block/cobblex3').requiresTool(true).tagBlock("mineable/pickaxe").soundType('stone')
+e.create('quadruple_compressed_cobblestone').textureAll('ozone:block/cobblex4').requiresTool(true).tagBlock("mineable/pickaxe").soundType('stone')
+e.create('quintuple_compressed_cobblestone').textureAll('ozone:block/cobblex5').requiresTool(true).tagBlock("mineable/pickaxe").soundType('stone')
+e.create('sextuple_compressed_cobblestone').textureAll('ozone:block/cobblex6').requiresTool(true).tagBlock("mineable/pickaxe").soundType('stone')
+e.create('septuple_compressed_cobblestone').textureAll('ozone:block/cobblex7').requiresTool(true).tagBlock("mineable/pickaxe").soundType('stone')
+e.create('octuple_compressed_cobblestone').textureAll('ozone:block/cobblex8').requiresTool(true).tagBlock("mineable/pickaxe").soundType('stone')
+e.create('nonuple_compressed_cobblestone').textureAll('ozone:block/cobblex9').requiresTool(true).tagBlock("mineable/pickaxe").soundType('stone')
+})

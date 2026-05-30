@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("minecraft:netherite_upgrade_smithing_template");
+craftingTable.addShaped("netherite_upgrade_smithing_template", <item:minecraft:netherite_upgrade_smithing_template> * 2, [[<item:extendedcrafting:crystaltine_nugget>, <item:minecraft:netherite_upgrade_smithing_template>, <item:extendedcrafting:crystaltine_nugget>], [<item:extendedcrafting:crystaltine_nugget>, <item:minecraft:netherrack>, <item:extendedcrafting:crystaltine_nugget>], [<item:extendedcrafting:crystaltine_nugget>, <item:extendedcrafting:crystaltine_nugget>, <item:extendedcrafting:crystaltine_nugget>]]);

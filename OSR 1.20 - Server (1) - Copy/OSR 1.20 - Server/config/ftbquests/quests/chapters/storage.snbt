@@ -1,0 +1,1400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "minecraft:chest"
+	id: "51185FCF84A4C47A"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 5.5d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["49EA71B4C1A4F6BA"]
+			description: ["Bigger chests! Upgradable to gold (via crafting or chest upgrade)"]
+			id: "561A5FF8F7E1F164"
+			rewards: [
+				{
+					id: "47320623A9925BCD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0900C2445DC6640C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68167C1DDA0B7C09"
+				item: "ironchests:iron_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["561A5FF8F7E1F164"]
+			description: ["Bigger chests! Upgradable to diamond (via crafting or chest upgrade)"]
+			id: "41D57481AD08B1C4"
+			rewards: [
+				{
+					id: "19AA2E7B3708E7B1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "58FE88F31658417E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "540CC9826BBDC1C1"
+				item: "ironchests:gold_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41D57481AD08B1C4"]
+			description: ["Bigger chests! Upgradable to obsidian or crystal via crafting."]
+			id: "69021BE4507E3022"
+			rewards: [
+				{
+					id: "67DCEC63B9E20495"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "460E2B2BF111BA05"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+				{
+					id: "43A4C79B97B505FD"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "340BB01086D5A666"
+				item: "ironchests:diamond_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69021BE4507E3022"]
+			description: ["Like a diamond chest, but blast resistant! Upgradable to netherite (via crafting only)"]
+			id: "2297686A02AF6553"
+			rewards: [
+				{
+					id: "32A72844AD825C7D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7EF12C19B845A1A3"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78B336976BF3DB78"
+				item: "ironchests:obsidian_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: [
+				"A good starting solution for your storage problems. Tom's Storage is also in this pack, which is great for the midgame while you are working on an Applied Energistics or Refined Storage system."
+				""
+				"Put your most frequently used items within convenient reach. Storage Drawers borrows ideas from Jabba and Bibliocraft, resulting in a highly functional, compact, and aesthetic storage solution that is meant to complement rather than replace other storage mods."
+			]
+			id: "418CF7FDF846BE84"
+			rewards: [
+				{
+					id: "3CC7476274676ECE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "483A80FC5FE00F15"
+					table_id: 4908174852979865794L
+					type: "random"
+				}
+				{
+					id: "02C8AB15BB5A46BA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "1E52FC156D790257"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["418CF7FDF846BE84"]
+			description: ["The wooden drawers are the main storage block in Storage Drawers, and they come in a variety of configurations and styles."]
+			id: "16B57C4BD4C33843"
+			rewards: [
+				{
+					id: "62C7AAC9C965D073"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "614EE40E8511800A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D0C4008E869910B"
+				item: "storagedrawers:oak_full_drawers_2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16B57C4BD4C33843"]
+			description: [
+				"Drawers come in five configurations, trading capacity and compactness at different points:"
+				""
+				"- Half-size 2x2: Stores 4 stacks per drawer."
+				"- Half-size 1x2: Stores 8 stacks per drawer."
+				"- Full-size 2x2: Stores 8 stacks per drawer."
+				"- Full-size 1x2: Stores 16 stacks per drawer."
+				"- Full-size 1x1: Stores 32 stacks per drawer."
+			]
+			id: "6042D5F44B5F0A5F"
+			rewards: [
+				{
+					id: "579E556DF5D166B6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "69629DA585FCE789"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7957685BD5ABAF61"
+				item: "storagedrawers:oak_full_drawers_4"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6042D5F44B5F0A5F"]
+			description: ["All drawer blocks are compatible with Applied Energistics 2 storage buses, and this is the preferred way for seeing the exact contents of a drawer."]
+			id: "0D6E9FD75AE47D03"
+			rewards: [
+				{
+					id: "4816F95EFEEF475E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5A09E0CA0C75F9B2"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3070B9FF9E199678"
+				item: "storagedrawers:oak_half_drawers_1"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D6E9FD75AE47D03"]
+			description: [
+				"There is no traditional slotted inventory with these containers. Clicking on one of drawers on front will interact with that drawer."
+				""
+				"- Right-Click: Insert full stack in hand into drawer (or partial stack if the drawer fills)."
+				"- Double-Right-Click: Insert all compatible stacks in inventory into drawer (or until drawer fills)."
+			]
+			id: "5EFC686F406A2689"
+			rewards: [
+				{
+					id: "327D1CE64AB5F306"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7BA0C00A77409870"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44DC959AEE6D33DD"
+				item: "storagedrawers:oak_half_drawers_2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5EFC686F406A2689"]
+			description: [
+				"- Left-Click: Remove a single item from the drawer."
+				"- Shift+Left-Click: Remove a full stack from the drawer."
+				"- Shift+Right-Click with empty hand: Open a UI to see exact item counts and manage applied upgrades."
+			]
+			id: "7C7DD6CC1A5E66F4"
+			rewards: [
+				{
+					id: "25200C5D84F172E4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B542875F98E8717"
+					table_id: 8237061732478284941L
+					type: "loot"
+				}
+				{
+					id: "0C03F50A26A73EBC"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BD9002D0C5738ED"
+				item: "storagedrawers:oak_half_drawers_4"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["418CF7FDF846BE84"]
+			description: ["Lock a drawer to content type. Click on a controller to set all connected drawers"]
+			id: "2249AFBFF8152AC5"
+			rewards: [
+				{
+					id: "6EE80F0603A96638"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "29208EBF59D14090"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DE92D9F13C22DAC"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2249AFBFF8152AC5"]
+			description: ["Show a label on the number of items in a drawer. Click on a controller to set all connected drawers"]
+			id: "769DBFCAAF546990"
+			rewards: [
+				{
+					id: "39417D0C3F6A5D57"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "52D340EE91F717B8"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "677CCF4FB69E2DBF"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["769DBFCAAF546990"]
+			description: ["Click on a controller to set all connected drawers"]
+			id: "24226A5DB7C6CC00"
+			rewards: [
+				{
+					id: "2A4709FC5BCC100F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F9130E096618841"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+				{
+					id: "4CEBBA2993DB8B26"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28F60FC1EE9B417E"
+				item: "storagedrawers:shroud_key"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["418CF7FDF846BE84"]
+			description: ["Compacting drawers are a special stone-colored drawer that auto-convert compressible items. Instead of manually crafting and uncrafting between gold blocks, ingots, and nuggets, put them in a compacting drawer. The drawer will internally maintain a pool of the material, and let you insert or remove the material in any of the shown forms."]
+			id: "59F498EBB5FE2C2C"
+			rewards: [
+				{
+					id: "52A445D3A35A084A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "31025179F8939DBA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33B8E6DCE9510232"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59F498EBB5FE2C2C"]
+			description: ["Drawer Controllers will search for any connected drawer within 12 blocks, and then expose all of those drawers as a large combined inventory. This lets you hook up a single pipe, tube, duct, spark, storage bus, etc. and interact with the entire bank of drawers."]
+			id: "4A224F9E3C15B5C8"
+			rewards: [
+				{
+					id: "6FDCB3B402154AC0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5258A077D6A992CE"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BF417B9D136391C"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A224F9E3C15B5C8"]
+			description: ["Controller Slaves act as an extension of a drawer controller, exposing more faces for attaching machines, pipes, or crafting frames. Controllers will bind to a slave when they find them on the network, and all slaves bound to the same controller will share the same inventory and range as that controller. Unlike drawers, slaves cannot be shared, and you should be careful to not put them in range of multiple controllers. Using controller slaves is better for performance than using multiple controllers"]
+			id: "3D181D1398577D0E"
+			rewards: [
+				{
+					id: "35A5E4612A14698E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0369D17202EF1BE1"
+					table_id: 7137779341485476375L
+					type: "random"
+				}
+				{
+					id: "76432480DD7A93C4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A1D9422AF3BFC47"
+				item: "storagedrawers:controller_slave"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["418CF7FDF846BE84"]
+			description: [
+				"Drawer storage x2"
+				""
+				"Capacity can be boosted with storage upgrades. Upgrades do not need to be applied in sequence, so you can pick the size you need from the start."
+			]
+			id: "29AE56F399A8006A"
+			rewards: [
+				{
+					id: "693759D22DD8F6B3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "15D6DF6A59154BB8"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07FF554C6909B268"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29AE56F399A8006A"]
+			description: ["Drawer storage x4"]
+			id: "6C87B43D15407718"
+			rewards: [
+				{
+					id: "302AECA6BD767E32"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6E5D3247F88F861E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09526E4ED9F67397"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C87B43D15407718"]
+			description: ["Drawer storage x8"]
+			id: "502368BBB9DF42A3"
+			rewards: [
+				{
+					id: "6D55B3643FC9C4AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "41EC7B46D189A070"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0107258C3F590BBA"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["502368BBB9DF42A3"]
+			description: ["Drawer storage x16"]
+			id: "27D0E09429A5BC58"
+			rewards: [
+				{
+					id: "30D491C555E05645"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5FF075359AEFB287"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "610F6BB1EEAAAB6E"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27D0E09429A5BC58"]
+			description: ["Drawer storage x32"]
+			id: "51ADDE07480D68C7"
+			rewards: [
+				{
+					id: "6A6E4F790433BAED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "25A66485177F28A2"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C519D748008A80A"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51ADDE07480D68C7"]
+			description: ["Deletes excess items once drawer reaches full capacity"]
+			id: "5C7DC5405B9EAA96"
+			rewards: [
+				{
+					id: "26D8283937FC4347"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73870AD370D99F82"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+				{
+					id: "152EDF172D557375"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "095EB05D95403638"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["This highly useful and required item for working in Tinker's construct is used in many recipe's like the Tinker station and Part builder. Used as is in the part builder to create basic tinkering components like wood, bone, stone etc'. "]
+			id: "0594EFC80A62B2F9"
+			rewards: [
+				{
+					id: "6D271C0BA95A6206"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "56BCA3B669729C9A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "3E2891DD8D6EC774"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0594EFC80A62B2F9"]
+			description: ["To get started you need a few tables and a place to put your parts. Be sure to put the part chest by the part builder, as you can access them together. Craft tool parts using the Part Builder. Make tools using the Tinker Station."]
+			id: "102A772F81D356B7"
+			rewards: [
+				{
+					id: "48DE1EB8D873B820"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F13B1F994B11E42"
+					table_id: 4908174852979865794L
+					type: "random"
+				}
+				{
+					id: "12286C0E725B2B2F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "673CEEA2FC507607"
+					item: "tconstruct:crafting_station"
+					type: "item"
+				}
+				{
+					id: "78E05C8CF94F6153"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "0650C59E1E094CF1"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "434AE594AD471E56"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+				{
+					id: "27F8C927D07CEEDB"
+					item: "tconstruct:tinkers_chest"
+					type: "item"
+				}
+			]
+			title: "Tinker's Tables"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5139878FF928711F"]
+			description: ["Grout is a material block that is used to make Seared Bricks. "]
+			id: "6503991E9B0D807B"
+			rewards: [
+				{
+					id: "6731EEC054609E95"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "526B9C599377ED4A"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+				{
+					id: "29E517318CB25810"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Starting Power\" to unlock"
+			tasks: [{
+				id: "036B2B41D5385B70"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6503991E9B0D807B"]
+			description: ["Seared brick is used to make a lot of blocks, a lot of which are needed for making the multi-block Smeltery . "]
+			id: "2DA77E139D3C1C64"
+			rewards: [
+				{
+					id: "7263E7AEBFDD6B3E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4A6C9306DA74291E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2974F3555FE563A0"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DA77E139D3C1C64"]
+			description: [
+				"The Melter acts as a 1-block compact version of the smeltery, and can be powered by a heater or a seared tank. Both the Melter and the Smeltery are much more efficient at melting down ores and armor, yielding more metal than furnaces would. "
+				""
+				"The basics of this machine can be found in &oPuny Smelting&r, which can be crafted with crafting a book with grout. "
+			]
+			id: "2F26A57E50C8E4BC"
+			rewards: [
+				{
+					id: "3252989CE330E9F7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ADAEF263E60824E"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+				{
+					id: "29B95AFA1B9488E9"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "61CD681F9B3A94C4"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "33B510B71D1BD2D9"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+			]
+			title: "&mSmeltery&r Meltery"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F26A57E50C8E4BC"]
+			description: [
+				"To use the liquid metal, you must drain the liquid into a Casting Basin or a Casting Table. Place a Seared Faucet onto the small hole on a Smeltery Drain (or directly on the side of a melter), and place a Casting Basin or Casting Table underneath the drain. "
+				""
+				"To activate the Faucet, right-click on it. A Casting Basin will allow you to create blocks. Metal blocks require 9 ingots, but other smeltable materials, like Obsidian or Glass and Sand, require the same amount of material that was placed into the smeltery. The Casting Table will allow you to create casts out of Aluminum Brass or Gold to create other metal items using the casts you have previously made. "
+			]
+			id: "1E069D21EB9D2683"
+			rewards: [
+				{
+					id: "0BCC9E7F400A0EA9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "21E883B50813B781"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "014C91DC7CF84843"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "059939CBA7A4CAF3"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "6BA4EDAF89C654CF"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "5E86ED81740F7BF8"
+					item: "tconstruct:ingot_cast"
+					type: "item"
+				}
+			]
+			title: "Casting"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E069D21EB9D2683"]
+			description: [
+				"The Smeltery is a multi-block structure used in the creation of higher-tier weapons and tools using metal and alloys. "
+				""
+				"It is used to smelt ores, ingots or blocks of almost any metal as well as Obsidian. "
+				""
+				"It can also make alloys, which include Manyullyn, Bronze, and Pig Iron. But beware, if you or other mobs fall into the smeltery while it has fuel, it causes damage via a system called \"entity melting.\" This can be used in creating Pig Iron. "
+				""
+				"Blood can also be poured into an empty Casting Table to make Congealed Blood. Blood can also be obtained by smelting Rotten Flesh or pushing mobs into the smeltery while it contains a molten liquid. "
+				""
+				"Other liquids can also be obtained in this manner: Horses will give you glue, while Villagers provide Liquified Emerald (which is also needed for Pig Iron), and Iron Golems provide Iron. "
+			]
+			id: "6971B7BEC3E1C9EC"
+			rewards: [
+				{
+					id: "636B928C9D481059"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "787578EE5EC27729"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+				{
+					id: "135E16000A949138"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "326B0649BAA9B6E8"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "045F4CC61676AF3C"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "3D2C5EE8A1766CD0"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "510570AF4228139A"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+			]
+			title: "Smeltery"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6971B7BEC3E1C9EC"]
+			description: [
+				"All Tinker's Construct tools can be modified, each modification gives an upgrade of some kind. "
+				""
+				"Tinkers' Anvil is an upgraded version of the Tinkers' Station."
+			]
+			id: "07DAEBDECF22A565"
+			rewards: [
+				{
+					id: "055D48781F571334"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7EC661CC3E2FA44B"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5FBAB5598749C3D6"
+					item: "tconstruct:tinkers_anvil"
+					type: "item"
+				}
+				{
+					id: "5616CD13087205CA"
+					item: "tconstruct:cast_chest"
+					type: "item"
+				}
+				{
+					id: "0B8CA01EBB95434B"
+					item: "tconstruct:modifier_worktable"
+					type: "item"
+				}
+			]
+			title: "Modifying and Building"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["102A772F81D356B7"]
+			description: [
+				"Tool components can be combined together to create tools - see JEI for recipes."
+				""
+				"Mix and match component material types for different traits!"
+			]
+			id: "7494DE9F9C164ECA"
+			rewards: [
+				{
+					id: "013AB8982B99329C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FD189950E919CF9"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+				{
+					id: "651125290AC2EAD8"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4026249316A735ED"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D9A7FA002D8B750"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4609FA3BED73EC26"
+					item: {
+						Count: 1
+						id: "tconstruct:small_blade"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "734F0F1854FE81EF"
+					item: {
+						Count: 1
+						id: "tconstruct:adze_head"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7436FCC826ED9C80"
+					item: {
+						Count: 1
+						id: "tconstruct:hammer_head"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "726427E4C75F6584"
+					item: {
+						Count: 1
+						id: "tconstruct:broad_axe_head"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E04320A20022F58"
+					item: {
+						Count: 1
+						id: "tconstruct:broad_blade"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4703E869B49884FD"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_handle"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59B0459C2E3B21B5"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_binding"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73B2CE2A27B3C62F"
+					item: {
+						Count: 1
+						id: "tconstruct:large_plate"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66420FFBDEE45158"
+					item: {
+						Count: 1
+						id: "tconstruct:tough_handle"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tool Components"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["Welcome to Tinkers' Construct! This mod completely overhauls Minecraft's original tool system, and adds a variety of other content. In order to get started, you'll want to follow along with the book &oMaterials and You&r. The book will walk you through general gameplay mechanics, the first tier of materials you have immediate access to, some primitive tools you can make and how to get ahold of the next books. "]
+			id: "6A7F6D9C259BE540"
+			rewards: [
+				{
+					id: "2D10FD8A23691E1A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6802A64C850466CF"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "792520EFCEDC4756"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A7F6D9C259BE540"]
+			description: ["After you have outgrown your first steps, you'll want to start crafting bigger and better tools. To do this, craft your second book, &oPuny Smelting&r. Once again, the book will start by outlining some more advanced mechanics, followed by new ways to manipulate both Tier 1 and 2 materials. It will also cover your first upgrades and slotless modifiers. "]
+			id: "319B409C065470FC"
+			rewards: [
+				{
+					id: "76B0E5C7A8FE92C2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0F1C6E1AA2CE512D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "791C2110D10A4D18"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["319B409C065470FC"]
+			description: ["&oMighty Smelting&r expands on where &oPuny Smelting&r left off. You will take your first steps away from the Melter and towards the revered Smelter. The book also covers Entity Melting, your third tier of materials, broad tools and ability modifiers. "]
+			id: "2120EE14B3ABF304"
+			rewards: [
+				{
+					id: "43AAF4D416E09D9E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7F9B915D404CF808"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54B923FA4EF38E45"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2120EE14B3ABF304"]
+			description: ["&oTinker's Gadgetry&r talks about the various uses of slime and its varients in Tinkers' Consruct!"]
+			id: "75AAACECB71ADC31"
+			rewards: [
+				{
+					id: "7BAEE9118B9EF734"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0EDE8E4BF8CCC3C6"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "330B8CACF02744E0"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75AAACECB71ADC31"]
+			description: ["&oFantastic Foundry&r guides you through the process of creating and using the Alloyer and Foundry. It also covers the concept of heat in alloy production, as well as Tier 4 materials. "]
+			id: "6A7F162848C50DB0"
+			rewards: [
+				{
+					id: "2DC5BA60AFFE8D2B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5DCDA53EF3054393"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3346A842C205CC6C"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A7F162848C50DB0"]
+			description: ["&oThe Encyclopedia of Tinkering&r outlines all tools, materials of all tiers, upgrades, and ability modifiers. "]
+			id: "3C36EE6370EFA8C4"
+			rewards: [
+				{
+					id: "5B4664AC55DDE7D6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5E63097659A3B56B"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66D10F85DE5A890A"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["Smelt in a blast furnace to make slime balls. Can also be used as a modifier."]
+			id: "1B776F0769AB8805"
+			rewards: [
+				{
+					id: "0901CDE1130104FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3DBD6A7093AA63A8"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "0E1CCCD3CACAED00"
+				item: "tconstruct:earth_slime_crystal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B776F0769AB8805"]
+			description: ["Smelt in a blast furnace to make skyslime balls. Can also be used as a modifier."]
+			id: "43EEC61FC858411B"
+			rewards: [
+				{
+					id: "7CCED91CB02C4F30"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3DA1FA72E1F1C6DB"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61BA3BE8D99346B4"
+				item: "tconstruct:sky_slime_crystal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43EEC61FC858411B"]
+			description: ["Smelt in a blast furnace to make enderslime balls. Can also be used as a modifier."]
+			id: "5FFEA13D62633635"
+			rewards: [
+				{
+					id: "00C14370E701772E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "78663583DD9A6D56"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FD6E0CDB01B6595"
+				item: "tconstruct:ender_slime_crystal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C7DD6CC1A5E66F4"]
+			description: ["Make your drawers different colors and textures!"]
+			id: "5FB5637512FA51D7"
+			rewards: [
+				{
+					id: "11E18E754D4169CF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A1A64ED89383FC8"
+					table_id: 8237061732478284941L
+					type: "random"
+				}
+				{
+					id: "68C4DF9002D5768D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "387C3D0ACB767E3C"
+				item: "storagedrawers:framing_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["Bigger chests! Upgradable to iron (via crafting or chest upgrade)"]
+			id: "49EA71B4C1A4F6BA"
+			rewards: [
+				{
+					id: "5771E7DC340C63B8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "397B5A1A77A895B8"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05DF78572D27EDEA"
+					table_id: 4908174852979865794L
+					type: "random"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "1C743A403657EAC2"
+				item: "ironchests:copper_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2297686A02AF6553"]
+			description: ["Bigger chests! Max tier"]
+			id: "023187E142C1428F"
+			rewards: [
+				{
+					id: "285BC6FD64E50763"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1A057F281100D263"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D8296EBA5C18D37"
+					table_id: 6934286827609696671L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02E5AABE65289E31"
+				item: "ironchests:netherite_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "Gamma"
+}

@@ -1,0 +1,2 @@
+#packmode normal
+craftingTable.addShaped("prosperity",<item:mysticalagriculture:prosperity_shard>, [[<item:minecraft:air>,<item:minecraft:diamond>,<item:minecraft:air>],[<item:minecraft:diamond>,<item:minecraft:prismarine_shard>,<item:minecraft:diamond>],[<item:minecraft:air>,<item:minecraft:diamond>,<item:minecraft:air>]]);

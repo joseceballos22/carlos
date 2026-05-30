@@ -1,0 +1,2 @@
+craftingTable.remove(<item:solarflux:photovoltaic_cell_4>);
+craftingTable.addShaped("photovoltaic_cell_4", <item:solarflux:photovoltaic_cell_4>, [[<item:solarflux:blazing_coating>, <item:solarflux:blazing_coating>, <item:solarflux:blazing_coating>], [<item:ad_astra:desh_ingot>, <tag:items:forge:gems/diamond>, <item:ad_astra:desh_ingot>], [<tag:items:forge:storage_blocks/quartz>, <item:solarflux:photovoltaic_cell_3>, <tag:items:forge:storage_blocks/quartz>]]);

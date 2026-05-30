@@ -1,0 +1,15 @@
+craftingTable.remove(<item:tconstruct:grout>);
+craftingTable.addShapeless("grout", <item:tconstruct:grout> * 1, [<item:enderio:clayed_glowstone>, <item:exdeorum:compressed_red_sand>, <item:exdeorum:compressed_gravel>]);
+craftingTable.remove(<item:tconstruct:nether_grout>);
+craftingTable.addShapeless("nether_grout", <item:tconstruct:nether_grout> * 1, [<item:enderio:clayed_glowstone>, <item:exdeorum:compressed_soul_sand>, <item:exdeorum:compressed_gravel>]);
+craftingTable.remove(<item:tconstruct:flint_and_brick>);
+craftingTable.addShapeless("flint_and_brick", <item:tconstruct:flint_and_brick> * 1, [<item:minecraft:flint_and_steel>, <item:tconstruct:seared_brick>]);
+craftingTable.addShapeless("earth_slime", <item:tconstruct:earth_slime_crystal> * 1, [<item:minecraft:slime_ball>, <item:minecraft:echo_shard>]);
+craftingTable.addShapeless("sky_slime", <item:tconstruct:sky_slime_crystal> * 1, [<item:minecraft:slime_ball>, <item:minecraft:echo_shard>, <item:aether:blue_aercloud>]);
+craftingTable.addShapeless("ender_slime", <item:tconstruct:ender_slime_crystal> * 1, [<item:minecraft:slime_ball>, <item:minecraft:echo_shard>, <item:botania:ender_air_bottle>]);
+craftingTable.addShapeless("tc-tinkers_anvil", <item:tconstruct:tinkers_anvil> * 1, [<item:tconstruct:tinkers_anvil>]);
+craftingTable.addShapeless("tc-scorched_anvil", <item:tconstruct:scorched_anvil> * 1, [<item:tconstruct:scorched_anvil>]);
+craftingTable.addShapeless("tc-modifier_worktable", <item:tconstruct:modifier_worktable> * 1, [<item:tconstruct:modifier_worktable>]);
+craftingTable.addShapeless("tc-part_builder", <item:tconstruct:part_builder> * 1, [<item:tconstruct:part_builder>]);
+craftingTable.addShapeless("tc-tinker_station", <item:tconstruct:tinker_station> * 1, [<item:tconstruct:tinker_station>]);
+craftingTable.addShapeless("tc-crafting_station", <item:tconstruct:crafting_station> * 1, [<item:tconstruct:crafting_station>]);

@@ -1,0 +1,5 @@
+// Compost colors for cookedfoods. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cooked_apple, #ff1526
+cooked_beetroot, #a7332f
+cooked_carrot, #ffa40b
+cooked_egg, #fffcdc

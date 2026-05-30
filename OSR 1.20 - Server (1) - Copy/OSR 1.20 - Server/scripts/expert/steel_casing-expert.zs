@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("mekanism:steel_casing");
+craftingTable.addShaped("steel_casing", <item:mekanism:steel_casing>, [[<tag:items:forge:plates/steel>, <item:enderio:dark_steel_bars>, <tag:items:forge:plates/steel>], [<item:enderio:dark_steel_bars>, <tag:items:forge:ingots/osmium>, <item:enderio:dark_steel_bars>], [<tag:items:forge:plates/steel>, <item:enderio:dark_steel_bars>, <tag:items:forge:plates/steel>]]);

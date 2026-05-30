@@ -1,0 +1,2 @@
+craftingTable.remove(<item:cyclic:packager>);
+craftingTable.addShaped("packager", <item:cyclic:packager>, [[<tag:items:forge:dyes/light_blue>, <item:minecraft:dropper>, <tag:items:forge:dyes/light_blue>], [<item:minecraft:piston>, <item:compacter:compacter>, <item:minecraft:piston>], [<tag:items:forge:dyes/light_blue>, <item:minecraft:dropper>, <tag:items:forge:dyes/light_blue>]]);

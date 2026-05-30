@@ -1,0 +1,1 @@
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("fluorite_dust", <item:mekanism:dust_netherite>, <tag:mekanism/infuse_type:mekanism:refined_obsidian> * 100, <item:mekanism:dust_fluorite>);

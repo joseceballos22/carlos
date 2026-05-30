@@ -1,0 +1,2 @@
+craftingTable.remove(<item:mysticalagradditions:neutronium_crux>);
+craftingTable.addShaped("neutronium_crux", <item:mysticalagradditions:neutronium_crux>, [[<item:mysticalagradditions:insanium_essence>, <item:avaritia:neutron_ingot>, <item:mysticalagradditions:insanium_essence>], [<item:avaritia:neutron_ingot>, <tag:items:forge:storage_blocks/diamond>, <item:avaritia:neutron_ingot>], [<item:mysticalagradditions:insanium_essence>, <item:avaritia:neutron_ingot>, <item:mysticalagradditions:insanium_essence>]]);

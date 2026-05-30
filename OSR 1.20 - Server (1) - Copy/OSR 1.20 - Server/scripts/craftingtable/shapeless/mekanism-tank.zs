@@ -1,0 +1,2 @@
+craftingTable.addShapeless("creative_fluidtank", <item:mekanism:creative_fluid_tank> *1, [<item:mekanism:creative_fluid_tank>]);
+craftingTable.addShapeless("creative_chemicaltank", <item:mekanism:creative_chemical_tank> *1, [<item:mekanism:creative_chemical_tank>]);

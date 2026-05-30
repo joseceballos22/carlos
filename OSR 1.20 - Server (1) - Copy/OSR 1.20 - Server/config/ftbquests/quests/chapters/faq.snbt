@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "faq"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "487DB7445AFD007A"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 1.0d
+		y: -1.5d
+	}]
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Why aren't passive mobs spawning?"
+				"- If your world spawns you in a biome that does not spawn passive mobs (i.e. ocean, frozen ocean, badlands, etc), then you will need to remake the world and try again. You can also craft animal seeds, search \"Haven Animal Seeds\" in JEI. Animal Seed Base can be crafted or bought in the Coin Shop."
+				""
+				"Is there vein miner?"
+				"- The mod FTB Ultimine is included in this pack. The default keybind is the grave key: `."
+				""
+				"How do I make more islands if I am playing multiplayer?"
+				"- Run the command /gog help."
+				""
+				"How do I change the pack mode?"
+				"- /packmode set Expert for expert mode (kappa), or /packmode set Normal for normal mode (titan, default)."
+				""
+				"Do I need to do the quest pages in order?"
+				"- No."
+				""
+				"How do I get [insert item here]?"
+				"- Use JEI to find recipes. Also, vanilla mechanics still apply for many vanilla items (i.e. finding upgrade templates in bastions)."
+				""
+				"Could all of these questions have been answered if I read the quest descriptions?"
+				"- Yes."
+			]
+			id: "6075AD857006EFC7"
+			optional: true
+			rewards: [{
+				id: "14B6D9A11DEBDF96"
+				item: "sc:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Can't find the answer here? Head to Discord and ask!"
+			tasks: [{
+				id: "5E8F376C8233DDEE"
+				title: "Frequently Asked Questions"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The Chaos Guardian can be found on Chaos Islands, which will spawn in every 2500 blocks."
+				""
+				"Note: The Sword of the Cosmos has a special ability - right clicking a Guardian Crystal with the sword will cause the crystal to be instantly disabled. Once all the crystals are gone, the dragon can then begin to take damage. The Sword of the Cosmos will one-hit kill the Chaos Guardian only when all of the Guardian Crystals are disabled."
+				""
+				"The following is taken from the Draconic Evolution project page: "
+				""
+				"Spoiler Warning!"
+				""
+				"&nEquipment&r&l"
+				""
+				"I recommend a Draconic Chest Piece with draconic flight, shields (obviously), undying, and at least 2 speed modules. "
+				""
+				"The new blink function on the Advanced Dislocator is also very useful especially if you assign a keybinding for it.  "
+				""
+				" "
+				""
+				"&nGuardian healing crystals&r&l"
+				""
+				"The Guardian crystals can no longer be destroyed by normal damage as they have shields powered directly by the chaos crystal at the heart of the island. This link can be temporarily disrupted by hitting the crystal with chaotic damage. Ether get the guardian to fire at a crystal or use a chaotic tier weapon if you have one."
+				""
+				"The link will only be disrupted for a few seconds so hit the crystal with as much damage as you can to destroy it then get out of there because the guardian won't be happy!  "
+				""
+				" "
+				""
+				"The guardian now has a number of basic and advanced attacks. "
+				""
+				" "
+				""
+				"&nBasic Attacks&r&l"
+				""
+				"The will occasionally charge the player and try to deal direct melee damage but more often he will bombard the player with fireballs. "
+				""
+				"The guardian also has a basic defensive move where if a player is too close for too long he will fly off at high speed while enveloping himself in a loud of fireballs."
+				""
+				" "
+				""
+				"It's worth noting the guardian's fireballs are incredibly powerful and it will only take a few to break through a draconic shield. "
+				""
+				"Your best defense against these attacks is to evade/outmaneuver the guardian using your draconic elytra. (Draconic flight module) "
+				""
+				" "
+				""
+				"&nCharged (Advanced) Attacks&r&l"
+				""
+				"The guardian also has several \"advanced attacks\" For these the guardian will first go and hover at the center of the island where he can draw energy directly from the island's chaos crystal. This makes him temporarily immune to damage. Then after a short charge-up period, he will activate one of several attacks. "
+				""
+				" "
+				""
+				"&nLaser:&r This one is pretty simple, The guardian will fire a beam of concentrated chaos energy at you which will melt your shield and kill you almost instantly (If you don't have a charged undying module)."
+				""
+				"Your best defense against this attack is to take cover and put one of the crystal pillars between you and the guardian. The beam can destroy end stone but not obsidian."
+				""
+				"If you are careful this is also a good chance to take out a crystal by guiding the laser to the top of the pillar. "
+				""
+				"You will quickly learn when the guardian is about to use the laser attack as after the initial charge you will hear a secondary charging sound as the laser effect builds up energy."
+				""
+				"If you have a friend helping you and you have already destroyed the crystals this is a good time for the person not being targeted to deal some damage to the guardian. "
+				""
+				" "
+				""
+				"&nGravity Well:&r For the following advanced attacks, the guardian fill use the power of the chaos crystal to generate a powerful gravity well that prevents you from flying or leaving the island's bounds. "
+				""
+				"This is where the advanced dislocator's blink function can come in handy as it allows you to get around quickly and dodge attacks."
+				""
+				" "
+				""
+				"&nBombardment:&r This is a pretty simple attack guardian will lock onto your position and fire a volley of fireballs at you. If you don't get out of the way fast enough you will most likely die."
+				""
+				" "
+				""
+				"&nMulti-stage attack:&r This attack has 4 stages. In the first (and most annoying) stage, the guardian will spawn several guardian withers to soften you up. These are stronger than normal withers and are laser-focused on attacking players."
+				""
+				"Once you kill the initial wave of withers the guardian will initiate 3 stages of areal bombardment."
+				""
+				"First, he will bombard the perimeter of the island in a circular pattern (So take cover at the center of the island)"
+				""
+				"Next, he will bombard the center of the island. So go the perimeter and watch out for stray fireballs. "
+				""
+				"Then finally he will bombard the entire island with random fireballs. The best way to survive this stage is to be at the perimeter of the island and try to dodge any fireballs heading your way. "
+				""
+				"You're probably going to want to have some charged undying modules for this stage."
+			]
+			id: "026968D0C9F3EEF3"
+			optional: true
+			rewards: [{
+				id: "7FA48DC8C3209D4A"
+				item: "sc:silver_coin"
+				type: "item"
+			}]
+			subtitle: "How do I fight this thing?"
+			tasks: [{
+				id: "33FC03652A3985A2"
+				title: "Chaos Guardian"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "FAQ"
+}

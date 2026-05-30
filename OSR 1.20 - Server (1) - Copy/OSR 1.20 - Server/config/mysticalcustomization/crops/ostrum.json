@@ -1,0 +1,14 @@
+{
+  "name": "Ostrum",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "ad_astra:ostrum_ingot"
+  },
+  "color": "993333",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "ad_astra:ostrum_block"
+}

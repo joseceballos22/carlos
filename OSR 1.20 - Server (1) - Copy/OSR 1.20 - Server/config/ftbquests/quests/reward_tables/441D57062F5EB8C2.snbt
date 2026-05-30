@@ -1,0 +1,75 @@
+{
+	hide_tooltip: true
+	icon: "kubejs:reward_bag"
+	id: "441D57062F5EB8C2"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "mekanism:dirty_dust_iron" }
+		{ item: "ftbquests:book" }
+		{ item: "minecraft:black_candle" }
+		{ item: "minecraft:cobblestone" }
+		{ item: "ironchests:dirt_chest" }
+		{ item: "minecraft:flowering_azalea" }
+		{ item: "minecraft:azalea" }
+		{ item: "minecraft:suspicious_sand" }
+		{ item: "minecraft:suspicious_gravel" }
+		{ item: "mekanismadditions:pink_balloon" }
+		{ item: "handcrafted:stackable_book" }
+		{ item: "cyclic:plate_launch" }
+		{ item: "minecraft:lightning_rod" }
+		{ item: "pamhc2foodcore:chickennuggetitem" }
+		{ item: "minecraft:gold_nugget" }
+		{ item: "minecraft:iron_nugget" }
+		{ item: "minecraft:dried_kelp" }
+		{ item: "minecraft:grass_block" }
+		{ item: "cyclic:crafting_stick" }
+		{ item: "exdeorum:stone_watering_can" }
+		{ item: "pamhc2foodextended:bakedbeansitem" }
+		{ item: "exdeorum:mycelium_spores" }
+		{ item: "handcrafted:berry_jam_jar" }
+		{ item: "cyclic:carbon_paper" }
+		{ item: "mob_grinding_utils:mob_swab" }
+		{ item: "pamhc2foodcore:chocolatedonutitem" }
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:slingshot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:bubble_blower"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:damaged_anvil" }
+		{ item: "botania:cosmetic_cat_ears" }
+		{ item: "botania:cosmetic_groucho_glasses" }
+		{ item: "botania:cosmetic_googly_eyes" }
+		{ item: "botania:cosmetic_black_tie" }
+		{ item: "botania:cosmetic_alien_antenna" }
+		{ item: "botania:cosmetic_thick_eyebrows" }
+		{ item: "botania:cosmetic_four_leaf_clover" }
+		{ item: "botania:cosmetic_tiny_potato_mask" }
+		{ item: "botania:cosmetic_eerie_mask" }
+		{ item: "supplementaries:key" }
+		{ item: "usefulslime:jello" }
+		{ item: "avaritia:infinity_nugget" }
+		{ item: "supplementaries:wind_vane" }
+		{ item: "draconicevolution:medium_chaos_frag" }
+		{ item: "redstone_arsenal:flux_metal_block" }
+		{ item: "redstone_arsenal:flux_gem_block" }
+		{ item: "havenanimalseeds:wolf_seed" }
+		{ item: "havenanimalseeds:cat_seed" }
+		{ item: "havenanimalseeds:goat_seed" }
+	]
+	title: "Basic Reward"
+	use_title: true
+}

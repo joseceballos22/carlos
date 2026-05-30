@@ -1,0 +1,9 @@
+#packmode expert
+craftingTable.remove(<item:cobblefordays:tier_2>);
+craftingTable.remove(<item:cobblefordays:tier_3>);
+craftingTable.remove(<item:cobblefordays:tier_4>);
+craftingTable.remove(<item:cobblefordays:tier_5>);
+craftingTable.addShaped("cobblegen2upgrade", <item:cobblefordays:tier_2>, [[<item:kubejs:double_compressed_cobblestone>, <item:kubejs:double_compressed_cobblestone>, <item:kubejs:double_compressed_cobblestone>], [<item:kubejs:double_compressed_cobblestone>, <item:cobblefordays:tier_1>, <item:kubejs:double_compressed_cobblestone>], [<item:kubejs:double_compressed_cobblestone>, <item:kubejs:double_compressed_cobblestone>, <item:kubejs:double_compressed_cobblestone>]]);
+craftingTable.addShaped("cobblegen3upgrade", <item:cobblefordays:tier_3>, [[<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>], [<item:minecraft:iron_block>, <item:cobblefordays:tier_2>, <item:minecraft:iron_block>], [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>]]);
+craftingTable.addShaped("cobblegen4upgrade", <item:cobblefordays:tier_4>, [[<item:minecraft:gold_block>, <item:minecraft:gold_block>, <item:minecraft:gold_block>], [<item:minecraft:gold_block>, <item:cobblefordays:tier_3>, <item:minecraft:gold_block>], [<item:minecraft:gold_block>, <item:minecraft:gold_block>, <item:minecraft:gold_block>]]);
+craftingTable.addShaped("cobblegen5upgrade", <item:cobblefordays:tier_5>, [[<item:minecraft:diamond_block>, <item:minecraft:diamond_block>, <item:minecraft:diamond_block>], [<item:minecraft:diamond_block>, <item:cobblefordays:tier_4>, <item:minecraft:diamond_block>], [<item:minecraft:diamond_block>, <item:minecraft:diamond_block>, <item:minecraft:diamond_block>]]);

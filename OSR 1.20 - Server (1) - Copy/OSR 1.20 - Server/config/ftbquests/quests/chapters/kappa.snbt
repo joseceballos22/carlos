@@ -1,0 +1,1217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kappa"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: {
+		Count: 1
+		id: "immersiveengineering:hammer"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1FEC6CA4F548C503"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 4.5d
+		y: -2.0d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: [
+				"Use the manual to learn how to build each multiblock machine for Immersive Engineering."
+				""
+				"Immersive Engineering is about realism-inspired technology:"
+				"Instead of glowing red tubes, it offers actual, hanging powerlines."
+				"Instead of one block that magically spits out dusts when ore is put in, it offers a crusher, a big multiblock (5x3x3) that features rotating wheels and spits out particles as it breaks the ore."
+				"Instead of a Laser that turns power into magical light and ores, it offers an Excavator, another massive, resource intensive, multiblock (3x7x8) which digs ores out of the ground with a big rotating bucketwheel."
+				""
+				"IE is about making tech mods more balanced and more pretty, and adding its own twist by going for retro-futurism (think BioShock, Order 1886, SkyCaptain and the World of Tomorrow) rather than clinical white+grey future cubes."
+				""
+				"It uses the Forge Energy API, known from just about every other tech mod, but it can be played fully standalone. Unlike other mods, IE does not use power transfer via lanes of blocks, but instead via cables spanned between connectors."
+				""
+				"The mod features Power Generation in forms of waterwheels, windmills, biodiesel and more and many of its machines are multiblocks!"
+			]
+			id: "1BBAE3C2176C6BA6"
+			rewards: [
+				{
+					id: "54705970633C4B8E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2ACA17C70CD6D90D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [
+				{
+					id: "0ADEACAE35A59D84"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "3CACE0D3DE798F20"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Engineer's Tools"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BBAE3C2176C6BA6"]
+			description: ["Used for IE multiblock structures, see Manual"]
+			id: "0B20B3F2EE78FFB5"
+			rewards: [
+				{
+					id: "7F0EA106F46BFB69"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "72EA0F0A028C6B26"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21A7207E33E341B6"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B20B3F2EE78FFB5"]
+			description: ["Used for IE multiblock structures, see Manual"]
+			id: "7AC647D823CD6523"
+			rewards: [
+				{
+					id: "148858C272B68E31"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6899AAA04467C8AE"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E9BC4CA6E29B450"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AC647D823CD6523"]
+			description: ["Used for IE multiblock structures, see Manual"]
+			id: "5948A62DBB7CE1A4"
+			rewards: [
+				{
+					id: "2F4AB1D2C3DECA70"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7584DC7E70815352"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A9F45C732AF6026"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "262A14B23DF968E0"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BBAE3C2176C6BA6"]
+			description: [
+				"The blast furnace is used to make steel from iron and coal coke. See the book and JEI for details."
+				""
+				"Note: Witch Water forms netherrack when lava flows into it, allowing for a netherrack version of a cobblestone generator."
+			]
+			id: "1BA88B607F47E8FC"
+			rewards: [
+				{
+					id: "1F603C7FAF8A02FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1BE0DD3D51F64DD3"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 27L
+				id: "65D5B22815AF02EA"
+				item: { Count: 27, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			title: "Crude Blast Furnace"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1BA88B607F47E8FC"]
+			description: ["The improved blast furnace is a better way of making steel. These bricks can also be used to make an arc furnace. See the book and JEI for details."]
+			id: "5EEDD363F71B2FEC"
+			rewards: [
+				{
+					id: "29E313ABB90D0878"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "665C9FB93ED8CF68"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5450EB5DA9F0FB7F"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			subtitle: "Also used for other structures!"
+			tasks: [{
+				count: 27L
+				id: "4F89B275D6F1FC25"
+				item: { Count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+				type: "item"
+			}]
+			title: "Improved Blast Furnace"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BBAE3C2176C6BA6"]
+			description: [
+				"Used to craft items that need a blueprint."
+				""
+				"Items made in the Engineer's workbench are generally used in other crafting recipes. A good example is the powered lantern, which blocks hostile mobs from spawning in a radius! (See also: Mega Torch)"
+			]
+			id: "62DE5FA1C1F76537"
+			rewards: [
+				{
+					id: "45F2DAD28B756E55"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6ABEC67D4C6DB2B6"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B28BEC596EA3E44"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BBAE3C2176C6BA6"]
+			description: ["A very aestetic block used in Immersive Engineering recipes"]
+			id: "3C61B00A5662F884"
+			rewards: [
+				{
+					id: "0C1A3DD3E7CB4E1E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "296D850736931D00"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61CE7617B63BA099"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C61B00A5662F884"]
+			description: ["Used for IE multiblock structures, see Manual"]
+			id: "1F16F7B5039613C3"
+			rewards: [
+				{
+					id: "0E5F705730D0695F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1A0E7432EB852520"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F0E5E5088D8B1D4"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F16F7B5039613C3"]
+			description: ["Used for IE multiblock structures, see Manual"]
+			id: "1B98E6A24B2FD26A"
+			rewards: [
+				{
+					id: "1350F91A694C56D3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1F3BCC4F3957B123"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DABBEE0EBAD5052"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "47C1086599071AE6"
+				item: "immersiveengineering:sheetmetal_iron"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B98E6A24B2FD26A"]
+			description: ["Used for IE multiblock structures, see Manual"]
+			id: "4B61E75F57941931"
+			rewards: [
+				{
+					id: "3ABA5913D898D723"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4D68D279C87B3B9F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1601378E96818517"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5EECA0FB4984E545"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: [
+				"The cresent hammer can be used to rotate and dismantle Thermal Series machines."
+				""
+				"&nAbout the Thermal Series of mods: &r"
+				""
+				"For nearly a decade, the Thermal Series mods have been a cornerstone of modded gameplay. They've pioneered gameplay innovations and optimizations used in practically every modern mod in existence. The Forge Energy system was built from Redstone Flux, and many common modded features - side reconfiguration, advanced redstone control, blue/orange input coloring - all started with the Thermal Series."
+				""
+				"The Thermal Series is a modular series of mods, allowing players, server owners, and modpack creators to easily choose the aspects which they want and those which they do not, allowing it to fit into a variety of gameplay styles and worlds."
+				""
+				"As a set, the mods form a cohesive experience which greatly expands the Minecraft universe in a lore-friendly (but admittedly technological) way."
+			]
+			id: "7CE3C90007447787"
+			rewards: [
+				{
+					id: "1D1F17777472BD6B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6C2D68380C2EF4A6"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [
+				{
+					id: "7F369F8FB8ECF5DE"
+					item: {
+						Count: 1
+						id: "thermal:wrench"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5EB92730A541F44D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Thermal Series"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Dynamos can be used to generate RF. Uses furnace fuel."]
+			id: "54080968CFFFB899"
+			rewards: [
+				{
+					id: "4EFECF21D4A2329E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "40FAB1BC0C8F1802"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ACFEC78EDBF881B"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "79B381106E055638"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Dynamos can be used to generate RF. Uses different types of fuel/oil."]
+			id: "1722CE66E8CA2EFF"
+			rewards: [
+				{
+					id: "66A5F58A6AFED897"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4D0E7D1170C75EFE"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06ACBF18FEE4E48A"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "19B25D43B848E240"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Dynamos can be used to generate RF. Uses lava"]
+			id: "600233D31B6CE0DF"
+			rewards: [
+				{
+					id: "078E26FA4EB4EBB3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5DA971EE31AC566D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B96714F253A601F"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4F81D84E13099B90"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Dynamos can be used to generate RF. Uses thermal coins (not the coins for the coin shop)"]
+			id: "008A101B82C5025A"
+			rewards: [
+				{
+					id: "6FF4BB8A97921D05"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "493BA4D9FF803152"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2945E447DC6CAFA2"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7945338DE0A3BAD8"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Dynamos can be used to generate RF. Uses gems."]
+			id: "089EB2576E939DE2"
+			rewards: [
+				{
+					id: "185472E678C615B7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "00F4D53BBECB728A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A1A51100646DF09"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "67EA588E71CF950D"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Dynamos can be used to generate RF. Uses enchanted books and xp bottles."]
+			id: "4C116BC549C3BF61"
+			rewards: [
+				{
+					id: "0A9EAE62B7431279"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4A522DE09C32D5CA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B14159DA49487F1"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4FA8D9DD194AA119"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Dynamos can be used to generate RF. Uses foodstuffs."]
+			id: "6844FF31F235F550"
+			rewards: [
+				{
+					id: "59415721540F40E6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3A0348446780C21F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50CB6618FE6260EC"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4B92A5AF20BBAC42"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Functions identically to a vanilla furnace, but consumes Redstone Flux instead of burning fuel such as coal. It can smelt items such as foods or dusts faster than a regular furnace"]
+			id: "69A84F014E7F034C"
+			rewards: [
+				{
+					id: "1421E67F054F3038"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "38E222E5FC420FBA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22BDC5DCF0DB503E"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0347C630F1DE695B"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Sawmills are used to saw logs. When used on Vanilla logs and many Mod logs, you get 4 Wood Planks per log and one Sawdust. When used on Rubber Logs, you get 4 Wooden Planks and some Sticky Resin instead of sawdust. They require RF power to run."]
+			id: "225CCF5803299B49"
+			rewards: [
+				{
+					id: "52D71F6563FB9090"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "16AE077CDAD996B0"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E31ECEEF6D676D1"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "34184BAE0C1946AC"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Its main use is to turn Ores into their respective Dusts, at a 1:2 ratio. The Dusts can then be smelted in any type of Furnace (such as the Induction Smelter or Electric Furnace) to produce Ingots. Its recipes also sometimes yield a by-product"]
+			id: "07BB874036D0C27A"
+			rewards: [
+				{
+					id: "70FC9B4F2F2EC348"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "01F0140A931DBDD6"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "793CBAAAAEEF72EC"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D0AC39C999CC95E"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["A machine that uses a catalyst to enhance the smelting process. In addition to Ingots, it has the potential of producing Rich Slag, itself used as a catalyst; bonus ingots and Slag that can be processed into Rockwool."]
+			id: "4FFD39276D8238DF"
+			rewards: [
+				{
+					id: "6289DC8B81A20720"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5B9B76F727F2CBA3"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CFE230B89BE3E92"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14432621A68DD737"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["An RF powered machine which allows players to generate crops without the regular farming process, using seeds and Phyto-Gro or Rich Phyto-Gro fertilizer. The machine also requires Water to operate. "]
+			id: "72E4E8FA5A17242D"
+			rewards: [
+				{
+					id: "2C3140F1CE5E4300"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "620B49172FD999BF"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D89AC1AFC872AF8"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6FAEADA94C63241F"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["A centrifugal separator, or centrifuge for short, is a machine that separates items into their components"]
+			id: "5C995D768B6D83A2"
+			rewards: [
+				{
+					id: "6847A03718DE9508"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "03464B4BFE0FCEDE"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "718CCD38ED4FCCE5"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6A4D37BEA74C9FB7"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Shapes metals into different forms"]
+			id: "52AF7D2570BA5694"
+			rewards: [
+				{
+					id: "466650862D19B36E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6E97AB092E5D9BBA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D1FB51F1CEB7AA7"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "06598813EB2C9EAE"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["The Magma Crucible is a machine which uses RF power (Redstone Flux) to melt things into liquid."]
+			id: "007A44E227967158"
+			rewards: [
+				{
+					id: "63611A195BFE668F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3E9FCD34AAD9AFEF"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52BE2094294E0F48"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "60820E29D48EDD8F"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Cools down and crystalizes liquids"]
+			id: "088A633F7AAA303E"
+			rewards: [
+				{
+					id: "38A933840F11FC7D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "66281FD5E269C510"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D1BE73BDE14FCD1"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "229B7611C4F26E58"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["A fractionating still (or still for short, also known as a refinery) is a machine that refines fluids."]
+			id: "01875203CFD676FD"
+			rewards: [
+				{
+					id: "23C31A88645C60E6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "371669432CB11AA9"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E0E54D06A92AD45"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5DE9142EE959BC6E"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Decomposes substances using heat"]
+			id: "7671F5CD5D0428F2"
+			rewards: [
+				{
+					id: "510209E1C4F09730"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0152581740AF905C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C3FDC8F09655AD1"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4654F211B6AC9030"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Fills items that hold fluids, such as buckets and bottles"]
+			id: "56FBAF04FEC1E0F8"
+			rewards: [
+				{
+					id: "749B489F06BF290C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1F4CCBE36648144B"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CF0BD31F9938B78"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "37AFF54751FFE54C"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["An alchemical imbuer, also known as a brewer, is a machine that brews potions. It works with potions in their fluid forms."]
+			id: "28AEB6B18BC853EF"
+			rewards: [
+				{
+					id: "6AF5731FFC9AADFD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1A1EADC441397B24"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E7516A13737D8DC"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16490EB18B700208"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Creates crystals from a base component and a liquid"]
+			id: "6A16098F8D637340"
+			rewards: [
+				{
+					id: "336646887860270F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2A26FD2BCB4F14DD"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7999C56E6486D684"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B1EE74E61518BA2"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["A sequential fabricator (also known as a crafter) is a machine that crafts items."]
+			id: "77D847CEB6743643"
+			rewards: [
+				{
+					id: "46B87DDBDD72EA5F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "22644C1256E9F1FB"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CAD3552197751C8"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0FBEA34DBE8CF4A5"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CE3C90007447787"]
+			description: ["Used to store RF"]
+			id: "6BCA1F6E5A1F52C0"
+			rewards: [
+				{
+					id: "1DC574331C794CE3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "640E610E0AE87724"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A447D8A626DAC03"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5185F0BADD95D7EF"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BBAE3C2176C6BA6"]
+			description: ["The coke oven is used to make coal coke. See the book and JEI for details."]
+			id: "5C3C77AAFDB39065"
+			rewards: [
+				{
+					id: "426E5054EAAFF9D3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "163456B8813DDCB1"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 27L
+				id: "2326C40B84B43CA6"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			title: "Coke Oven"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BBAE3C2176C6BA6"]
+			description: ["The alloy kiln is used to make alloys. See the book and JEI for details."]
+			id: "52558E9A9B255F2C"
+			rewards: [
+				{
+					id: "47B4FD4B2D56302A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "69920870DC4E517C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "43B9AB60EC1B831C"
+				item: { Count: 8, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			title: "Alloy Kiln"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62DE5FA1C1F76537"]
+			description: [
+				"Provides the same light coverage as a Torch, but hostile mobs will not be able to spawn in a 32-block radius around it."
+				""
+				"The Powered Lantern requires power in order to function which must be provided through an LV Wire Coil. "
+			]
+			id: "4DAEB3EC381870A2"
+			rewards: [
+				{
+					id: "4CA86CB5B3B0D45C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "707E555BED87998A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BDA08B8ABDD9DC5"
+				item: "immersiveengineering:electric_lantern"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DAEB3EC381870A2"]
+			description: ["A special torch which prevents mob spawning."]
+			id: "681AE9741C099FA0"
+			rewards: [
+				{
+					id: "2FB1EDC3514757B6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4EE03AEDC809AC41"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D0BCFC19E60BDFB"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+	]
+	title: "Kappa"
+}

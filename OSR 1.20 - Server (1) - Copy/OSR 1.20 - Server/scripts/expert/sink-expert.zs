@@ -1,0 +1,3 @@
+#packmode expert
+craftingTable.removeByName("cookingforblockheads:sink");
+craftingTable.addShaped("sink", <item:cookingforblockheads:sink>, [[<tag:items:balm:iron_ingots>, <tag:items:balm:iron_ingots>, <tag:items:balm:iron_ingots>], [<item:minecraft:terracotta>, <item:minecraft:water_bucket>, <item:minecraft:terracotta>], [<item:minecraft:terracotta>, <item:thermal:device_water_gen>, <item:minecraft:terracotta>]]);

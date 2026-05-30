@@ -1,0 +1,905 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chi"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: {
+		Count: 1
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "5286DBC66DBD878D"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 7.0d
+		y: -0.5d
+	}]
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C5ABCB21F4AD687"]
+			description: [
+				"Your starting point for Project E."
+				""
+				"Through crafting with the Philosopher's Stone (press C), you have discovered that the intense heat created when crafting can allow you to smelt 7 dusts or ores with a catalyst (namely charcoal or coal)."
+				""
+				"The Philosopher's Stone will also allow you to transmute dirt into sand and sand into grass. Stone can become cobblestone and likewise. Charging it (press V to charge, shift-V to discharge) will affect a wider area."
+				""
+				"Used to craft a variety of alchemical items and materials, the Philosopher's Stone is not consumed in the process."
+			]
+			id: "249E36927538C411"
+			rewards: [
+				{
+					id: "1AAC8BE492F2B50A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3F311CAB6733AF2E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A8F935E2CED5AAC"
+					table_id: 455336730284347560L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1E4C8B9BCFFD9BA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["249E36927538C411"]
+			description: ["Alchemical Coal is a fuel added by ProjectE. It burns four times as long as regular Coal and is able to smelt 32 items. Alchemical Coal is used in the production of Mobius Fuel. "]
+			id: "694ED42FA3146EEA"
+			rewards: [
+				{
+					id: "2E178C3CB83E65FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4BBE8CE0D872A544"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "588DC5BEBDFD1CC0"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["694ED42FA3146EEA"]
+			description: ["Mobius Fuel is a fuel added by ProjectE. It burns sixteen times as long as regular coal and is able to smelt 128 items. "]
+			id: "18EB92AEBC23CCC8"
+			rewards: [
+				{
+					id: "72CABE3005D64739"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4BEBD6FEB7D25728"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "056A7B5372B74147"
+				item: "projecte:mobius_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18EB92AEBC23CCC8"]
+			description: ["Aeternalis Fuel is a fuel added by ProjectE. By combining 4 pieces of Mobius Fuel with a Philosopher's Stone, a new fuel is created. Aeternalis Fuel burns four times as long as Mobius Fuel and is able to smelt 512 items. "]
+			id: "7C7509848963F782"
+			rewards: [
+				{
+					id: "4BF6E19EAEA0CEA6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0AC10834FC52360D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FE2E632EAD7092F"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7C7509848963F782"]
+			description: ["The Dark Matter is an component added by ProjectE. It is used to craft Dark Matter tools and armors and is used as a component to create Red Matter. "]
+			id: "6BE7EA49DC2FA6D2"
+			rewards: [
+				{
+					id: "0E3DFBC903D19071"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5D22D79BA6E90BF5"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AB55AFA25283307"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5E2ED0885507EA57"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6BE7EA49DC2FA6D2"]
+			description: ["Red Matter is a component added by ProjectE. As an item with a high EMC value, it is suitable to be used as a template in an Energy Condenser to store EMC. As a crafting component, Red Matter is used in the crafting of high-end machines, tools, armor and accessories. "]
+			id: "2DA0BD387098BB09"
+			rewards: [
+				{
+					id: "6904A4641220A207"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "142C2B309D6C896F"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52FF7F77BA750B29"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			subtitle: "Not the final form!"
+			tasks: [{
+				id: "1F5E5352E1FD3852"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["249E36927538C411"]
+			description: [
+				"A worktable for transmuting items to pure EMC and back to items of the alchemist's choosing. Transforming an item to pure EMC in this way imprints the identity of the item onto the soul of the alchemist. "
+				""
+				"Anything known to the alchemist in this way can be pulled from any Transmutation Table or Transmutation Tablet by them as long as they have sufficient EMC. The Transmutation Table or Transmutation Tablet reveals to the alchemist the amount of EMC bound to them."
+			]
+			id: "035D7EEE54AED6E1"
+			rewards: [
+				{
+					id: "6B15CDB24808E860"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "31168E32F1F51D9C"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54BFDD5F5053CDD6"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0180D7CA83F06A4F"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["035D7EEE54AED6E1"]
+			description: ["Allows the alchemist to use the power of the Transmutation Table without having to place it down on a surface."]
+			id: "60331AC07AD1EBF5"
+			rewards: [
+				{
+					id: "726B5214434BEBEE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "00490C8863D2C1AE"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18F5CFE41E89591C"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "18580E78AA88873A"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C5ABCB21F4AD687"]
+			description: [
+				"A practicing alchemist is always busy conducting new experiments. Having found the wooden chests provided by the powers that be unsuitable, you develop a new Alchemical Chest, capable of storing 104 stacks of items, compared to the double wooden chest's 72 stacks. "
+				""
+				"Unencumbered by the limitations of this plane of existence the Alchemical Chest can still be accessed even when a solid block covers it. The Covalence Dust sprinkled on the lid also gives the chest weak magical power, allowing certain magical items to produce an effect when placed in the Chest."
+				""
+				"Black Hole Band - Sucks nearby items into the chest"
+				"Gem of Eternal Density - Compresses materials in the chest into materials of higher EMC value"
+				"Talisman of Repair - Repairs items inside the chest"
+			]
+			id: "4E39823E3BB2A755"
+			rewards: [
+				{
+					id: "6C85340CA6D25474"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3E4008B922CAE231"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "238EBE3581747782"
+					table_id: 8237061732478284941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7C2276F9EF9C87F5"
+				item: "projecte:alchemical_chest"
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60665C65C798C959"]
+			description: [
+				"ProjectE is an open-source remake of Equivalent Exchange 2, released for Minecraft 1.7.10 and newer. It allows users to transmute materials into other materials, using various items and machines. It adds a system known as Energy-Mass Covalence, or EMC, which is used to represent the values of items. "
+				""
+				"This value differs from item to item, and is used in determining how much of one material another requires. EMC can also be stored and produced through other means. EMC is also used by certain blocks and items to carry out powerful effects. "
+				""
+				"&2Note: Not all items have EMC.&r"
+			]
+			id: "6C5ABCB21F4AD687"
+			rewards: [
+				{
+					id: "44C0B14613AA58DD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "24E2DD32C209C822"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C2FB2C3A78CB4D"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete \"Insanium Essence\" to unlock"
+			tasks: [
+				{
+					count: 64L
+					id: "6C524B8D81EDAA05"
+					item: "projecte:low_covalence_dust"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "5C44C49CECAC74D2"
+					item: "projecte:medium_covalence_dust"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "006417CE13FCDB35"
+					item: "projecte:high_covalence_dust"
+					type: "item"
+				}
+			]
+			title: "Covalence Dust"
+			x: 0.0d
+			y: -0.625d
+		}
+		{
+			dependencies: ["4E39823E3BB2A755"]
+			description: [
+				"A practicing alchemist like yourself has no time to constantly pick up and place down alchemical chests for storage. By sprinkling high power covalence dust on an alchemical chest and wrapping it in cloth, you've managed to shrink the chest down to the size of a pouch. "
+				""
+				"The bag has all the capacity of the chest. Curiously, the bags seem to be bound to some metaphysical network, as all bags of the same color seem to contain the same items, regardless of if the bag was yours or your neighbor's. The bag also seems to activate items the same way the chest does."
+			]
+			id: "61E14F41995942B4"
+			rewards: [
+				{
+					id: "73EF212E8783E4D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2FC088C845C5588C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B276A25AA2FCB7E"
+				item: "projecte:white_alchemical_bag"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["249E36927538C411"]
+			description: ["A powerful sword in it's own right by charging it and using activating it (C) the Dark Matter Sword will consume EMC in exchange for a devastating sweep attack. The area of the attack is controlled by charge level (V, shift+V)."]
+			id: "7DFCD91873E59B94"
+			rewards: [
+				{
+					id: "216EF5A60CE95B63"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0B20A7D4B36DD55C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B119460BA656F4C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DFCD91873E59B94"]
+			description: ["A powerful sword in it's own right by charging it and using activating it (C) the Red Matter Sword will consume EMC in exchange for a devastating sweep attack. The area of the attack is controlled by charge level (V, shift+V)."]
+			id: "3FC496674B2D2961"
+			rewards: [
+				{
+					id: "49A9226AA63BAB1D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1AC1B8B7F9F06108"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AAE7AF15BE2D3C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FC496674B2D2961"]
+			description: [
+				"Using the power of Red Matter to combine the functions of the Red Matter Shears, Red Matter Axe, Red Matter Sword, and Red Matter Hoe into a single tool. "
+				""
+				"The sword function provides the most powerful melee strike of any weapon yet discovered by alchemists. "
+				""
+				"The axe function when charged turn a whole tree into stripped logs in one action (right click) and activate again to mine the whole tree (limited for very large trees). It also makes quick work of chopping trees. "
+				""
+				"The hoe function will till a large area when fully charged in a single pass (right click). "
+				""
+				"The shears will harvest a large number of leaves or wool from many adjacent sheep."
+			]
+			id: "721A33A024056D36"
+			rewards: [
+				{
+					id: "0515D5A6DE79C20C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5920D868BAA4F20E"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40F035A490DA88C0"
+					table_id: 8263517383619382820L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6BF3C5A16A2C8073"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_katar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["249E36927538C411"]
+			description: [
+				"Right click to instantly mine vein of ore. Mines (left click) in the following modes (cycle with G):"
+				"- Standard: breaks one block at a time"
+				"- 3x tall shot: breaks 3 blocks at once vertically"
+				"- 3x wide-shot: breaks 3 blocks at once horizontally"
+				"- 3x long-shot: breaks 3 blocks at once in a line in front of you"
+			]
+			id: "558C2A6AAA467ED1"
+			rewards: [
+				{
+					id: "75FE3A2F5DEE371F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5502B6F8E4788598"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D1E57AD2096BBC4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_pick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["558C2A6AAA467ED1"]
+			description: [
+				"Right click to instantly mine vein of ore. Mines (left click) in the following modes (cycle with G):"
+				"- Standard: breaks one block at a time"
+				"- 3x tall shot: breaks 3 blocks at once vertically"
+				"- 3x wide-shot: breaks 3 blocks at once horizontally"
+				"- 3x long-shot: breaks 3 blocks at once in a line in front of you"
+			]
+			id: "2213ACF90E286069"
+			rewards: [
+				{
+					id: "1B9AAFF4DF7FE659"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1FC80A9F01A5DD02"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F4DF6584AB29E5A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_pick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2213ACF90E286069"]
+			description: [
+				"Using the power of Red Matter to combine the functions of the Red Matter Hammer, Red Matter Pickax, and Red Matter Shovel into a single tool. "
+				""
+				"The Red Morningstar can quickly harvest most blocks under the ground (left click). "
+				""
+				"Like the Red Matter Pickaxe it can harvest a whole vein of ore in a single action (right click). "
+				""
+				"Like the Red Matter Hammer it can harvest all blocks in an area based on the charge level. "
+				""
+				"Like the Red Matter Shovel it will harvest a large area of dirt based on charge or a whole vein of gravel."
+			]
+			id: "721B545DEB60BCBD"
+			rewards: [
+				{
+					id: "55B2B461B070E84A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "275C81D320755B58"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "202AE547491BC794"
+					table_id: 6934286827609696671L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1714D79ED8CFEBDA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_morning_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E39823E3BB2A755"]
+			description: ["This first build converts items into EMC one at a time. When enough EMC amasses, the target item is created and placed in the chest. It seems to hungrily pull EMC from Energy Collectors and Anti Matter Relays around itself to use in the creation of items."]
+			id: "5B1AD78B32132907"
+			rewards: [
+				{
+					id: "639BE9D62156B8D5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "382C8F6B95A1CB0B"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "334E7EEDD450F20E"
+					table_id: 455336730284347560L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4526B7D6853EBA03"
+				item: "projecte:condenser_mk1"
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B1AD78B32132907"]
+			description: ["By working in large quantities of the powerful red and dark matters, you manage to dramatically speed up the construct. It now pulls items apart into EMC 64 at a time. It also now has a separate chamber to place transmuted items."]
+			id: "2CD626E3DA24914E"
+			rewards: [
+				{
+					id: "069004019043AEA7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5B4C5B90A54E7DA5"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5915A3BA9C686A0A"
+					table_id: 455336730284347560L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1ADA0936EE2F858B"
+				item: "projecte:condenser_mk2"
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["60331AC07AD1EBF5"]
+			description: [
+				"Do take care while using: As you learn more items and use this interface the game may lag. Use at your own risk. With great power comes great responsibility..."
+				""
+				"The transmutation interface can enable your terminal from various storage mods (like AE2) to take advantage of your learned items. It can also import items from this system to keep it nice and tidy."
+				""
+				"Simply connect it to your system with whatever your mod uses (a storage bus for AE2) and watch it work."
+			]
+			id: "46DCFABCE6CA89BC"
+			rewards: [
+				{
+					id: "397D881E6E522521"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "58706375EE12FF54"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04CAAD5977E88859"
+					table_id: 1123139754206116106L
+					type: "random"
+				}
+			]
+			subtitle: "Ouch, that price hurts!"
+			tasks: [{
+				id: "2B07A9FF968B64B8"
+				item: "projectexpansion:transmutation_interface"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["249E36927538C411"]
+			description: ["Wearing a full set will grant the player 80% damage reduction. It can be upgraded to Red Matter Armor for even greater damage reduction. "]
+			id: "003BD80F2F5DB9B0"
+			rewards: [
+				{
+					id: "3EE7C7C8AC1BC54D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0BEF89D47F5B52B5"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F3BBB69C737476F"
+					item: "projecte:dm_helmet"
+					type: "item"
+				}
+				{
+					id: "3A5FC8EB16E9903D"
+					item: "projecte:dm_chestplate"
+					type: "item"
+				}
+				{
+					id: "18EB919D447B2749"
+					item: "projecte:dm_leggings"
+					type: "item"
+				}
+				{
+					id: "1E36632F20A88EED"
+					item: "projecte:dm_boots"
+					type: "item"
+				}
+			]
+			title: "Dark Matter Armor"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["003BD80F2F5DB9B0"]
+			description: ["Red Matter Armor is an upgraded version of Dark Matter Armor that offers 90% damage reduction to the player, instead of the 80% provided by the Dark Matter Armor. The Armor set can be upgraded into Gem Armor."]
+			id: "6412E429CB6C461D"
+			rewards: [
+				{
+					id: "5A493CBC1E2F0C4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1A15E935852C47BC"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D71214B80B1986A"
+					item: "projecte:rm_helmet"
+					type: "item"
+				}
+				{
+					id: "601BB62525A55395"
+					item: "projecte:rm_chestplate"
+					type: "item"
+				}
+				{
+					id: "56A0813EF34BE09B"
+					item: "projecte:rm_leggings"
+					type: "item"
+				}
+				{
+					id: "1F5FD4B156093D81"
+					item: "projecte:rm_boots"
+					type: "item"
+				}
+			]
+			title: "Red Matter Armor"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6412E429CB6C461D"]
+			description: ["Gem Armor has no durability thus cannot be damaged while being worn. Wearing a full set will grant you the ability of flight."]
+			id: "42493CE395D6D049"
+			rewards: [
+				{
+					id: "29C3DC1B4AF8901B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6BCB6CC430DA10DE"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "05216ACB61D0EF26"
+					item: "projecte:gem_helmet"
+					type: "item"
+				}
+				{
+					id: "41704204A72DEB8D"
+					item: "projecte:gem_chestplate"
+					type: "item"
+				}
+				{
+					id: "3BFC732049298C3D"
+					item: "projecte:gem_leggings"
+					type: "item"
+				}
+				{
+					id: "04D1392D56738EB7"
+					item: "projecte:gem_boots"
+					type: "item"
+				}
+			]
+			title: "Gem Armor"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2DA0BD387098BB09"]
+			description: ["Klein Star Omega is an EMC storage item"]
+			id: "63CBDF0349252FCC"
+			rewards: [
+				{
+					id: "1CB06C7545AFE9F8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "57E510409957DAAD"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F0075FD2D03F20C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["63CBDF0349252FCC"]
+			description: ["An excellent source of EMC."]
+			id: "11A48FFC96F758EB"
+			rewards: [
+				{
+					id: "13FB1C0608255321"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "17AEB050DB2ACF10"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A1F224B2BA5A9E6"
+					table_id: 6934286827609696671L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "370B621BA95018EC"
+				item: "kubejs:klein_star_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+	]
+	title: "Chi"
+}

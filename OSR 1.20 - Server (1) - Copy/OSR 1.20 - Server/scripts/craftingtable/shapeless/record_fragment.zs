@@ -1,0 +1,1 @@
+craftingTable.addShapeless("record_fragment", <item:avaritia:record_fragment> *2, [<item:mysticalagriculture:blank_record>]);

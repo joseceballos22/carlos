@@ -1,0 +1,4 @@
+craftingTable.remove(<item:hyperbox:hyperbox>);
+craftingTable.remove(<item:javd:portal_block>);
+craftingTable.addShaped("hyperbox", <item:hyperbox:hyperbox>, [[<item:mekanism:teleportation_core>, <item:minecraft:crying_obsidian>, <item:mekanism:teleportation_core>], [<item:minecraft:crying_obsidian>, <item:minecraft:enchanted_golden_apple>, <item:minecraft:crying_obsidian>], [<item:mekanism:teleportation_core>, <item:minecraft:crying_obsidian>, <item:mekanism:teleportation_core>]]);
+craftingTable.addShaped("void_portal_block", <item:javd:portal_block>, [[<item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>], [<item:enderio:reinforced_obsidian_block>, <item:hyperbox:hyperbox>, <item:enderio:reinforced_obsidian_block>], [<item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>, <item:enderio:reinforced_obsidian_block>]]);

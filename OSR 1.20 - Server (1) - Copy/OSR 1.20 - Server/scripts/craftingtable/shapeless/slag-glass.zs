@@ -1,0 +1,2 @@
+furnace.removeRecipe(<item:immersiveengineering:slag_glass>, <tag:items:forge:slag>);
+craftingTable.addShapeless("slag_glass", <item:immersiveengineering:slag_glass> * 1, [<item:minecraft:glass>, <tag:items:forge:slag>]);

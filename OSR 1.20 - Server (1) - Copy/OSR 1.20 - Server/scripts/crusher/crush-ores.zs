@@ -1,0 +1,15 @@
+var crusher = <recipetype:cyclic:crusher>;
+crusher.removeRecipe("cyclic:crusher/iron_ore");
+crusher.removeRecipe("cyclic:crusher/gold_ore");
+crusher.removeRecipe("cyclic:crusher/copper_ore");
+crusher.addRecipe("crush-iron", <item:minecraft:iron_ore>,<item:minecraft:raw_iron>*2, 30, 300, <item:exdeorum:iron_ore_chunk>, 25);
+crusher.addRecipe("crush-gold", <item:minecraft:gold_ore>,<item:minecraft:raw_gold>*2, 30, 300, <item:exdeorum:gold_ore_chunk>, 25);
+crusher.addRecipe("crush-copper", <item:minecraft:copper_ore>,<item:minecraft:raw_copper>*2, 30, 300, <item:exdeorum:copper_ore_chunk>, 25);
+crusher.addRecipe("crush-aluminum", <tag:items:forge:ores/aluminum>,<item:immersiveengineering:raw_aluminum>*2, 30, 300, <item:exdeorum:aluminum_ore_chunk>, 25);
+crusher.addRecipe("crush-silver", <tag:items:forge:ores/silver>,<item:immersiveengineering:raw_silver>*2, 30, 300, <item:exdeorum:silver_ore_chunk>, 25);
+crusher.addRecipe("crush-lead", <tag:items:forge:ores/lead>,<item:mekanism:raw_lead>*2, 30, 300, <item:exdeorum:lead_ore_chunk>, 25);
+crusher.addRecipe("crush-nickel", <tag:items:forge:ores/nickel>,<item:immersiveengineering:raw_nickel>*2, 30, 300, <item:exdeorum:nickel_ore_chunk>, 25);
+crusher.addRecipe("crush-uranium", <tag:items:forge:ores/uranium>,<item:mekanism:raw_uranium>*2, 30, 300, <item:exdeorum:uranium_ore_chunk>, 25);
+crusher.addRecipe("crush-osmium", <tag:items:forge:ores/osmium>,<item:mekanism:raw_osmium>*2, 30, 300, <item:exdeorum:osmium_ore_chunk>, 25);
+crusher.addRecipe("crush-tin", <tag:items:forge:ores/tin>,<item:mekanism:raw_tin>*2, 30, 300, <item:exdeorum:tin_ore_chunk>, 25);
+crusher.addRecipe("crush-cobalt", <tag:items:forge:ores/cobalt>,<item:tconstruct:raw_cobalt>*2, 30, 300, <item:exdeorum:cobalt_ore_chunk>, 25);

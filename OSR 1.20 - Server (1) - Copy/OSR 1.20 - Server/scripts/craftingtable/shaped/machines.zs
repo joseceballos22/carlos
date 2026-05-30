@@ -1,0 +1,11 @@
+#packmode normal
+craftingTable.remove(<item:refinedstorage:machine_casing>);
+craftingTable.remove(<item:rftoolsbase:machine_frame>);
+craftingTable.remove(<item:enderio:ensouled_chassis>);
+craftingTable.remove(<item:thermal:machine_frame>);
+craftingTable.remove(<item:industrialforegoing:machine_frame_pity>);
+craftingTable.addShaped("machine_casing",<item:refinedstorage:machine_casing>, [[<item:refinedstorage:quartz_enriched_iron>,<item:refinedstorage:quartz_enriched_iron>,<item:refinedstorage:quartz_enriched_iron>],[<item:refinedstorage:quartz_enriched_iron>,<item:rftoolsbase:machine_frame>,<item:refinedstorage:quartz_enriched_iron>],[<item:refinedstorage:quartz_enriched_iron>,<item:refinedstorage:quartz_enriched_iron>,<item:refinedstorage:quartz_enriched_iron>]]);
+craftingTable.addShaped("machine_frame",<item:rftoolsbase:machine_frame>, [[<item:enderio:vibrant_alloy_ingot>,<tag:items:forge:ingots/constantan>,<item:enderio:vibrant_alloy_ingot>],[<tag:items:forge:ingots/bronze>,<item:industrialforegoing:machine_frame_simple>,<tag:items:forge:ingots/bronze>],[<item:enderio:vibrant_alloy_ingot>,<tag:items:forge:ingots/constantan>,<item:enderio:vibrant_alloy_ingot>]]);
+craftingTable.addShaped("ensouled_chassis", <item:enderio:ensouled_chassis>, [[<item:enderio:soul_chain>, <tag:items:forge:ingots/soularium>, <item:enderio:soul_chain>], [<tag:items:forge:ingots/soularium>, <item:enderio:void_chassis>, <tag:items:forge:ingots/soularium>], [<item:enderio:soul_chain>, <tag:items:forge:ingots/soularium>, <item:enderio:soul_chain>]]);
+craftingTable.addShaped("thermal_machine_frame", <item:thermal:machine_frame>, [[<tag:items:forge:ingots/tin>, <tag:items:forge:glass>, <tag:items:forge:ingots/tin>], [<tag:items:forge:glass>, <item:enderio:ensouled_chassis>, <tag:items:forge:glass>], [<tag:items:forge:ingots/tin>, <tag:items:forge:glass>, <tag:items:forge:ingots/tin>]]);
+craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_frame_pity>, [[<tag:items:minecraft:logs>, <tag:items:forge:ingots/iron>, <tag:items:minecraft:logs>], [<tag:items:forge:ingots/iron>, <item:redstone_arsenal:flux_gem_block>, <tag:items:forge:ingots/iron>], [<tag:items:minecraft:logs>, <tag:items:forge:ingots/iron>, <tag:items:minecraft:logs>]]);

@@ -1,0 +1,2 @@
+#packmode normal
+mods.mysticalagriculture.InfusionCrafting.addRecipe("animal_seed_base", <item:kubejs:animal_seed_base>, [<tag:items:botania:petals>, <item:minecraft:wheat_seeds>, <item:mysticalagriculture:air_seeds>, <item:minecraft:wheat_seeds>, <item:mysticalagriculture:earth_seeds>, <item:minecraft:wheat_seeds>, <item:mysticalagriculture:water_seeds>, <item:minecraft:wheat_seeds>, <item:mysticalagriculture:fire_seeds>]);

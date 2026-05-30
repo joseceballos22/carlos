@@ -1,0 +1,9 @@
+// Compost colors for sc. You may add your own colors, change existing ones, or remove colors that aren't needed.
+coal_bill, #e7ffd6
+copper_coin, #f5764b
+diamond_bill, #e6ffd4
+emerald_bill, #eaffd2
+gold_bill, #fbffd3
+gold_coin, #ffea4b
+iron_bill, #e8ffd3
+silver_coin, #a2a2a2

@@ -1,0 +1,408 @@
+{
+	hide_tooltip: true
+	icon: "kubejs:reward_bag"
+	id: "0F9631A7E293390A"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "botania:blacker_lotus" }
+		{
+			item: {
+				Count: 1
+				id: "botania:mana_tablet"
+				tag: {
+					mana: 500000
+				}
+			}
+		}
+		{ item: "minecraft:nether_star" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:watch_of_flowing_time"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:awakened_supremium_sword"
+				tag: {
+					Augment-0: "mysticalagriculture:strength_iii"
+					Augment-1: "mysticalagriculture:attack_aoe_iii"
+					Enchantments: [
+						{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1s
+						}
+					]
+					RepairCost: 31
+					display: {
+						Name: "{\"text\":\"Kitchen Knife\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cyclic:charm_ultimate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "compacter:cobbler" }
+		{ item: "ad_astra:calorite_ingot" }
+		{ item: "projecte:dark_matter_block" }
+		{ item: "betterfurnacesreforged:ultimate_ore_processing_upgrade" }
+		{ item: "mysticalagriculture:flight_augment" }
+		{ item: "mysticalagriculture:gaia_spirit_seeds" }
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:awakened_supremium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:awakened_supremium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:awakened_supremium_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:awakened_supremium_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagradditions:insanium_farmland" }
+		{ item: "mekanism:ultimate_tier_installer" }
+		{ count: 12, item: "minecraft:end_portal_frame" }
+		{ item: "extendedcrafting:the_ultimate_ingot" }
+		{ item: "minecraft:warden_spawn_egg" }
+		{ item: "powah:thermo_generator_nitro" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:harvest_goddess_band"
+				tag: { }
+			}
+		}
+		{ item: "avaritia:infinity_catalyst" }
+		{ item: "avaritia:infinity_ingot" }
+		{ item: "kubejs:demon_steel_tier_1" }
+		{ count: 64, item: "sc:gold_coin" }
+		{ item: "draconicevolution:awakened_core" }
+		{
+			item: {
+				Count: 1
+				id: "draconicevolution:dislocator"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "avaritia:infinity" }
+		{ item: "avaritia:neutron_horse_armor" }
+		{ item: "botanypotstiers:creative_terracotta_hopper_botany_pot" }
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:awakened_supremium_watering_can"
+				tag: {
+					Active: 0b
+					Water: 0b
+				}
+			}
+		}
+		{ item: "minecraft:elder_guardian_spawn_egg" }
+		{ item: "minecraft:panda_spawn_egg" }
+		{ item: "minecraft:sniffer_spawn_egg" }
+		{ item: "minecraft:ravager_spawn_egg" }
+		{ item: "minecraft:powder_snow_bucket" }
+		{ item: "reliquary:destruction_catalyst" }
+		{ item: "pipez:infinity_upgrade" }
+		{
+			item: {
+				Count: 1
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ad_astra_giselle_addon:acid_rain_proof"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ad_astra_giselle_addon:gravity_normalizing"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ad_astra_giselle_addon:space_breathing"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ad_astra_giselle_addon:space_fire_proof"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ count: 64, item: "mysticalagradditions:insanium_apple" }
+		{ count: 64, item: "extendedcrafting:crystaltine_nugget" }
+		{ item: "draconicevolution:dragon_heart" }
+		{ item: "cyclic:heart" }
+		{ item: "sprinklerz:netherite_sprinkler" }
+		{ item: "kubejs:chaos_shard_catalyst" }
+		{ item: "kubejs:chaos_dust" }
+		{ item: "kubejs:chaos_ball" }
+		{ item: "kubejs:chaos_conglomerate" }
+		{ count: 64, item: "slabmachines:tnt_slab" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionEffects: [
+						{
+							Duration: 1200
+							Id: 1
+						}
+						{
+							Duration: 1200
+							Id: 2
+						}
+						{
+							Duration: 1200
+							Id: 3
+						}
+						{
+							Duration: 1200
+							Id: 4
+						}
+						{
+							Duration: 1200
+							Id: 5
+						}
+						{
+							Duration: -1
+							Id: 6
+						}
+						{
+							Duration: -1
+							Id: 7
+						}
+						{
+							Duration: 1200
+							Id: 8
+						}
+						{
+							Duration: 1200
+							Id: 9
+						}
+						{
+							Duration: 1200
+							Id: 10
+						}
+						{
+							Duration: 1200
+							Id: 11
+						}
+						{
+							Duration: 1200
+							Id: 12
+						}
+						{
+							Duration: 1200
+							Id: 13
+						}
+						{
+							Duration: 1200
+							Id: 14
+						}
+						{
+							Duration: 1200
+							Id: 15
+						}
+						{
+							Duration: 1200
+							Id: 16
+						}
+						{
+							Duration: 1200
+							Id: 17
+						}
+						{
+							Duration: 1200
+							Id: 18
+						}
+						{
+							Duration: 1200
+							Id: 19
+						}
+						{
+							Duration: 1200
+							Id: 20
+						}
+						{
+							Duration: 1200
+							Id: 21
+						}
+						{
+							Duration: 1200
+							Id: 22
+						}
+						{
+							Duration: -1
+							Id: 23
+						}
+						{
+							Duration: 1200
+							Id: 24
+						}
+						{
+							Duration: 1200
+							Id: 25
+						}
+						{
+							Duration: 1200
+							Id: 26
+						}
+						{
+							Duration: 1200
+							Id: 27
+						}
+						{
+							Duration: 1200
+							Id: 28
+						}
+						{
+							Duration: 1200
+							Id: 29
+						}
+						{
+							Duration: 1200
+							Id: 30
+						}
+						{
+							Duration: 1200
+							Id: 31
+						}
+						{
+							Duration: 1200
+							Id: 32
+						}
+						{
+							Duration: 1200
+							Id: 33
+						}
+					]
+					Potion: "minecraft:water"
+					display: {
+						Lore: ["\"Nothing special to see here...\""]
+						Name: "\"Basic Potion\""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "avaritia:crystal_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "avaritia:densest_neutron_collector" }
+		{ item: "minecraft:spawner" }
+		{ count: 64, item: "reliquary:fertile_lily_pad" }
+		{ count: 16, item: "advanced_ae:quantum_alloy_block" }
+		{ count: 8, item: "kubejs:quasar" }
+		{
+			item: {
+				Count: 1
+				id: "ironfurnaces:million_furnace"
+				tag: {
+					display: {
+						Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"aqua\",\"text\":\"o\"},{\"color\":\"red\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"light_purple\",\"text\":\"u\"},{\"color\":\"green\",\"text\":\"r\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"blue\",\"text\":\"e\"}],\"text\":\"\"}"
+					}
+				}
+			}
+		}
+	]
+	title: "Legendary Reward"
+	use_title: true
+}

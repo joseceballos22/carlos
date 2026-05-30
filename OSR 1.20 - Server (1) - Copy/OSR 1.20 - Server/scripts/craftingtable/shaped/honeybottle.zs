@@ -1,0 +1,1 @@
+craftingTable.addShaped("honeybottle",<item:minecraft:honey_bottle>, [[<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>],[<item:minecraft:honeycomb>,<item:minecraft:glass_bottle>,<item:minecraft:honeycomb>],[<item:minecraft:honeycomb>,<item:minecraft:honeycomb>,<item:minecraft:honeycomb>]]);

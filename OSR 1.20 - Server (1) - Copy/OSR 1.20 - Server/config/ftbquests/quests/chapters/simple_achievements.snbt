@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simple_achievements"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "checklist:task_book"
+	id: "3D85966E5A7CE6B3"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: -2.0d
+		y: -1.0d
+	}]
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"308BF9D6B91774A4"
+				"10CFC4C302B21E42"
+				"5286DBC66DBD878D"
+				"685236E9EB2C3720"
+				"6E1EDCF498E4C8CF"
+				"6663B6FE27A78EFC"
+				"51185FCF84A4C47A"
+				"0BC9F4CCF0311366"
+				"1FEC6CA4F548C503"
+				"4C11C5355CDFE4DC"
+				"5A50281F2260059C"
+				"7C07CDACE03B298A"
+				"3B415DD31CD4BF34"
+				"087788990AE1A063"
+				"063E967261BA01EF"
+				"65EABB42B468BC1D"
+				"7C81663E858B0469"
+				"51B2DAB08A27AD30"
+				"59DC46D4C1B06965"
+				"3E29CCA83ADE846B"
+				"5C8A54EFD943675A"
+				"0D7E90D99EB86390"
+				"6D798894A0CFC789"
+				"7A1B310B0F1238AD"
+			]
+			description: [
+				"Now that you're done with the main questline, are you ready for what comes next?"
+				""
+				"If this quest does not unlock after completing the rest of the questbook (all quests in chapters Alpha through Omega - chapter titles should be green), I give permission to cheat to unlock this quest (there is an option in right click menu to reset quest in cheat mode)."
+			]
+			id: "18E8E67F431E99E4"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "6F452637C2297425"
+					item: "checklist:task_book"
+					type: "item"
+				}
+				{
+					id: "0D9674B7FD970D6C"
+					item: "checklist:task_table"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Must complete all other quests to unlock"
+			tasks: [{
+				id: "22801A8E0CECE231"
+				title: "Simple Achievements"
+				type: "checkmark"
+			}]
+			title: "Simple Achievements"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["18E8E67F431E99E4"]
+			description: ["Quest for those foolish enough to lose their task book."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "checklist:task_book"
+			id: "597B0C02DF0A5F30"
+			optional: true
+			progression_mode: "linear"
+			rewards: [{
+				id: "424445FA829E1BCC"
+				item: "checklist:task_book"
+				type: "item"
+			}]
+			subtitle: "Repeatable, Optional"
+			tasks: [{
+				consume_items: true
+				id: "6DC05140AB0860CE"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			title: "Lost your book?"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "Simple"
+}
